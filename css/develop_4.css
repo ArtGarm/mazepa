@@ -10,7 +10,9 @@
 }
 
 .section_title .section_title_line {
-  background-color: #576774;
+  background: #425461;
+  background: linear-gradient(to right, #425461 0%, #425461 46%, #677681 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#425461', endColorstr='#677681',GradientType=1 );
   color: #fff;
   font-family: "Myriad Pro";
   font-size: 19px;
