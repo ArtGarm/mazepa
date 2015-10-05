@@ -1,15 +1,20 @@
 /* header */
 
 .header-slider-wrap{padding-bottom: 40px;
-    .slick-dots{position: absolute;margin-bottom: 0;bottom: 0;left: 0;right: 0;text-align: center;
-        li{display: inline-block;
+    .slick-dots{position: absolute;margin-bottom: 10px;bottom: 0;left: 0;right: 0;text-align: center;
+        li{display: inline-block;margin-right: 5px;
+            &:last-child{margin-right: 0;}
             button{font-size: 0;border:2px solid #fff;padding:0;margin:0;background-color: transparent;border-radius: 50%;width: 12px;height: 12px;}
+            &:hover, &.slick-active{
+                button{background-color: #fff;}
+            }
         }
     }
 }
 
 .header-content-wrap{position: absolute;left: 0;right: 0;top: 0;
-    .header-content-top{
+    .header-content-wrap-main{position: relative;}
+    .header-content-top{margin-bottom: 50px;
         .header-top-left{float: left;width: 50%;
             .header-top-buttons-wrap{display: table;width: 100%;
                 a{display: table-cell;cursor: pointer;text-align: center;vertical-align: middle;background-color: #616b75;color:#fff;font-size: 13px;font-weight: 500;text-transform: uppercase;padding:20px 0;transition:300ms ease background-color;-webkit-transition:300ms ease background-color;
@@ -20,8 +25,47 @@
             }
         }
 
-        .header-top-right{float: right;width: 50%;}
+        .header-top-right{float: right;width: 50%;
+            .header-top-soc{float: right;
+                .header-top-soc-wrap{float: right;
+                    a{display: block;width: 60px;height: 60px;text-align: middle;text-align: center;position: relative;overflow: hidden;
+                        &.red{background-color:#cd442d;}
+                        &.blue{background-color:#125386;}
+                        &.ligth-blue{background-color: #437aa6;}
+                        &:after{content: '';position: absolute;width: 100%;height: 100%;background-color: orange;left: 100%;top: 100%;transition:left 300ms ease, top 300ms ease;-webkit-transition:left 300ms ease, top 300ms ease;z-index: 0;}
+                        &:hover:after{left: 0;top: 0;}
+                        img{vertical-align: middle;position: relative;z-index: 1;}
+                    }
+                }
+            }
+            .header-top-langChange{margin-right: 200px;text-align: right;padding-top:20px;
+                a{font-size: 15px;color:#fff;text-decoration: none;display: inline-block;vertical-align: middle;position: relative;margin-right: 4%;padding-bottom: 1px;
+                    &:after{content: '';position: absolute;top: 100%;left: 0;height: 1px;width: 0;background-color: #fff;transition:300ms width ease;-webkit-transition:300ms width ease;}
+                    &:hover:after{width: 100%;}
+                    &.active{font-weight: 700;
+                        &:after{width: 100%;}
+                    }
+                }
+            }
+        }
     }
+    .header-form-wrap{position: absolute;right: 0;text-align: right;
+        .form-big-title{font-family: 'MyriadPro',sans-serif;font-weight: 900;color:#fff;font-size: 71px;}
+        .form-small-title{color:#fff;font-size: 22px;font-weight: 300;margin-bottom: 10px;}
+        .form-row{margin-bottom: 10px;
+            .form-input-wrap{display: inline-block;margin-right: 15px;max-width: 215px;width: 100%;
+                &:last-child{margin-right: 0;max-width: 290px;width: 100%;}
+                input{height: 45px;line-height: 45px;color:#000;font-size: 15px;font-weight: 500;font-style:italic;padding:0 15px;border:none;width: 100%;
+                    &::-webkit-input-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+                    &:-moz-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+                    &::-moz-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+                    &:-ms-input-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+                }
+
+            }
+        }
+    }
+    .header-navigation{position: absolute;top:520px;}
 }
 
 /* /header */

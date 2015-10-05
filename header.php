@@ -116,20 +116,20 @@
 							</div>
 						</div>
 						<div class="header-top-right cfix-after">
-							<div class="header-top-soc">
+							<div class="header-top-soc cfix">
 								<div class="header-top-soc-wrap">
-									<a href="#" class="ligth-blue">
-										<img src="images/soc1.png" alt="">
+									<a href="#" class="red vfix-before">
+										<img src="images/soc3.png" alt="">
 									</a>
 								</div>
 								<div class="header-top-soc-wrap">
-									<a href="#" class="blue">
+									<a href="#" class="blue vfix-before">
 										<img src="images/soc2.png" alt="">
 									</a>
 								</div>
 								<div class="header-top-soc-wrap">
-									<a href="#" class="red">
-										<img src="images/soc3.png" alt="">
+									<a href="#" class="ligth-blue vfix-before">
+										<img src="images/soc1.png" alt="">
 									</a>
 								</div>
 							</div>
@@ -145,14 +145,17 @@
 							<form>
 								<div class="form-title">
 									<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
-									<div class="form-small-title">генеральный директор инвестиционной компании Concorde Capital (Украина, г. Киев)</div>
+									<div class="form-small-title">
+										<p>генеральный директор инвестиционной компании</p>
+										<p>Concorde Capital (Украина, г. Киев)</p>
+									</div>
 								</div>
 								<div class="form-row">
 									<div class="form-input-wrap">
-										<input type="text" name required placeholder="Имя">
+										<input type="text" name required="required" placeholder="Имя" />
 									</div>
 									<div class="form-input-wrap">
-										<input type="text" name="subname" required placeholder="E-mail">
+										<input type="text" name="subname" required="required" placeholder="E-mail" />
 									</div>
 								</div>
 								<div class="form-row submit-wrap">
