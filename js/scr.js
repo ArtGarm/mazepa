@@ -80,12 +80,26 @@ function oneHeightItems(){
 	oneHeight($('.oneHeight'));
 }
 
+function sliderTop(){
+	$('.header-slider-wrap-main').slick({
+		infinite:true,
+		arrows:false,
+		autoplay:true,
+		autoplaySpeed:2000,
+		fade:true,
+		cssEase:'linear',
+		dots:true
+	});
+};
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
 	$('.footer_placeholder').height($('.footer').outerHeight());
 
 	oneHeightItems();
+
+	sliderTop();
 });
 
 $(window).load(function(){
