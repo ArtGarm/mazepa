@@ -108,6 +108,7 @@
 .footer .footer_top {
   background-color: #6b7580;
   padding-top: 53px;
+  padding-bottom: 42px;
 }
 
 .footer .footer_top .footer_top_item {
@@ -129,6 +130,15 @@
 
 .footer .footer_top .fti_3 .fti_title span:after {
   width: 100%;
+}
+
+.footer .footer_top .fti_3 .fti_text {
+  padding-left: 0;
+  padding-top: 32px;
+}
+
+.footer .footer_top .fti_3 .fti_text a:hover {
+  opacity: 1;
 }
 
 .footer .footer_top .fti_title {
@@ -166,6 +176,8 @@
   line-height: 24px;
   font-size: 15px;
   transition: all ease-out 0.2s;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .footer .footer_top .fti_text a:hover {
@@ -184,6 +196,53 @@
   background: url("../images/footer_arrow.png") center center no-repeat;
   left: -18px;
   top: 21%;
+}
+
+.footer .footer_top .fti_social {
+  text-align: center;
+}
+
+.footer .footer_top .fti_social_item {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  vertical-align: top;
+  margin: 0 5px;
+}
+
+.footer .footer_top .fti_social_item img {
+  display: inline-block;
+  padding-top: 19px;
+}
+
+.footer .footer_top .fti_social_item:hover {
+  box-shadow: 0 0 0 5px white;
+  color: #fff;
+}
+
+.footer .footer_top .fti_social_item:hover:after {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  opacity: 0.5;
+}
+
+.footer .footer_top .fti_social_item:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-shadow: 0 0 0 2px #fff;
+  transition: -webkit-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
 }
 
 .footer .footer_bottom {
