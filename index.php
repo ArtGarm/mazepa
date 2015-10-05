@@ -47,4 +47,48 @@
 				</div>
 			</div>
 		</section>
+
+		<section>
+			<div class="index_section_wrap index_sect_3">
+				<div class="index_section">
+					<div class="section_title">
+						<div class="section_title_line">
+							<span>Награды</span>
+						</div>
+					</div>
+					<div class="section_bg_img">
+						<img src="images/index_sect_2_bg.jpg" alt="">
+					</div>
+					<div class="mbox">
+						<div class="index_section_text">
+							<p>В 2007 году признан лучшим менеджером на фондовом рынке Украины, согласно рейтингу издательства «Экономика».</p>
+							<p>В 2007 году лидер в номинации «Личность фондового рынка Украины» финансового рейтинга издания «Бизнес».</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="index_section_wrap index_sect_4">
+				<div class="index_section">
+					<div class="section_title">
+						<div class="section_title_line">
+							<span>Общественная деятельность</span>
+						</div>
+					</div>
+					<div class="section_bg_img">
+						<img src="images/index_sect_3_bg.jpg" alt="">
+					</div>
+					<div class="mbox">
+						<div class="index_section_text">
+							<p>С 2008 года по сегодняшний день- председатель биржевого совета открытого акционерного общества «Украинская биржа».</p>
+							<p>В 2010 году принял участие в нашумевшем проекте телеканала ICTV «Украинская мечта», в котором вместе с другими известными бизнесменами выступил инвестором перспективных бизнес-идей рядовых украинцев.</p>
+							<p>С 2014 года по сегодняшний день - член наблюдательного совета Государственного экспортно-импортного банка.</p>
+							<p>С апреля 2015 года по сегодняшний день председатель правления Бизнес-совета "Цена государства". </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	</div>
