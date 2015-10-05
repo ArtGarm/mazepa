@@ -104,3 +104,95 @@
 }
 
 /*/index page*/
+/*footer*/
+.footer .footer_top {
+  background-color: #6b7580;
+  padding-top: 53px;
+}
+
+.footer .footer_top .footer_top_item {
+  float: left;
+  color: #fff;
+}
+
+.footer .footer_top .fti_1 {
+  width: 41%;
+}
+
+.footer .footer_top .fti_2 {
+  width: 39%;
+}
+
+.footer .footer_top .fti_3 {
+  width: 20%;
+}
+
+.footer .footer_top .fti_3 .fti_title span:after {
+  width: 100%;
+}
+
+.footer .footer_top .fti_title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+
+.footer .footer_top .fti_title span {
+  position: relative;
+}
+
+.footer .footer_top .fti_title span:after {
+  height: 1px;
+  width: 195px;
+  position: absolute;
+  content: "";
+  background-color: #899199;
+  left: 0;
+  bottom: -13px;
+}
+
+.footer .footer_top .fti_text {
+  padding-top: 22px;
+  padding-left: 22px;
+}
+
+.footer .footer_top .fti_text a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-family: "Roboto";
+  line-height: 24px;
+  font-size: 15px;
+  transition: all ease-out 0.2s;
+}
+
+.footer .footer_top .fti_text a:hover {
+  opacity: 0.7;
+}
+
+.footer .footer_top .fti_text a span {
+  position: relative;
+}
+
+.footer .footer_top .fti_text a span:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background: url("../images/footer_arrow.png") center center no-repeat;
+  left: -18px;
+  top: 21%;
+}
+
+.footer .footer_bottom {
+  background-color: #353f48;
+  text-align: center;
+  color: #6b7580;
+  font-family: "Roboto";
+  font-size: 16px;
+  padding: 24px 0px;
+}
+
+/*/footer*/
