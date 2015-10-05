@@ -32,3 +32,34 @@
     }
 }
 /*/index page*/
+
+/*footer*/
+.footer{
+    .footer_top{background-color: #6b7580;padding-top: 53px;
+
+
+        .footer_top_item{float: left;color: #fff;}
+        .fti_1{width: 41%;}
+        .fti_2{width: 39%;}
+        .fti_3{width: 20%;
+            .fti_title span:after{width: 100%;}
+        }
+        .fti_title{color:#ffffff;font-size: 22px;font-weight: bold;font-family: "Roboto";text-transform: uppercase;
+            span{position: relative;
+                &:after{height: 1px;width: 195px;position: absolute;content: "";background-color: #899199;left: 0;bottom:-13px;}
+            }
+        }
+        .fti_text{padding-top: 22px;padding-left: 22px;
+            a{text-decoration: none;display: block;color: #fff;font-family: "Roboto";line-height: 24px;font-size: 15px;transition:all ease-out .2s;
+            &:hover{opacity: 0.7}
+                span{position: relative;
+                    &:after{content: "";position: absolute;width: 6px;height: 10px;background: url('../images/footer_arrow.png') center center no-repeat;left: -18px;top: 21%;}
+                }
+            }
+
+        }
+
+    }
+    .footer_bottom{background-color: #353f48;text-align: center;color: #6b7580;font-family: "Roboto";font-size: 16px;padding: 24px 0px;}
+}
+/*/footer*/
