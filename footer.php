@@ -34,17 +34,17 @@
                         <div class="fti_social">
                             <div class="fti_social_item">
                                 <a href="#">
-
+                                    <img src="images/soc1.png" alt="">
                                 </a>
                             </div>
                             <div class="fti_social_item">
                                 <a href="#">
-
+                                    <img src="images/soc2.png" alt="">
                                 </a>
                             </div>
                             <div class="fti_social_item">
                                 <a href="#">
-
+                                    <img src="images/soc3.png" alt="">
                                 </a>
                             </div>
                         </div>
