@@ -85,7 +85,82 @@
 <body>
 	<?partial('zHiddenBlock');?>
 	<header class="header">
-		<div class="mbox">
 
+		<div class="header-slider-wrap">
+			<div class="header-slider-wrap-main">
+				<div class="header-slider-item">
+					<img src="images/slider-img.jpg" alt="" />
+				</div>
+				<div class="header-slider-item">
+					<img src="images/slider-img.jpg" alt="" />
+				</div>
+				<div class="header-slider-item">
+					<img src="images/slider-img.jpg" alt="" />
+				</div>
+			</div>
+		</div>
+		<div class="header-content-wrap">
+			<div class="mbox">
+				<div class="header-content-top">
+					<div class="header-top-left">
+						<div class="header-top-buttons-wrap">
+							<div class="header-top-button">
+								<a href="#" class="button">
+									<span class="button-text">Написать обращение</span>
+									<span class="button-icon"></span>
+								</a>
+							</div>
+							<div class="header-top-button">
+								<a href="#" class="button">
+									<span class="button-text">Подписаться на новости</span>
+									<span class="button-icon"></span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="header-top-right cfix-after">
+						<div class="header-top-soc">
+							<div class="header-top-soc-wrap">
+								<a href="#">
+									<img src="images/soc1.png" alt="">
+								</a>
+							</div>
+							<div class="header-top-soc-wrap">
+								<a href="#">
+									<img src="images/soc2.png" alt="">
+								</a>
+							</div>
+							<div class="header-top-soc-wrap">
+								<a href="#">
+									<img src="images/soc3.png" alt="">
+								</a>
+							</div>
+						</div>
+						<div class="header-top-langChange">
+							<a href="#">Укр</a>
+							<a href="#" class="active">Рус</a>
+							<a href="#">Fnr</a>
+						</div>
+					</div>
+				</div>
+				<div class="header-form-wrap">
+					<div class="header-form-main">
+						<form>
+							<div class="form-title">
+								<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
+								<div class="form-small-title">генеральный директор инвестиционной компании Concorde Capital (Украина, г. Киев)</div>
+							</div>
+							<div class="form-row">
+								<div class="form-input-wrap">
+									<input type="text" name required placeholder="Имя">
+								</div>
+								<div class="form-input-wrap">
+									<input type="text" name="subname" required placeholder="E-mail">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		</div>
 	</header>
