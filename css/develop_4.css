@@ -1,0 +1,40 @@
+.index_biography .index_biography_left {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.index_biography .index_biography_right {
+  float: left;
+  width: 70%;
+  padding-left: 19px;
+}
+
+.index_biography .index_biography_img {
+  padding: 7px;
+  border: 1px solid #cdcdcd;
+  display: inline-block;
+}
+
+.index_biography .index_biography_text {
+  color: #687681;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.index_biography .index_biography_title {
+  font-size: 29px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.index_biography .index_biography_desc p {
+  padding-bottom: 20px;
+}
+
+.index_biography .index_biography:after {
+  clear: both;
+  display: block;
+  content: "";
+}
