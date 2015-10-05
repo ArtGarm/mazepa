@@ -1,4 +1,4 @@
-	<div class="main">
+	<div class="main index-page">
 		<section>
 			<div class="mbox">
 				<div class="index_biography_wrap index_sect_1">
