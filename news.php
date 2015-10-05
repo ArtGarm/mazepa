@@ -34,7 +34,7 @@
 										<h2>ТО ВЗЛЕТ, ТО ПОСАДКА</h2>
 									</div>
 									<div class="new-contant">
-										<p><span>Игорь Мазепа был самым успешным инвестбанкиром Украины. Что с ним сейчас?</span><br /><br />Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и административных условий. Товарищи! дальнейшее развитие</p>
+										<p><span>Игорь Мазепа был самым успешным инвестбанкиром Украины. Что с ним сейчас?</span><br />Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и административных условий. Товарищи! дальнейшее развитие</p>
 									</div>
 									<a href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
@@ -117,31 +117,6 @@
 					<div class="blocks-news">
 						<div class="block-new">
 							<div class="new-img-wrap">
-								<img src="images/new3.jpg" alt=""/>
-							</div>
-							<div class="date-wrap">
-								<div class="day">
-									<span>21</span>
-								</div>
-								<div class="mount-time">
-									<div class="mount">
-										<p>Сентября 2015</p>
-									</div>
-									<div class="time">
-										<span>15 : 47</span>
-									</div>
-								</div>
-								<a href="#">Читать дальше <span>&raquo;</span></a>
-							</div>
-							<div class="block-new-title">
-								<p>Итоги конференции The Ukrainian Recipe: Reforms, Privatisation, Recovery</p>
-							</div>
-							<div class="block-new-contant">
-								<p>21 сентября представители украинского правительства, крупнейших отечественных и зарубежных компаний, хедж-фондов и мировых финансовых институтов обсудили экономическую ситуацию, ход реформ, приватизацию и инвестиционный климат...</p>
-							</div>
-						</div>
-						<div class="block-new">
-							<div class="new-img-wrap">
 								<img src="images/new1.jpg" alt=""/>
 							</div>
 							<div class="date-wrap">
@@ -167,32 +142,107 @@
 						</div>
 						<div class="block-new">
 							<div class="new-img-wrap">
-								<img src="images/new3.jpg" alt=""/>
+								<img src="images/new2.jpg" alt=""/>
 							</div>
 							<div class="date-wrap">
 								<div class="day">
-									<span>21</span>
+									<span>19</span>
 								</div>
 								<div class="mount-time">
 									<div class="mount">
-										<p>Сентября 2015</p>
+										<p>Июнь 2015</p>
 									</div>
 									<div class="time">
-										<span>15 : 47</span>
+										<span>11 : 20</span>
 									</div>
 								</div>
 								<a href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
-								<p>Итоги конференции The Ukrainian Recipe: Reforms, Privatisation, Recovery</p>
+								<p>Ukrainian Investment Day – мост между западными инвесторами и Украиной</p>
 							</div>
 							<div class="block-new-contant">
-								<p>21 сентября представители украинского правительства, крупнейших отечественных и зарубежных компаний, хедж-фондов и мировых финансовых институтов обсудили экономическую ситуацию, ход реформ, приватизацию и инвестиционный климат...</p>
+								<p>19 июня представители украинского правительства, крупнейших отечественных и зарубежных компаний обсудили экономическую ситуацию, ход реформ и инвестиционный климат в Украине во время конференции Ukrainian Investment Day, организованной ...</p>
 							</div>
 						</div>
 						<div class="block-new">
 							<div class="new-img-wrap">
-								<img src="images/new1.jpg" alt=""/>
+								<img src="images/new3.jpg" alt=""/>
+							</div>
+							<div class="date-wrap">
+								<div class="day">
+									<span>01</span>
+								</div>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
+									</div>
+									<div class="time">
+										<span>15 : 47</span>
+									</div>
+								</div>
+								<a href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>интервью в киеве</p>
+							</div>
+							<div class="block-new-contant">
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
+							</div>
+						</div>
+						<div class="block-new">
+							<div class="new-img-wrap">
+								<img src="images/new4.jpg" alt=""/>
+							</div>
+							<div class="date-wrap">
+								<div class="day">
+									<span>01</span>
+								</div>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
+									</div>
+									<div class="time">
+										<span>15 : 47</span>
+									</div>
+								</div>
+								<a href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>сегодня прошла встреча</p>
+							</div>
+							<div class="block-new-contant">
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
+							</div>
+						</div>
+						<div class="block-new">
+							<div class="new-img-wrap">
+								<img src="images/new5.jpg" alt=""/>
+							</div>
+							<div class="date-wrap">
+								<div class="day">
+									<span>01</span>
+								</div>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
+									</div>
+									<div class="time">
+										<span>15 : 47</span>
+									</div>
+								</div>
+								<a href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>Тест-драйв нового авто</p>
+							</div>
+							<div class="block-new-contant">
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
+							</div>
+						</div>
+						<div class="block-new">
+							<div class="new-img-wrap">
+								<img src="images/new6.jpg" alt=""/>
 							</div>
 							<div class="date-wrap">
 								<div class="day">
@@ -209,16 +259,16 @@
 								<a href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
-								<p>Итоги конференции The Ukrainian Recipe: Reforms, Privatisation, Recovery</p>
+								<p>Ответный визит в англию</p>
 							</div>
 							<div class="block-new-contant">
-								<p>21 сентября представители украинского правительства, крупнейших отечественных и зарубежных компаний, хедж-фондов и мировых финансовых институтов обсудили экономическую ситуацию, ход реформ, приватизацию и инвестиционный климат...</p>
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
 							</div>
 						</div>
 					</div>
 					<div class="paginator-wrap">
 						<div class="paginator">
-							<a href="#" class="current-page">1</a>
+							<p class="current-page">1</p>
 							<a href="#">2</a>
 							<a href="#">3</a>
 						</div>

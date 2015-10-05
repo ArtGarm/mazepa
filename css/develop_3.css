@@ -7,7 +7,7 @@
   text-align: right;
   position: relative;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 44px;
 }
 
 .section_title_red .section_title_line_red {
@@ -35,7 +35,7 @@
 
 .date-wrap .day {
   float: left;
-  margin-right: 15px;
+  margin-right: 20px;
 }
 
 .date-wrap .day span {
@@ -57,6 +57,8 @@
   font-family: 'Roboto', sans-serif;
   color: #6b7580;
   font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: -3px;
 }
 
 .date-wrap .mount-time .time span {
@@ -80,7 +82,7 @@
 
 button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
   position: absolute;
-  left: -40px;
+  left: -49px;
   width: 18px;
   height: 33px;
   outline: none;
@@ -88,11 +90,11 @@ button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
   background-color: transparent;
   border: 0;
   text-indent: -9999px;
-  top: 40%;
+  top: 46.7%;
 }
 
 button.slick-next.slick-arrow {
-  right: -40px;
+  right: -49px;
   background-image: url(../images/next.png);
   left: inherit;
 }
@@ -101,6 +103,7 @@ button.slick-next.slick-arrow {
 /* Пагинатор */
 .paginator-wrap {
   width: 100%;
+  margin-bottom: 25px;
 }
 
 .paginator-wrap .paginator {
@@ -108,18 +111,19 @@ button.slick-next.slick-arrow {
   text-align: center;
 }
 
-.paginator-wrap .paginator a.current-page {
+.paginator-wrap .paginator p.current-page {
   color: #F2604B;
   border: 2px solid #F2604B;
+  display: inline-block;
 }
 
-.paginator-wrap .paginator a {
+.paginator-wrap .paginator a, .paginator-wrap .paginator p {
   font-family: 'Roboto', sans-serif;
   width: 38px;
   height: 38px;
   border: 2px solid #ccc;
   border-radius: 19px;
-  margin-right: 10px;
+  margin-right: 3px;
   color: #ccc;
   font-size: 16px;
   text-align: center;
@@ -128,14 +132,23 @@ button.slick-next.slick-arrow {
   padding-top: 6px;
 }
 
-.paginator-wrap .paginator a:hover {
+.paginator-wrap .paginator a:hover, .paginator-wrap .paginator p:hover {
   color: #F2604B;
   border: 2px solid #F2604B;
 }
 
 /* /Пагинатор */
+.news-main-wrap .news-main .hot-news-wrap .hot-news .section_title_red .section_title_line_red {
+  left: -66%;
+}
+
+.news-main-wrap .news-main .hot-news-wrap .hot-news .section_title_red .section_title_line_red span {
+  padding-right: 38px;
+  letter-spacing: 0.5px;
+}
+
 .news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .image-wrap {
@@ -151,7 +164,7 @@ button.slick-next.slick-arrow {
 .news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .hot-new-body-wrap {
   float: right;
   width: 74%;
-  padding: 25px;
+  padding: 35px 25px 15px 25px;
   border: 1px solid #E9E9E9;
 }
 
@@ -160,15 +173,19 @@ button.slick-next.slick-arrow {
   font-size: 34px;
   color: #6b7580;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
   border-bottom: 1px solid #DADADA;
-  padding-bottom: 15px;
+  padding-bottom: 19px;
+  letter-spacing: -0.5px;
 }
 
 .news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .hot-new-body-wrap .hot-new-body .new-contant p {
   font-family: 'Roboto', sans-serif;
   color: #858585;
   font-size: 15px;
+  letter-spacing: 0.0px;
+  line-height: 1.4;
+  margin-bottom: 12px;
 }
 
 .news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .hot-new-body-wrap .hot-new-body .new-contant p span {
@@ -177,6 +194,9 @@ button.slick-next.slick-arrow {
   font-style: italic;
   width: 69%;
   display: inline-block;
+  letter-spacing: 0.3px;
+  line-height: 1.3;
+  margin-bottom: 12px;
 }
 
 .news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .hot-new-body-wrap .hot-new-body a {
@@ -186,6 +206,7 @@ button.slick-next.slick-arrow {
   font-weight: bold;
   color: #868686;
   float: right;
+  margin-right: 17px;
 }
 
 .news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .hot-new-body-wrap .hot-new-body a span {
@@ -199,7 +220,15 @@ button.slick-next.slick-arrow {
 }
 
 .news-main-wrap .news-main .news-wrap .news .section_title {
-  margin-bottom: 15px;
+  margin-bottom: 55px;
+}
+
+.news-main-wrap .news-main .news-wrap .news .section_title .section_title_line {
+  left: -66.3%;
+}
+
+.news-main-wrap .news-main .news-wrap .news .section_title .section_title_line span {
+  padding-right: 82px;
 }
 
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news {
@@ -209,24 +238,24 @@ button.slick-next.slick-arrow {
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new {
   width: 48%;
   float: left;
-  margin: 0px 9px;
-  margin-bottom: 30px;
+  margin: 0px 0px;
+  margin-bottom: 50px;
+  margin-right: 40px;
+}
+
+.news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new:nth-child(2n) {
+  margin-right: 0;
 }
 
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new .new-img-wrap {
   border: 1px solid #ccc;
-  padding: 9px 0px;
-  margin-bottom: 15px;
-}
-
-.news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new .new-img-wrap img {
-  display: block;
-  margin: 0 auto;
+  padding: 9px;
+  margin-bottom: 20px;
 }
 
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new .date-wrap {
-  margin-bottom: 15px;
-  padding-bottom: 15px;
+  margin-bottom: 18px;
+  padding-bottom: 20px;
   border-bottom: 1px solid #E3E3E3;
 }
 
@@ -234,7 +263,7 @@ button.slick-next.slick-arrow {
   display: inline-block;
   position: absolute;
   top: 3px;
-  right: 0px;
+  right: 4px;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
@@ -252,8 +281,9 @@ button.slick-next.slick-arrow {
   color: #6b7580;
   text-transform: uppercase;
   font-size: 20px;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.2px;
   margin-bottom: 10px;
+  line-height: 1.3;
 }
 
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new .block-new-contant p {
@@ -262,6 +292,7 @@ button.slick-next.slick-arrow {
   line-height: 1.5;
   letter-spacing: 0px;
   font-family: 'Roboto', sans-serif;
+  font-size: 15px;
 }
 
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news:after {
