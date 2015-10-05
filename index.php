@@ -1,10 +1,10 @@
 	<div class="main index-page">
-		<section>
+		<section class="animate-section">
 			<div class="mbox">
 				<div class="index_biography_wrap index_sect_1">
 					<div class="index_biography cfix">
 						<div class="index_biography_left">
-							<div class="index_biography_img">
+							<div class="index_biography_img animate-img">
 								<img src="images/index_bio_img.png" alt="">
 							</div>
 						</div>
@@ -25,15 +25,15 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section class="animate-section">
 			<div class="index_section_wrap index_sect_2">
 				<div class="index_section">
 					<div class="section_title">
-						<div class="section_title_line">
+						<div class="section_title_line animate-it">
 							<span>Карьера</span>
 						</div>
 					</div>
-					<div class="section_bg_img">
+					<div class="section_bg_img animate-it">
 						<img src="images/index_sect_1_bg.jpg" alt="">
 					</div>
 					<div class="mbox">
@@ -48,15 +48,15 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="animate-section">
 			<div class="index_section_wrap index_sect_3">
-				<div class="index_section">
-					<div class="section_title">
-						<div class="section_title_line">
+				<div class="index_section ">
+					<div class="section_title ">
+						<div class="section_title_line animate-it">
 							<span>Награды</span>
 						</div>
 					</div>
-					<div class="section_bg_img">
+					<div class="section_bg_img animate-it">
 						<img src="images/index_sect_2_bg.jpg" alt="">
 					</div>
 					<div class="mbox">
@@ -69,15 +69,15 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="animate-section">
 			<div class="index_section_wrap index_sect_4">
 				<div class="index_section">
 					<div class="section_title">
-						<div class="section_title_line">
+						<div class="section_title_line animate-it">
 							<span>Общественная деятельность</span>
 						</div>
 					</div>
-					<div class="section_bg_img">
+					<div class="section_bg_img animate-it">
 						<img src="images/index_sect_3_bg.jpg" alt="">
 					</div>
 					<div class="mbox">

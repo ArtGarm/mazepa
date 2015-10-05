@@ -1,9 +1,22 @@
-function AnimationBlock(item){
-    console.log(item.length);
+function animationBlock(item){
+
     $(window).scroll(function(){
        item.each(function(){
-          if($(window).scrollTop()>$(this).scrollTop()){
+        console.log($(window).scrollTop());
+          if($(window).scrollTop()+$(window).height()>$(this).offset().top){
              $(this).addClass('active');
+             var itemSect = $(this);
+             var point = 0;
+
+             var timer = setInterval(function(){
+                itemSect.find('.animate-delay').eq(point).addClass('animated');
+                point++;
+                if(itemSect.find('.animate-delay').length == point){
+                    clearInterval(timer);
+                }
+             },500);
+
+             itemSect.find('.animate-it').addClass('animated');
           }
        });
     });
@@ -11,5 +24,5 @@ function AnimationBlock(item){
 
 
 $(document).ready(function(){
-    AnimationBlock($('.index-page section'));
+    animationBlock($('.animate-section'));
 });
