@@ -25,4 +25,11 @@
 				</div>
 			</div>
 		</section>
+		<section>
+			<div class="index_section_wrap">
+				<div class="index_section">
+
+				</div>
+			</div>
+		</section>
 	</div>
