@@ -1,4 +1,13 @@
-.index_biography{
+/*синие плашки*/
+.section_title{width: 100%;border-bottom: 1px solid #576774;height: 62px;text-align: right;position: relative;overflow: hidden;
+    .section_title_line{background-color: #576774;color: #fff;font-family: "Myriad Pro";font-size: 19px;position: absolute;width: 100%;height: 100%;left: -68.3%;text-transform: uppercase;line-height: 67px;
+        span{padding-right: 30px;}
+    }
+}
+/*/синие плашки*/
+
+/*index page*/
+.index_biography{padding-bottom: 24px;
     .index_biography_left{float: left;width: 30%;text-align: center;}
     .index_biography_right{float: left;width: 70%;padding-left: 19px;}
 
@@ -7,16 +16,19 @@
     .index_biography_title{font-size: 29px;padding-top: 5px;padding-bottom: 25px;}
     .index_biography_desc p{padding-bottom: 20px;}
     .index_biography:after{clear: both;display: block;content: "";}
-
-
-
-
-
-
-
-
-
-
-
-
 }
+.index_section_text{font-family: "Roboto";font-size: 16px;color: #687681;padding-top: 50px;padding-left: 3%;    padding-bottom: 36px;
+    p{margin-bottom: 18px;}
+}
+.index_sect_3 {
+    .index_section_text{padding-bottom: 49px;
+        p{margin-bottom: 13px;}
+    }
+}
+
+.index_sect_4 {
+    .section_title_line{left: -58.3%;}
+    .index_section_text{padding-bottom: 181px;/*!*/
+    }
+}
+/*/index page*/
