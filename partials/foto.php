@@ -105,17 +105,29 @@
 
 <div class="video-Wrap">
     <div class="video-box">
-        <div class="video"></div>
+        <div class="video">
+            <a href="#" class="fancy-box-video">
+                <img src="images/video1.png" alt=""  class="main-video"/ >
+            </a>
+        </div>
         <div class="ivent"> Конференция «Бизнес-2014» </div>
         <div class="date-ivent"> 08.12.2014 </div>
     </div>
     <div class="video-box">
-        <div class="video"></div>
+        <div class="video">
+            <a href="#" class="fancy-box-video">
+                <img src="images/video2.png" alt=""  class="main-video"/ >
+            </a>
+        </div>
         <div class="ivent"> Подписание контракта</div>
         <div class="date-ivent">08.12.2014 </div>
     </div>
     <div class="video-box">
-        <div class="video"></div>
+        <div class="video">
+            <a href="#" class="fancy-box-video">
+                <img src="images/video3.png" alt=""  class="main-video"/ >
+            </a>
+        </div>
         <div class="ivent"> По пути на конференцию  </div>
         <div class="date-ivent"> 08.12.2014 </div>
     </div>
