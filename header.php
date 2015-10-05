@@ -142,7 +142,7 @@
 					</div>
 					<div class="header-form-wrap">
 						<div class="header-form-main">
-							<form>
+							<form class="header-form">
 								<div class="form-title">
 									<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
 									<div class="form-small-title">
@@ -151,28 +151,33 @@
 									</div>
 								</div>
 								<div class="form-row">
-									<div class="form-input-wrap">
-										<input type="text" name required="required" placeholder="Имя" />
+									<div class="form-input-wrap form_row">
+										<input type="text" name="name" required="required" placeholder="Имя" />
 									</div>
-									<div class="form-input-wrap">
-										<input type="text" name="subname" required="required" placeholder="E-mail" />
+									<div class="form-input-wrap form_row">
+										<input type="email" name="subname" required="required" placeholder="E-mail" />
 									</div>
 								</div>
 								<div class="form-row submit-wrap">
-									<button type="submit">ПОДПИСАТЬСЯ</button>
+									<button type="submit">
+										<span>ПОДПИСАТЬСЯ</span>
+									</button>
 								</div>
 							</form>
 						</div>
 					</div>
 				</div>
-				<div class="header-navigation">
-					<div class="header-navigation-wrap">
-						<a href="#">БИОГРАФИЯ</a>
-						<a href="#">Деятельность</a>
-						<a href="#">новости</a>
-						<a href="#">сми</a>
-						<a href="#">фото/видео</a>
-					</div>
+
+			</div>
+		</div>
+		<div class="header-navigation">
+			<div class="mbox">
+				<div class="header-navigation-wrap">
+					<a href="#" class="active"><span>БИОГРАФИЯ</span></a>
+					<a href="#"><span>Деятельность</span></a>
+					<a href="#"><span>новости</span></a>
+					<a href="#"><span>сми</span></a>
+					<a href="#"><span>фото/видео</span></a>
 				</div>
 			</div>
 		</div>
