@@ -26,7 +26,7 @@
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
+	<!--<link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />-->
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
 	<script src="js/jquery.znice.js" type="text/javascript"></script>-->
@@ -101,64 +101,74 @@
 		</div>
 		<div class="header-content-wrap">
 			<div class="mbox">
-				<div class="header-content-top">
-					<div class="header-top-left">
-						<div class="header-top-buttons-wrap">
-							<div class="header-top-button">
-								<a href="#" class="button">
+				<div class="header-content-wrap-main">
+					<div class="header-content-top cfix">
+						<div class="header-top-left">
+							<div class="header-top-buttons-wrap">
+								<a href="#" class="active">
 									<span class="button-text">Написать обращение</span>
 									<span class="button-icon"></span>
 								</a>
-							</div>
-							<div class="header-top-button">
-								<a href="#" class="button">
+								<a href="#">
 									<span class="button-text">Подписаться на новости</span>
 									<span class="button-icon"></span>
 								</a>
 							</div>
 						</div>
-					</div>
-					<div class="header-top-right cfix-after">
-						<div class="header-top-soc">
-							<div class="header-top-soc-wrap">
-								<a href="#">
-									<img src="images/soc1.png" alt="">
-								</a>
+						<div class="header-top-right cfix-after">
+							<div class="header-top-soc">
+								<div class="header-top-soc-wrap">
+									<a href="#" class="ligth-blue">
+										<img src="images/soc1.png" alt="">
+									</a>
+								</div>
+								<div class="header-top-soc-wrap">
+									<a href="#" class="blue">
+										<img src="images/soc2.png" alt="">
+									</a>
+								</div>
+								<div class="header-top-soc-wrap">
+									<a href="#" class="red">
+										<img src="images/soc3.png" alt="">
+									</a>
+								</div>
 							</div>
-							<div class="header-top-soc-wrap">
-								<a href="#">
-									<img src="images/soc2.png" alt="">
-								</a>
-							</div>
-							<div class="header-top-soc-wrap">
-								<a href="#">
-									<img src="images/soc3.png" alt="">
-								</a>
+							<div class="header-top-langChange">
+								<a href="#">Укр</a>
+								<a href="#" class="active">Рус</a>
+								<a href="#">Fnr</a>
 							</div>
 						</div>
-						<div class="header-top-langChange">
-							<a href="#">Укр</a>
-							<a href="#" class="active">Рус</a>
-							<a href="#">Fnr</a>
+					</div>
+					<div class="header-form-wrap">
+						<div class="header-form-main">
+							<form>
+								<div class="form-title">
+									<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
+									<div class="form-small-title">генеральный директор инвестиционной компании Concorde Capital (Украина, г. Киев)</div>
+								</div>
+								<div class="form-row">
+									<div class="form-input-wrap">
+										<input type="text" name required placeholder="Имя">
+									</div>
+									<div class="form-input-wrap">
+										<input type="text" name="subname" required placeholder="E-mail">
+									</div>
+								</div>
+								<div class="form-row submit-wrap">
+									<button type="submit">ПОДПИСАТЬСЯ</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
-				<div class="header-form-wrap">
-					<div class="header-form-main">
-						<form>
-							<div class="form-title">
-								<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
-								<div class="form-small-title">генеральный директор инвестиционной компании Concorde Capital (Украина, г. Киев)</div>
-							</div>
-							<div class="form-row">
-								<div class="form-input-wrap">
-									<input type="text" name required placeholder="Имя">
-								</div>
-								<div class="form-input-wrap">
-									<input type="text" name="subname" required placeholder="E-mail">
-								</div>
-							</div>
-						</form>
+				<div class="header-navigation">
+					<div class="header-navigation-wrap">
+						<a href="#">БИОГРАФИЯ</a>
+						<a href="#">Деятельность</a>
+						<a href="#">новости</a>
+						<a href="#">сми</a>
+						<a href="#">фото/видео</a>
 					</div>
 				</div>
 			</div>
