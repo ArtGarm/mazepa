@@ -1,6 +1,6 @@
 /*красные плашки*/
 .section_title_red{width: 100%;border-bottom: 1px solid #EC4227;height: 62px;text-align: right;position: relative;overflow: hidden;margin-bottom: 44px;
-    .section_title_line_red{background-color: #EC4227;color: #fff;font-family: "Myriad Pro";font-size: 19px;position: absolute;width: 100%;height: 100%;left: -68.3%;text-transform: uppercase;line-height: 67px;
+    .section_title_line_red{background: #b0210a; background: -moz-linear-gradient(left,  #b0210a 0%, #b0210a 46%, #ec4227 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b0210a), color-stop(46%,#b0210a), color-stop(100%,#ec4227)); background: -webkit-linear-gradient(left,  #b0210a 0%,#b0210a 46%,#ec4227 100%); background: -o-linear-gradient(left,  #b0210a 0%,#b0210a 46%,#ec4227 100%); background: -ms-linear-gradient(left,  #b0210a 0%,#b0210a 46%,#ec4227 100%); background: linear-gradient(to right,  #b0210a 0%,#b0210a 46%,#ec4227 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0210a', endColorstr='#ec4227',GradientType=1 );color: #fff;font-family: "Myriad Pro";font-size: 19px;position: absolute;width: 100%;height: 100%;left: -68.3%;text-transform: uppercase;line-height: 67px;
         span{padding-right: 30px;}
     }
 }
@@ -48,7 +48,7 @@ button.slick-next.slick-arrow{right: -49px; background-image: url(../images/next
 
 /* /Пагинатор */
 .news-main-wrap{
-	.news-main{
+	.news-main{padding-top: 30px;
 		.hot-news-wrap{
 			.hot-news{
 				.section_title_red{

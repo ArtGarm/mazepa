@@ -11,7 +11,9 @@
 }
 
 .section_title_red .section_title_line_red {
-  background-color: #EC4227;
+  background: #b0210a;
+  background: linear-gradient(to right, #b0210a 0%, #b0210a 46%, #ec4227 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0210a', endColorstr='#ec4227',GradientType=1 );
   color: #fff;
   font-family: "Myriad Pro";
   font-size: 19px;
@@ -138,6 +140,10 @@ button.slick-next.slick-arrow {
 }
 
 /* /Пагинатор */
+.news-main-wrap .news-main {
+  padding-top: 30px;
+}
+
 .news-main-wrap .news-main .hot-news-wrap .hot-news .section_title_red .section_title_line_red {
   left: -66%;
 }
