@@ -4,8 +4,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300italic,300,400,400italic,500,500italic,700,700italic,900italic,900&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 
 	<link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
 
@@ -26,7 +27,7 @@
 
 	<script src="js/selectivizr-min.js" type="text/javascript"></script>
 
-	<link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
+	<!--<link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />-->
 	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
 	<!--<script src="js/jquery.znice.validate.js" type="text/javascript"></script>
 	<script src="js/jquery.znice.js" type="text/javascript"></script>-->
@@ -101,65 +102,83 @@
 		</div>
 		<div class="header-content-wrap">
 			<div class="mbox">
-				<div class="header-content-top">
-					<div class="header-top-left">
-						<div class="header-top-buttons-wrap">
-							<div class="header-top-button">
-								<a href="#" class="button">
+				<div class="header-content-wrap-main">
+					<div class="header-content-top cfix">
+						<div class="header-top-left">
+							<div class="header-top-buttons-wrap">
+								<a href="#" class="active">
 									<span class="button-text">Написать обращение</span>
 									<span class="button-icon"></span>
 								</a>
-							</div>
-							<div class="header-top-button">
-								<a href="#" class="button">
+								<a href="#">
 									<span class="button-text">Подписаться на новости</span>
 									<span class="button-icon"></span>
 								</a>
 							</div>
 						</div>
-					</div>
-					<div class="header-top-right cfix-after">
-						<div class="header-top-soc">
-							<div class="header-top-soc-wrap">
-								<a href="#">
-									<img src="images/soc1.png" alt="">
-								</a>
+						<div class="header-top-right cfix-after">
+							<div class="header-top-soc cfix">
+								<div class="header-top-soc-wrap">
+									<a href="#" class="red vfix-before">
+										<img src="images/soc3.png" alt="">
+									</a>
+								</div>
+								<div class="header-top-soc-wrap">
+									<a href="#" class="blue vfix-before">
+										<img src="images/soc2.png" alt="">
+									</a>
+								</div>
+								<div class="header-top-soc-wrap">
+									<a href="#" class="ligth-blue vfix-before">
+										<img src="images/soc1.png" alt="">
+									</a>
+								</div>
 							</div>
-							<div class="header-top-soc-wrap">
-								<a href="#">
-									<img src="images/soc2.png" alt="">
-								</a>
-							</div>
-							<div class="header-top-soc-wrap">
-								<a href="#">
-									<img src="images/soc3.png" alt="">
-								</a>
+							<div class="header-top-langChange">
+								<a href="#">Укр</a>
+								<a href="#" class="active">Рус</a>
+								<a href="#">Fnr</a>
 							</div>
 						</div>
-						<div class="header-top-langChange">
-							<a href="#">Укр</a>
-							<a href="#" class="active">Рус</a>
-							<a href="#">Fnr</a>
+					</div>
+					<div class="header-form-wrap">
+						<div class="header-form-main">
+							<form class="header-form">
+								<div class="form-title">
+									<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
+									<div class="form-small-title">
+										<p>генеральный директор инвестиционной компании</p>
+										<p>Concorde Capital (Украина, г. Киев)</p>
+									</div>
+								</div>
+								<div class="form-row">
+									<div class="form-input-wrap form_row">
+										<input type="text" name="name" required="required" placeholder="Имя" />
+									</div>
+									<div class="form-input-wrap form_row">
+										<input type="email" name="subname" required="required" placeholder="E-mail" />
+									</div>
+								</div>
+								<div class="form-row submit-wrap">
+									<button type="submit">
+										<span>ПОДПИСАТЬСЯ</span>
+									</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
-				<div class="header-form-wrap">
-					<div class="header-form-main">
-						<form>
-							<div class="form-title">
-								<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
-								<div class="form-small-title">генеральный директор инвестиционной компании Concorde Capital (Украина, г. Киев)</div>
-							</div>
-							<div class="form-row">
-								<div class="form-input-wrap">
-									<input type="text" name required placeholder="Имя">
-								</div>
-								<div class="form-input-wrap">
-									<input type="text" name="subname" required placeholder="E-mail">
-								</div>
-							</div>
-						</form>
-					</div>
+
+			</div>
+		</div>
+		<div class="header-navigation">
+			<div class="mbox">
+				<div class="header-navigation-wrap">
+					<a href="#" class="active"><span>БИОГРАФИЯ</span></a>
+					<a href="#"><span>Деятельность</span></a>
+					<a href="#"><span>новости</span></a>
+					<a href="#"><span>сми</span></a>
+					<a href="#"><span>фото/видео</span></a>
 				</div>
 			</div>
 		</div>

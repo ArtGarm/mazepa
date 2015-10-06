@@ -1,3 +1,75 @@
+@charset "UTF-8";
+/*синие плашки*/
+.section_title {
+  width: 100%;
+  height: 62px;
+  text-align: right;
+  position: relative;
+  overflow: hidden;
+}
+
+.section_title:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #425461;
+  transition: width 600ms ease;
+  -webkit-transition: width 600ms ease;
+  left: 0;
+  bottom: 0;
+}
+
+.section_title.animated:after {
+  width: 100%;
+}
+
+.section_title.red_bg:after {
+  background: #EB4227;
+}
+
+.section_title .section_title_line {
+  background: #425461;
+  background: linear-gradient(to right, #425461 0%, #425461 46%, #677681 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#425461', endColorstr='#677681',GradientType=1 );
+  color: #fff;
+  font-family: "Myriad Pro";
+  font-size: 19px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  text-transform: uppercase;
+  line-height: 67px;
+  transition: left ease-out 400ms;
+}
+
+.section_title .section_title_line.red_bg {
+  background: #b0210a;
+  background: linear-gradient(to right, #b0210a 0%, #b0210a 46%, #ec4227 100%);
+}
+
+.section_title .section_title_line span {
+  padding-right: 30px;
+}
+
+.section_title .section_title_line.animated {
+  left: -68.3%;
+}
+
+/*/синие плашки*/
+/*index page*/
+.index_biography {
+  padding-bottom: 24px;
+  opacity: 0;
+  transition: all ease-out 400ms;
+  padding-top: 64px;
+}
+
+.index_biography.animated {
+  opacity: 1;
+}
+
 .index_biography .index_biography_left {
   float: left;
   width: 30%;
@@ -14,6 +86,11 @@
   padding: 7px;
   border: 1px solid #cdcdcd;
   display: inline-block;
+  transition: opacity 400ms ease;
+}
+
+.index_biography .index_biography_img.animate-opacity {
+  opacity: 1;
 }
 
 .index_biography .index_biography_text {
@@ -38,3 +115,239 @@
   display: block;
   content: "";
 }
+
+.section_bg_img {
+  transition: 500ms opacity 400ms ease;
+  opacity: 0;
+}
+
+.section_bg_img.animated {
+  opacity: 1;
+}
+
+.index_section_text {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #687681;
+  padding-top: 50px;
+  padding-left: 3%;
+  padding-bottom: 58px;
+  transition: 1s opacity 400ms ease;
+  -webkit-transition: 1s opacity 400ms ease;
+  opacity: 0;
+}
+
+.index_section_text p {
+  margin-bottom: 18px;
+}
+
+.index_section_text.animated {
+  opacity: 1;
+}
+
+.index_sect_3 .index_section_text {
+  padding-bottom: 49px;
+}
+
+.index_sect_3 .index_section_text p {
+  margin-bottom: 13px;
+}
+
+.index_sect_4 .index_section_text {
+  padding-bottom: 181px;
+  /*!*/
+}
+
+section.active:first-child {
+  -webkit-animation-name: tdFadeInUp;
+  animation-name: tdFadeInUp;
+}
+
+/*/index page*/
+/*footer*/
+.footer .footer_top {
+  background-color: #6b7580;
+  padding-top: 53px;
+  padding-bottom: 42px;
+}
+
+.footer .footer_top .footer_top_item {
+  float: left;
+  color: #fff;
+  transition: transform 200ms ease, opacity 300ms ease;
+  -webkit-transition: -webkit-transform 200ms ease, opacity 300ms ease;
+  opacity: 0;
+  transform: translate3d(0, 25%, 0);
+  -webkit-transform: translate3d(0, 25%, 0);
+}
+
+.footer .footer_top .footer_top_item.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+.footer .footer_top .fti_1 {
+  width: 41%;
+}
+
+.footer .footer_top .fti_2 {
+  width: 39%;
+}
+
+.footer .footer_top .fti_3 {
+  width: 20%;
+}
+
+.footer .footer_top .fti_3 .fti_title span:after {
+  width: 100%;
+}
+
+.footer .footer_top .fti_3 .fti_text {
+  padding-left: 0;
+  padding-top: 32px;
+}
+
+.footer .footer_top .fti_3 .fti_text a:hover {
+  opacity: 1;
+}
+
+.footer .footer_top .fti_title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Roboto";
+  text-transform: uppercase;
+}
+
+.footer .footer_top .fti_title span {
+  position: relative;
+}
+
+.footer .footer_top .fti_title span:after {
+  height: 1px;
+  width: 195px;
+  position: absolute;
+  content: "";
+  background-color: #899199;
+  left: 0;
+  bottom: -13px;
+}
+
+.footer .footer_top .fti_text {
+  padding-top: 22px;
+  padding-left: 22px;
+}
+
+.footer .footer_top .fti_text a {
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  font-family: "Roboto";
+  line-height: 24px;
+  font-size: 15px;
+  transition: all ease-out 0.2s;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.footer .footer_top .fti_text a:hover {
+  opacity: 0.7;
+}
+
+.footer .footer_top .fti_text a span {
+  position: relative;
+}
+
+.footer .footer_top .fti_text a span:after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 10px;
+  background: url("../images/footer_arrow.png") center center no-repeat;
+  left: -18px;
+  top: 21%;
+}
+
+.footer .footer_top .fti_social {
+  text-align: center;
+}
+
+.footer .footer_top .fti_social_item {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  vertical-align: top;
+  margin: 0 5px;
+}
+
+.footer .footer_top .fti_social_item img {
+  display: inline-block;
+  padding-top: 19px;
+}
+
+.footer .footer_top .fti_social_item:hover {
+  box-shadow: 0 0 0 5px white;
+  color: #fff;
+}
+
+.footer .footer_top .fti_social_item:hover:after {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  opacity: 0.5;
+}
+
+.footer .footer_top .fti_social_item:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-shadow: 0 0 0 2px #fff;
+  transition: -webkit-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.footer .footer_bottom {
+  background-color: #353f48;
+  text-align: center;
+  color: #6b7580;
+  font-family: "Roboto";
+  font-size: 16px;
+  padding: 24px 0px;
+}
+
+/*/footer*/
+/*page news*/
+.news-main-wrap .hot-slider {
+  opacity: 0;
+  transition: 500ms opacity 400ms ease;
+  padding-top: 44px;
+}
+
+.news-main-wrap .hot-slider.animated {
+  opacity: 1;
+}
+
+.news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new {
+  opacity: 0;
+  transition: all 400ms ease;
+  transform: translate3d(0, 8%, 0);
+  -webkit-transform: translate3d(0, 8%, 0);
+}
+
+.news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/*/page news*/
