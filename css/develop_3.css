@@ -448,28 +448,37 @@ button.slick-next.slick-arrow {
 /* /news-inside */
 /* smi */
 .smi-main-wrap .smi-main .mbox {
-  padding-top: 25px;
+  padding-top: 63px;
   padding-bottom: 150px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 37px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi .date-smi {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi .smi-img-wrap {
-  width: 46%;
+  width: 48%;
   float: left;
   margin-right: 15px;
 }
 
+.smi-main-wrap .smi-main .mbox .smi .smi-img-wrap .smi-img {
+  padding: 9px;
+  border: 1px solid #ccc;
+}
+
+.smi-main-wrap .smi-main .mbox .smi .smi-img-wrap .smi-img img {
+  max-width: 100%;
+}
+
 .smi-main-wrap .smi-main .mbox .smi .smi-text-wrap {
-  width: 52%;
+  width: 50%;
   float: right;
 }
 
@@ -497,7 +506,7 @@ button.slick-next.slick-arrow {
 }
 
 .smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-contant {
-  min-height: 270px;
+  min-height: 240px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-contant p {
