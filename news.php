@@ -274,8 +274,8 @@
 							</div>
 						</div>
 					</div>
-					<div class="paginator-wrap">
-						<div class="paginator">
+					<div class="paginator-wrap animate-section">
+						<div class="paginator animate-it">
 							<p class="current-page">1</p>
 							<a href="#">2</a>
 							<a href="#">3</a>
