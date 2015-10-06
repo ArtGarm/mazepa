@@ -62,7 +62,8 @@
   right: -14px;
   top: -14px;
   border: 3px solid black;
-  transition: all 2s ease;
+  transition: -webkit-transform 1s ease, border-color 500ms linear;
+  transition: transform 1s ease, border-color 500ms linear;
 }
 
 .fancybox-close:before {
@@ -75,7 +76,7 @@
   position: absolute;
   top: 12px;
   right: 3px;
-  transition: background-color 1s linear;
+  transition: background-color 500ms linear;
   /* Для Firefox */
   /* Для IE */
   -webkit-transform: rotate(45deg);
@@ -94,7 +95,7 @@
   position: absolute;
   top: 12px;
   right: 3px;
-  transition: background-color 1s linear;
+  transition: background-color 500ms linear;
   /* Для Firefox */
   /* Для IE */
   -webkit-transform: rotate(-45deg);
@@ -110,6 +111,7 @@
   /* Для Safari, Chrome, iOS */
   /* Для Opera */
   transform: rotate(360deg);
+  border-color: orange;
 }
 
 .fancybox-close:hover:after {
