@@ -97,20 +97,20 @@
             <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto18.jpg " class="fancy-box-foto">
-                            <img src="images/foto8.png" alt=""  class="main-foto"/ >
+                        <a href="images/foto19.jpg" class="fancy-box-foto">
+                            <img src="images/foto9.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
                     </div>
-                    <div class="ivent"> Подписание контракта </div>
+                    <div class="ivent"> По пути на конференцию </div>
                     <div class="date-ivent">08.12.2014</div>
                 </div>
             </div>
             <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto19.jpg" class="fancy-box-foto">
-                            <img src="images/foto9.png" alt=""  class="main-foto"/ >
+                        <a href="images/foto18.jpg" class="fancy-box-foto">
+                            <img src="images/foto8.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
                     </div>
