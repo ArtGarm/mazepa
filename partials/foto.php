@@ -142,7 +142,8 @@
                 </div>
             </div>
         </div>
-        <div class="video-Wrap">
+
+        <div class="mbox">
             <div class="video-box animate-section">
                 <div class="video-box-wrap animate-it">
                     <div class="video">
