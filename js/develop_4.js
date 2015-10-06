@@ -7,7 +7,6 @@ function animationBlock(item){
         var bottomCheck = $(window).height()+$(window).scrollTop();
         var windowTop = $(window).scrollTop()+($(window).height()/1.5);
         item.each(function(){
-            console.log($(this).offset().top+","+ windowTop);
            if(windowTop>$(this).offset().top || bottomCheck > $('body').height()*0.9){
 
               //$(this).addClass('active');
