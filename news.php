@@ -1,7 +1,7 @@
 <div class="news-main-wrap">
 	<div class="news-main">
 		<div class="hot-news-wrap">
-			<div class="hot-news">
+			<div class="hclass="readmore" ot-news">
 				<div class="section_title_red">
 					<div class="section_title_line_red">
 						<span>Главные новости</span>
@@ -131,7 +131,7 @@
 										<span>15 : 47</span>
 									</div>
 								</div>
-								<a href="#">Читать дальше <span>&raquo;</span></a>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
 								<p>Итоги конференции The Ukrainian Recipe: Reforms, Privatisation, Recovery</p>
@@ -156,7 +156,7 @@
 										<span>11 : 20</span>
 									</div>
 								</div>
-								<a href="#">Читать дальше <span>&raquo;</span></a>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
 								<p>Ukrainian Investment Day – мост между западными инвесторами и Украиной</p>
@@ -181,7 +181,7 @@
 										<span>15 : 47</span>
 									</div>
 								</div>
-								<a href="#">Читать дальше <span>&raquo;</span></a>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
 								<p>интервью в киеве</p>
@@ -206,7 +206,7 @@
 										<span>15 : 47</span>
 									</div>
 								</div>
-								<a href="#">Читать дальше <span>&raquo;</span></a>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
 								<p>сегодня прошла встреча</p>
@@ -231,7 +231,7 @@
 										<span>15 : 47</span>
 									</div>
 								</div>
-								<a href="#">Читать дальше <span>&raquo;</span></a>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
 								<p>Тест-драйв нового авто</p>
@@ -256,7 +256,7 @@
 										<span>15 : 47</span>
 									</div>
 								</div>
-								<a href="#">Читать дальше <span>&raquo;</span></a>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 							</div>
 							<div class="block-new-title">
 								<p>Ответный визит в англию</p>

@@ -33,10 +33,10 @@
 			</div>
 			<div class="news-inside-pagination">
 				<div class="prev-news-inside">
-					<a href="#"><span>&laquo;</span> Педидущая новость</a>
+					<a class="readmore" href="#"><span>&laquo;</span> Педидущая новость</a>
 				</div>
 				<div class="next-news-inside">
-					<a href="#">Следующая новость <span>&raquo;</span></a>
+					<a class="readmore" href="#">Следующая новость <span>&raquo;</span></a>
 				</div>
 			</div>
 		</div>
