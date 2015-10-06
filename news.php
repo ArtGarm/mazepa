@@ -36,7 +36,7 @@
 									<div class="new-contant">
 										<p><span>Игорь Мазепа был самым успешным инвестбанкиром Украины. Что с ним сейчас?</span><br />Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и административных условий. Товарищи! дальнейшее развитие</p>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 							</div>
 						</div>
@@ -67,7 +67,7 @@
 									<div class="new-contant">
 										<p><span>Игорь Мазепа был самым успешным инвестбанкиром Украины. Что с ним сейчас?</span><br /><br />Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и административных условий. Товарищи! дальнейшее развитие</p>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 							</div>
 						</div>
@@ -98,7 +98,7 @@
 									<div class="new-contant">
 										<p><span>Игорь Мазепа был самым успешным инвестбанкиром Украины. Что с ним сейчас?</span><br /><br />Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и административных условий. Товарищи! дальнейшее развитие</p>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 							</div>
 						</div>
@@ -134,7 +134,7 @@
 											<span>15 : 47</span>
 										</div>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 								<div class="block-new-title">
 									<p>Итоги конференции The Ukrainian Recipe: Reforms, Privatisation, Recovery</p>
@@ -159,7 +159,7 @@
 											<span>11 : 20</span>
 										</div>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 								<div class="block-new-title">
 									<p>Ukrainian Investment Day – мост между западными инвесторами и Украиной</p>
@@ -186,7 +186,7 @@
 											<span>15 : 47</span>
 										</div>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 								<div class="block-new-title">
 									<p>интервью в киеве</p>
@@ -211,7 +211,7 @@
 											<span>15 : 47</span>
 										</div>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 								<div class="block-new-title">
 									<p>сегодня прошла встреча</p>
@@ -238,7 +238,7 @@
 											<span>15 : 47</span>
 										</div>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 								<div class="block-new-title">
 									<p>Тест-драйв нового авто</p>
@@ -263,7 +263,7 @@
 											<span>15 : 47</span>
 										</div>
 									</div>
-									<a href="#">Читать дальше <span>&raquo;</span></a>
+									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
 								<div class="block-new-title">
 									<p>Ответный визит в англию</p>
