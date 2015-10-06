@@ -337,4 +337,13 @@ section.active:first-child {
   opacity: 1;
 }
 
+.news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new {
+  opacity: 0;
+  transition: 500ms opacity 400ms ease;
+}
+
+.news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new.animated {
+  opacity: 1;
+}
+
 /*/page news*/
