@@ -449,6 +449,7 @@ button.slick-next.slick-arrow {
 /* smi */
 .smi-main-wrap .smi-main .mbox {
   padding-top: 25px;
+  padding-bottom: 150px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi {
