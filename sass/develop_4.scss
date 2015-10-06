@@ -2,8 +2,10 @@
 .section_title{width: 100%;height: 62px;text-align: right;position: relative;overflow: hidden;
     &:after{position: absolute;content: "";width: 0;height: 1px;background-color: #425461;transition:width 600ms ease;-webkit-transition:width 600ms ease;left: 0;bottom:0;}
     &.animated:after{width: 100%;}
+    &.red_bg:after{background: #EB4227;}
     .section_title_line{background: #425461; background: -moz-linear-gradient(left,  #425461 0%, #425461 46%, #677681 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%,#425461), color-stop(46%,#425461), color-stop(100%,#677681)); background: -webkit-linear-gradient(left,  #425461 0%,#425461 46%,#677681 100%); background: -o-linear-gradient(left,  #425461 0%,#425461 46%,#677681 100%); background: -ms-linear-gradient(left,  #425461 0%,#425461 46%,#677681 100%);background: linear-gradient(to right,  #425461 0%,#425461 46%,#677681 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#425461', endColorstr='#677681',GradientType=1 );color: #fff;font-family: "Myriad Pro";font-size: 19px;position: absolute;width: 100%;height: 100%;left: -100%;text-transform: uppercase;line-height: 67px;transition:left ease-out 400ms;
-
+        &.red_bg{background: #b0210a; background: -moz-linear-gradient(left,  #b0210a 0%, #b0210a 46%, #ec4227 100%); background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b0210a), color-stop(46%,#b0210a), color-stop(100%,#ec4227)); background: -webkit-linear-gradient(left,  #b0210a 0%,#b0210a 46%,#ec4227 100%); background: -o-linear-gradient(left,  #b0210a 0%,#b0210a 46%,#ec4227 100%); background: -ms-linear-gradient(left,  #b0210a 0%,#b0210a 46%,#ec4227 100%); background: linear-gradient(to right,  #b0210a 0%,#b0210a 46%,#ec4227 100%);
+        }
         span{padding-right: 30px;}
         &.animated{left:-68.3%;}
     }
@@ -93,3 +95,14 @@ section.active{
     .footer_bottom{background-color: #353f48;text-align: center;color: #6b7580;font-family: "Roboto";font-size: 16px;padding: 24px 0px;}
 }
 /*/footer*/
+
+/*page news*/
+.news-main-wrap{
+    .hot-slider{opacity: 0;-webkit-transition:500ms opacity 400ms ease;transition:500ms opacity 400ms ease;padding-top: 44px;
+        &.animated{opacity: 1;}
+    }
+    .news-main .news-wrap .news .mbox .blocks-news .block-new{opacity: 0;-webkit-transition: all 400ms ease;transition:all 400ms ease;transform:translate3d(0,8%,0);-webkit-transform:translate3d(0,8%,0);
+        &.animated{opacity: 1;transform:translate3d(0,0,0);-webkit-transform:translate3d(0,0,0);}
+    }
+}
+/*/page news*/

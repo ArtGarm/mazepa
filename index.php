@@ -28,9 +28,11 @@
 		<section class="animate-section">
 			<div class="index_section_wrap index_sect_2">
 				<div class="index_section">
-					<div class="section_title animate-it">
-						<div class="section_title_line animate-it">
-							<span>Карьера</span>
+					<div class="news_line_wrap">
+						<div class="section_title animate-it">
+							<div class="section_title_line animate-it">
+								<span>Карьера</span>
+							</div>
 						</div>
 					</div>
 					<div class="section_bg_img animate-it">
@@ -51,9 +53,11 @@
 		<section class="animate-section">
 			<div class="index_section_wrap index_sect_3">
 				<div class="index_section ">
-					<div class="section_title animate-it">
-						<div class="section_title_line animate-it">
-							<span>Награды</span>
+					<div class="news_line_wrap">
+						<div class="section_title animate-it">
+							<div class="section_title_line animate-it">
+								<span>Награды</span>
+							</div>
 						</div>
 					</div>
 					<div class="section_bg_img animate-it">
@@ -72,9 +76,11 @@
 		<section class="animate-section">
 			<div class="index_section_wrap index_sect_4">
 				<div class="index_section">
-					<div class="section_title animate-it">
-						<div class="section_title_line animate-it">
-							<span>Общественная деятельность</span>
+					<div class="news_line_wrap">
+						<div class="section_title animate-it">
+							<div class="section_title_line animate-it">
+								<span>Общественная деятельность</span>
+							</div>
 						</div>
 					</div>
 					<div class="section_bg_img animate-it">
