@@ -122,31 +122,24 @@
 
 /* Foto block  end*/
 /* Video block  begin*/
-.video-Wrap {
-  max-width: 1024px;
-  margin: 0 auto;
-  width: 100%;
-  text-align: left;
-}
-
-.video-Wrap .video-box {
+.mbox .video-box {
   display: inline-block;
   text-align: center;
   margin-bottom: 32px;
   margin-right: 15px;
 }
 
-.video-Wrap .video-box .video {
+.mbox .video-box .video {
   transition: all 0.4s linear;
   position: relative;
 }
 
-.video-Wrap .video-box .video .fancy-box-video .main-video {
+.mbox .video-box .video .fancy-box-video .main-video {
   border: 1px solid #e1e4e7;
   padding: 10px;
 }
 
-.video-Wrap .video-box .video .fancy-box-video .video-circle {
+.mbox .video-box .video .fancy-box-video .video-circle {
   width: 60px;
   height: 60px;
   background-color: #ec4228;
@@ -157,7 +150,7 @@
   border-radius: 30px;
 }
 
-.video-Wrap .video-box .video .fancy-box-video .video-triangle {
+.mbox .video-box .video .fancy-box-video .video-triangle {
   border: 15px solid transparent;
   border-left: 15px solid white;
   position: absolute;
@@ -166,11 +159,11 @@
   left: 50%;
 }
 
-.video-Wrap .video-box .video:hover {
+.mbox .video-box .video:hover {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.video-Wrap .video-box .video:hover .video-circle-anim {
+.mbox .video-box .video:hover .video-circle-anim {
   width: 60px;
   height: 60px;
   border: 1px solid #ec4228;
@@ -209,13 +202,13 @@
   }
 }
 
-.video-Wrap .ivent {
+.mbox .ivent {
   font-family: 'Roboto';
   color: #e1e4e7;
   font-size: 14px;
 }
 
-.video-Wrap .date-ivent {
+.mbox .date-ivent {
   font-family: 'Roboto';
   color: #e1e4e7;
   font-size: 10px;
