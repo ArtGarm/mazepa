@@ -1,14 +1,14 @@
 <div class="news-main-wrap">
 	<div class="news-main">
-		<div class="hot-news-wrap">
+		<div class="hot-news-wrap animate-section">
 			<div class="hot-news">
-				<div class="section_title_red">
-					<div class="section_title_line_red">
+				<div class="section_title animate-it red_bg">
+					<div class="section_title_line animate-it red_bg">
 						<span>Главные новости</span>
 					</div>
 				</div>
 				<div class="mbox">
-					<div class="hot-slider">
+					<div class="hot-slider animate-it">
 						<div class="hot-new">
 							<div class="image-wrap">
 								<div class="image">
@@ -106,10 +106,10 @@
 				</div>
 			</div>
 		</div>
-		<div class="news-wrap">
+		<div class="news-wrap animate-section">
 			<div class="news">
-				<div class="section_title">
-					<div class="section_title_line">
+				<div class="section_title animate-it">
+					<div class="section_title_line animate-it">
 						<span>Все новости</span>
 					</div>
 				</div>
