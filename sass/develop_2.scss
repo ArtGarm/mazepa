@@ -1,9 +1,7 @@
 /* Foto block  begin*/
 .foto_main_wrap{
     .mbox{ text-align: left;
-        .foto-box{display: inline-block;  text-align: center;  margin-bottom: 32px ;
-            margin-right: 15px;
-
+        .foto-box{display: inline-block;  text-align: center;  margin-bottom: 32px ; vertical-align: top; margin-right: 15px; width: calc(33% - 15px) ;
             .foto{ position: relative; border: 1px solid #e1e4e7;
                 -webkit-transition: all 0.4s linear ;
                 -moz-transition: all 0.4s linear;
@@ -73,8 +71,7 @@
 /* Video block  begin*/
 
 .mbox{
-    .video-box{display: inline-block;  text-align: center;  margin-bottom: 32px ;
-        margin-right: 15px;
+    .video-box{display: inline-block;  text-align: center;  margin-bottom: 32px ; width: calc(33% - 15px) ; margin-right: 15px; vertical-align: top;
         .video { -webkit-transition: all 0.4s linear ;
                 -moz-transition: all 0.4s linear;
                 -o-transition: all 0.4s linear;
@@ -82,12 +79,12 @@
                 position: relative;
             .fancy-box-video{
                 .main-video {border: 1px solid #e1e4e7; padding: 10px; }
-                .video-circle{  width: 60px;  height: 60px; background-color: #ec4228; position: absolute;z-index: 2; top: 40%; left: 42%; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
-                .video-triangle{ border: 15px solid transparent; border-left: 15px solid white; position: absolute; z-index: 3;top: 45%; left: 50%; }
+                .video-circle{  width: 60px;  height: 60px; background-color: #ec4228; position: absolute;z-index: 2; top: calc(50% - 30px); left: calc(50% - 30px); -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
+                .video-triangle{ border: 16px solid transparent; border-left: 16px solid white; position: absolute; z-index: 3;top: calc(50% - 16px);left: calc(50% - 4px); }
 
             }
             &:hover{ box-shadow: 0 0 20px rgba(0,0,0,0.5);
-                    .video-circle-anim{  width: 60px;  height: 60px; border: 1px solid #ec4228; position: absolute;z-index: 2; top: 40%; left: 42%; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;animation: pulse 1s linear infinite;}
+                    .video-circle-anim{  width: 60px;  height: 60px; border: 1px solid #ec4228; position: absolute;z-index: 2; top: calc(50% - 30px); left: calc(50% - 30px); -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;animation: pulse 1s linear infinite;}
                     @keyframes pulse {
                         from {-ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); opacity: 1;}
                         to {-ms-transform: scale(2,2); -webkit-transform: scale(2,2);transform: scale(2,2);opacity: 0;}
