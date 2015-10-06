@@ -89,9 +89,10 @@
   -webkit-transition: 300ms ease background-color;
 }
 
-.header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a:hover, .header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a.active {
+.header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a:hover, .header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a.active, .header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a:active, .header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a:focus {
   background-color: #cd442d;
   text-decoration: none;
+  outline: none;
 }
 
 .header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a span {

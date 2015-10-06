@@ -23,7 +23,7 @@
         .header-top-left{float: left;width: 50%;
             .header-top-buttons-wrap{display: table;width: 100%;
                 a{display: table-cell;cursor: pointer;text-align: center;vertical-align: middle;background-color: #616b75;color:#fff;font-size: 13px;font-weight: 500;text-transform: uppercase;padding:20px 0;transition:300ms ease background-color;-webkit-transition:300ms ease background-color;
-                    &:hover, &.active{background-color:#cd442d;text-decoration: none;}
+                    &:hover, &.active, &:active, &:focus{background-color:#cd442d;text-decoration: none;outline:none;}
                     span{display: inline-block;vertical-align: middle;}
                     .button-icon{margin-left: 7%;background-image:url(../images/button-icon.png);width: 6px;height: 10px;}
                 }
