@@ -108,12 +108,18 @@ section.active{
 /*/page news*/
 
 /*page foto*/
-.foto_main_wrap{
-    .foto-Wrap .foto-box-wrap{opacity: 0;-webkit-transition: all 400ms ease;transition:all 400ms ease;
+.foto_main_wrap{padding-top: 57px;
+    .photo_section {padding-bottom: 19px;
+        .news_line_wrap{padding-bottom: 63px;}
+    }
+    .foto-box-wrap{opacity: 0;-webkit-transition: all 400ms ease;transition:all 400ms ease;
         &.animated{opacity: 1;}
     }
-    .video-box-wrap{opacity: 0;-webkit-transition: all 400ms ease;transition:all 400ms ease;
-        &.animated{opacity: 1;}
+    .video_section{
+        .mbox{padding-top: 72px;padding-bottom: 74px;}
+        .video-box-wrap{opacity: 0;-webkit-transition: all 400ms ease;transition:all 400ms ease;
+            &.animated{opacity: 1;}
+        }
     }
 }
 /*/page foto*/
