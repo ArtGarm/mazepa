@@ -2,9 +2,9 @@
 		<section class="animate-section">
 			<div class="mbox">
 				<div class="index_biography_wrap index_sect_1">
-					<div class="index_biography cfix">
+					<div class="index_biography cfix animate-it">
 						<div class="index_biography_left">
-							<div class="index_biography_img animate-img">
+							<div class="index_biography_img ">
 								<img src="images/index_bio_img.png" alt="">
 							</div>
 						</div>
@@ -28,7 +28,7 @@
 		<section class="animate-section">
 			<div class="index_section_wrap index_sect_2">
 				<div class="index_section">
-					<div class="section_title">
+					<div class="section_title animate-it">
 						<div class="section_title_line animate-it">
 							<span>Карьера</span>
 						</div>
@@ -37,7 +37,7 @@
 						<img src="images/index_sect_1_bg.jpg" alt="">
 					</div>
 					<div class="mbox">
-						<div class="index_section_text">
+						<div class="index_section_text animate-it">
 							<p>В 1997 году начал карьеру инвестиционного банкира в российско-американской инвестиционной компании (ИК) Prospect Investments. В 2000—2002 годах занимал пост управляющего директора в ИК  Foyil Securities New Europe, затем — директора в ИК МФК.</p>
 							<p>В 2004 году основал и возглавил ИК Concorde Capital, является ее генеральным директором. На протяжении многих лет компания входит в тройку лучших инвестиционных банков Украины (по данным исследований крупнейшего международного информационного агентства Thomson Reuters).</p>
 							<p>В 2008 году был избран председателем биржевого совета ОАО «Украинская биржа» и занимает данный пост по сегодняшний день. </p>
@@ -51,7 +51,7 @@
 		<section class="animate-section">
 			<div class="index_section_wrap index_sect_3">
 				<div class="index_section ">
-					<div class="section_title ">
+					<div class="section_title animate-it">
 						<div class="section_title_line animate-it">
 							<span>Награды</span>
 						</div>
@@ -60,7 +60,7 @@
 						<img src="images/index_sect_2_bg.jpg" alt="">
 					</div>
 					<div class="mbox">
-						<div class="index_section_text">
+						<div class="index_section_text animate-it">
 							<p>В 2007 году признан лучшим менеджером на фондовом рынке Украины, согласно рейтингу издательства «Экономика».</p>
 							<p>В 2007 году лидер в номинации «Личность фондового рынка Украины» финансового рейтинга издания «Бизнес».</p>
 						</div>
@@ -72,7 +72,7 @@
 		<section class="animate-section">
 			<div class="index_section_wrap index_sect_4">
 				<div class="index_section">
-					<div class="section_title">
+					<div class="section_title animate-it">
 						<div class="section_title_line animate-it">
 							<span>Общественная деятельность</span>
 						</div>
@@ -81,7 +81,7 @@
 						<img src="images/index_sect_3_bg.jpg" alt="">
 					</div>
 					<div class="mbox">
-						<div class="index_section_text">
+						<div class="index_section_text animate-it">
 							<p>С 2008 года по сегодняшний день- председатель биржевого совета открытого акционерного общества «Украинская биржа».</p>
 							<p>В 2010 году принял участие в нашумевшем проекте телеканала ICTV «Украинская мечта», в котором вместе с другими известными бизнесменами выступил инвестором перспективных бизнес-идей рядовых украинцев.</p>
 							<p>С 2014 года по сегодняшний день - член наблюдательного совета Государственного экспортно-импортного банка.</p>

@@ -2,11 +2,26 @@
 /*синие плашки*/
 .section_title {
   width: 100%;
-  border-bottom: 1px solid #576774;
   height: 62px;
   text-align: right;
   position: relative;
   overflow: hidden;
+}
+
+.section_title:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 1px;
+  background-color: #425461;
+  transition: width 600ms ease;
+  -webkit-transition: width 600ms ease;
+  left: 0;
+  bottom: 0;
+}
+
+.section_title.animated:after {
+  width: 100%;
 }
 
 .section_title .section_title_line {
@@ -22,8 +37,7 @@
   left: -100%;
   text-transform: uppercase;
   line-height: 67px;
-  transition: left 400ms ease;
-  -webkit-transition: left 400ms ease;
+  transition: left ease-out 400ms;
 }
 
 .section_title .section_title_line span {
@@ -38,6 +52,13 @@
 /*index page*/
 .index_biography {
   padding-bottom: 24px;
+  opacity: 0;
+  transition: all ease-out 400ms;
+  padding-top: 64px;
+}
+
+.index_biography.animated {
+  opacity: 1;
 }
 
 .index_biography .index_biography_left {
@@ -57,7 +78,6 @@
   border: 1px solid #cdcdcd;
   display: inline-block;
   transition: opacity 400ms ease;
-  opacity: 0;
 }
 
 .index_biography .index_biography_img.animate-opacity {
@@ -88,7 +108,7 @@
 }
 
 .section_bg_img {
-  transition: opacity 400ms ease;
+  transition: 500ms opacity 400ms ease;
   opacity: 0;
 }
 
@@ -102,11 +122,18 @@
   color: #687681;
   padding-top: 50px;
   padding-left: 3%;
-  padding-bottom: 36px;
+  padding-bottom: 58px;
+  transition: 1s opacity 400ms ease;
+  -webkit-transition: 1s opacity 400ms ease;
+  opacity: 0;
 }
 
 .index_section_text p {
   margin-bottom: 18px;
+}
+
+.index_section_text.animated {
+  opacity: 1;
 }
 
 .index_sect_3 .index_section_text {
