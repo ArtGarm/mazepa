@@ -1,0 +1,232 @@
+@charset "UTF-8";
+/* Foto block  begin*/
+.foto-Wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+}
+
+.foto-Wrap .foto-box {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-right: 15px;
+}
+
+.foto-Wrap .foto-box .foto {
+  position: relative;
+  border: 1px solid #e1e4e7;
+  transition: all 0.4s linear;
+}
+
+.foto-Wrap .foto-box .foto .lupa {
+  position: absolute;
+  bottom: 21px;
+  right: 23px;
+}
+
+.foto-Wrap .foto-box .foto .main-foto {
+  padding: 10px;
+}
+
+.foto-Wrap .foto-box .foto:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.foto-Wrap .foto-box:nth-child(3n) {
+  margin-right: 0;
+}
+
+.foto-Wrap .foto-box:first-child {
+  margin-left: 0;
+}
+
+.foto-Wrap .foto-box .ivent {
+  font-family: 'Roboto';
+  color: #e1e4e7;
+  font-size: 14px;
+}
+
+.foto-Wrap .foto-box .date-ivent {
+  font-family: 'Roboto';
+  color: #e1e4e7;
+  font-size: 10px;
+}
+
+/* fancybox */
+.fancybox-close {
+  background-image: none;
+  border-radius: 17px;
+  background-color: white;
+  width: 34px;
+  height: 34px;
+  vertical-align: middle;
+  right: -14px;
+  top: -14px;
+  border: 3px solid black;
+  transition: all 2s ease;
+}
+
+.fancybox-close:before {
+  display: block;
+  width: 22px;
+  height: 4px;
+  background-color: #000;
+  content: '';
+  border-radius: 3px;
+  position: absolute;
+  top: 12px;
+  right: 3px;
+  transition: background-color 1s linear;
+  /* Для Firefox */
+  /* Для IE */
+  -webkit-transform: rotate(45deg);
+  /* Для Safari, Chrome, iOS */
+  /* Для Opera */
+  transform: rotate(45deg);
+}
+
+.fancybox-close:after {
+  display: block;
+  width: 22px;
+  height: 4px;
+  background-color: #000;
+  content: '';
+  border-radius: 3px;
+  position: absolute;
+  top: 12px;
+  right: 3px;
+  transition: background-color 1s linear;
+  /* Для Firefox */
+  /* Для IE */
+  -webkit-transform: rotate(-45deg);
+  /* Для Safari, Chrome, iOS */
+  /* Для Opera */
+  transform: rotate(-45deg);
+}
+
+.fancybox-close:hover {
+  /* Для Firefox */
+  /* Для IE */
+  -webkit-transform: rotate(360deg);
+  /* Для Safari, Chrome, iOS */
+  /* Для Opera */
+  transform: rotate(360deg);
+}
+
+.fancybox-close:hover:after {
+  background-color: orange;
+}
+
+.fancybox-close:hover:before {
+  background-color: orange;
+}
+
+/* Foto block  end*/
+.block-Radick {
+  height: 10px;
+  background-color: red;
+}
+
+/* Video block  begin*/
+.video-Wrap {
+  max-width: 1024px;
+  margin: 0 auto;
+  width: 100%;
+  text-align: left;
+}
+
+.video-Wrap .video-box {
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-right: 15px;
+}
+
+.video-Wrap .video-box .video {
+  transition: all 0.4s linear;
+  position: relative;
+}
+
+.video-Wrap .video-box .video .fancy-box-video .main-video {
+  border: 1px solid #e1e4e7;
+  padding: 10px;
+}
+
+.video-Wrap .video-box .video .fancy-box-video .video-circle {
+  width: 60px;
+  height: 60px;
+  background-color: #ec4228;
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 42%;
+  border-radius: 30px;
+}
+
+.video-Wrap .video-box .video .fancy-box-video .video-triangle {
+  border: 15px solid transparent;
+  border-left: 15px solid white;
+  position: absolute;
+  z-index: 3;
+  top: 45%;
+  left: 50%;
+}
+
+.video-Wrap .video-box .video:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-Wrap .video-box .video:hover .video-circle-anim {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ec4228;
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 42%;
+  border-radius: 30px;
+  -webkit-animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 1;
+  }
+  to {
+    -webkit-transform: scale(2, 2);
+    transform: scale(2, 2);
+    opacity: 0;
+  }
+}
+
+.video-Wrap .ivent {
+  font-family: 'Roboto';
+  color: #e1e4e7;
+  font-size: 14px;
+}
+
+.video-Wrap .date-ivent {
+  font-family: 'Roboto';
+  color: #e1e4e7;
+  font-size: 10px;
+}
+
+/* Video block  end*/
