@@ -118,7 +118,7 @@
 				<div class="mbox">
 					<div class="blocks-news">
 						<div class="block-new-two animate-section cfix">
-							<div class="block-new animate-it">
+							<div class="block-new animate-delay">
 								<div class="new-img-wrap">
 									<img src="images/new1.jpg" alt=""/>
 								</div>
@@ -143,7 +143,7 @@
 									<p>21 сентября представители украинского правительства, крупнейших отечественных и зарубежных компаний, хедж-фондов и мировых финансовых институтов обсудили экономическую ситуацию, ход реформ, приватизацию и инвестиционный климат...</p>
 								</div>
 							</div>
-							<div class="block-new animate-it">
+							<div class="block-new animate-delay">
 								<div class="new-img-wrap">
 									<img src="images/new2.jpg" alt=""/>
 								</div>
@@ -170,7 +170,7 @@
 							</div>
 						</div>
 						<div class="block-new-two animate-section cfix">
-							<div class="block-new animate-it">
+							<div class="block-new animate-delay">
 								<div class="new-img-wrap">
 									<img src="images/new3.jpg" alt=""/>
 								</div>
@@ -195,7 +195,7 @@
 									<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
 								</div>
 							</div>
-							<div class="block-new animate-it">
+							<div class="block-new animate-delay">
 								<div class="new-img-wrap">
 									<img src="images/new4.jpg" alt=""/>
 								</div>
@@ -222,7 +222,7 @@
 							</div>
 						</div>
 						<div class="block-new-two animate-section cfix">
-							<div class="block-new animate-it">
+							<div class="block-new animate-delay">
 								<div class="new-img-wrap">
 									<img src="images/new5.jpg" alt=""/>
 								</div>
@@ -247,7 +247,7 @@
 									<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
 								</div>
 							</div>
-							<div class="block-new animate-it">
+							<div class="block-new animate-delay">
 								<div class="new-img-wrap">
 									<img src="images/new6.jpg" alt=""/>
 								</div>
