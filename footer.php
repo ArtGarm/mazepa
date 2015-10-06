@@ -1,8 +1,8 @@
 	<div class="footer_placeholder"></div>
-	<footer class="footer">
+	<footer class="footer animate-section">
         <div class="footer_top">
             <div class="mbox">
-                <div class="footer_top_item fti_1">
+                <div class="footer_top_item fti_1 animate-delay">
                     <div class="fti_title">
                         <span>Последние новости</span>
                     </div>
@@ -14,7 +14,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer_top_item fti_2">
+                <div class="footer_top_item fti_2 animate-delay">
                     <div class="fti_title">
                         <span>Пресс-центр</span>
                     </div>
@@ -26,7 +26,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="footer_top_item fti_3">
+                <div class="footer_top_item fti_3 animate-delay">
                     <div class="fti_title">
                         <span>Следите за нами</span>
                     </div>
