@@ -106,3 +106,14 @@ section.active{
     }
 }
 /*/page news*/
+
+/*page foto*/
+.foto_main_wrap{
+    .foto-Wrap .foto-box-wrap{opacity: 0;-webkit-transition: all 400ms ease;transition:all 400ms ease;
+        &.animated{opacity: 1;}
+    }
+    .video-box-wrap{opacity: 0;-webkit-transition: all 400ms ease;transition:all 400ms ease;
+        &.animated{opacity: 1;}
+    }
+}
+/*/page foto*/

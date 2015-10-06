@@ -351,3 +351,23 @@ section.active:first-child {
 }
 
 /*/page news*/
+/*page foto*/
+.foto_main_wrap .foto-Wrap .foto-box-wrap {
+  opacity: 0;
+  transition: all 400ms ease;
+}
+
+.foto_main_wrap .foto-Wrap .foto-box-wrap.animated {
+  opacity: 1;
+}
+
+.foto_main_wrap .video-box-wrap {
+  opacity: 0;
+  transition: all 400ms ease;
+}
+
+.foto_main_wrap .video-box-wrap.animated {
+  opacity: 1;
+}
+
+/*/page foto*/
