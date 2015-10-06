@@ -1,5 +1,5 @@
-<div class="news-inside-main-wrap">
-	<div class="news-inside-main">
+<div class="news-inside-main-wrap animate-section">
+	<div class="news-inside-main animate-it">
 		<div class="mbox">
 			<div class="news-inside">
 				<div class="date-inside">
