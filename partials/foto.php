@@ -147,7 +147,7 @@
             <div class="video-box animate-section">
                 <div class="video-box-wrap animate-it">
                     <div class="video">
-                        <a href="#" class="fancy-box-video" target="_blank">
+                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" >
                             <img src="images/video1.png" alt=""  class="main-video"/ >
                             <div class="video-circle"></div>
                             <div class="video-circle-anim"></div>
@@ -161,7 +161,7 @@
             <div class="video-box animate-section">
                 <div class="video-box-wrap animate-it">
                     <div class="video">
-                        <a href="#" class="fancy-box-video" target="_blank">
+                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" >
                             <img src="images/video2.png" alt=""  class="main-video"/ >
                             <div class="video-circle"></div>
                             <div class="video-circle-anim"></div>
@@ -175,7 +175,7 @@
             <div class="video-box animate-section">
                 <div class="video-box-wrap animate-it">
                     <div class="video">
-                        <a href="#" class="fancy-box-video" target="_blank">
+                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" >
                             <img src="images/video3.png" alt=""  class="main-video"/ >
                             <div class="video-circle"></div>
                             <div class="video-circle-anim"></div>
