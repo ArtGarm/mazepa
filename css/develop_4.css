@@ -388,3 +388,29 @@ section.active:first-child {
 }
 
 /*/page foto*/
+/*page foto_inside*/
+.news-inside-main {
+  opacity: 0;
+  transition: all 400ms ease;
+}
+
+.news-inside-main.animated {
+  opacity: 1;
+}
+
+/*/page foto_inside*/
+/*page smi*/
+.smi-main .smi_wrap {
+  opacity: 0;
+  transition: all 400ms ease;
+  transform: translate3d(0, 8%, 0);
+  -webkit-transform: translate3d(0, 8%, 0);
+}
+
+.smi-main .smi_wrap.animated {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+/*/page smi*/
