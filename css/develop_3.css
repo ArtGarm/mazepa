@@ -1,35 +1,4 @@
 @charset "UTF-8";
-/*красные плашки*/
-.section_title_red {
-  width: 100%;
-  border-bottom: 1px solid #EC4227;
-  height: 62px;
-  text-align: right;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 44px;
-}
-
-.section_title_red .section_title_line_red {
-  background: #b0210a;
-  background: linear-gradient(to right, #b0210a 0%, #b0210a 46%, #ec4227 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0210a', endColorstr='#ec4227',GradientType=1 );
-  color: #fff;
-  font-family: "Myriad Pro";
-  font-size: 19px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: -68.3%;
-  text-transform: uppercase;
-  line-height: 67px;
-}
-
-.section_title_red .section_title_line_red span {
-  padding-right: 30px;
-}
-
-/*/красные плашки*/
 /*Дата новости*/
 .date-wrap {
   position: relative;
@@ -95,10 +64,48 @@ button.slick-prev.slick-arrow, button.slick-next.slick-arrow {
   top: 46.7%;
 }
 
+button.slick-prev.slick-arrow:before, button.slick-next.slick-arrow:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 18px;
+  height: 33px;
+  top: 0;
+  transform: scale(0.7);
+  -webkit-transform: scale(0.7);
+  opacity: 0;
+  transition: opacity 300ms ease, left 300ms ease, right 300ms ease;
+  -webkit-transition: opacity 300ms ease, left 300ms ease, right 300ms ease;
+}
+
+button.slick-prev.slick-arrow {
+  background-image: url(../images/prev.png);
+}
+
+button.slick-prev.slick-arrow:before {
+  background-image: url(../images/prev.png);
+  left: -1px;
+}
+
+button.slick-prev.slick-arrow:hover:before {
+  opacity: .8;
+  left: 5px;
+}
+
 button.slick-next.slick-arrow {
   right: -49px;
   background-image: url(../images/next.png);
-  left: inherit;
+  left: auto;
+}
+
+button.slick-next.slick-arrow:before {
+  background-image: url(../images/next.png);
+  right: -1px;
+}
+
+button.slick-next.slick-arrow:hover:before {
+  opacity: .8;
+  right: 5px;
 }
 
 /* /slick */
@@ -111,6 +118,13 @@ button.slick-next.slick-arrow {
 .paginator-wrap .paginator {
   margin: 0 auto;
   text-align: center;
+  opacity: 0;
+  transition: opacity 300ms ease;
+  -webkit-transition: opacity 300ms ease;
+}
+
+.paginator-wrap .paginator.animated {
+  opacity: 1;
 }
 
 .paginator-wrap .paginator p.current-page {
@@ -132,6 +146,8 @@ button.slick-next.slick-arrow {
   display: inline-block;
   text-decoration: none;
   padding-top: 6px;
+  transition: color 300ms ease, border-color 300ms ease;
+  -webkit-transition: color 300ms ease, border-color 300ms ease;
 }
 
 .paginator-wrap .paginator a:hover, .paginator-wrap .paginator p:hover {
@@ -142,41 +158,52 @@ button.slick-next.slick-arrow {
 /* /Пагинатор */
 /* transition */
 .readmore {
-  transition: all 1s ease;
+  transition: color 1s ease;
   text-decoration: none !important;
 }
 
 .readmore span {
-  transition: all 1s ease-out;
   display: inline-block;
-  height: 32px;
+  transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -webkit-animation-name: thumb;
+  animation-name: thumb;
+  -webkit-animation-duration: 750ms;
+  animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: thumb;
+  -webkit-animation-duration: 750ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
 }
 
 .readmore:hover {
   color: #000 !important;
 }
 
+.readmore:hover span {
+  animation-play-state: running;
+  -webkit-animation-play-state: running;
+}
+
 @-webkit-keyframes thumb {
   0% {
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-  }
-  50% {
     -webkit-transform: translateX(0px);
     transform: translateX(0px);
   }
-  100% {
-    -webkit-transform: translateX(3px);
-    transform: translateX(3px);
+  50% {
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
   }
-}
-
-.readmore:hover span {
-  -webkit-animation-name: thumb;
-  -webkit-animation-duration: 1000ms;
-  -webkit-transform-origin: 50% 50%;
-  -webkit-animation-iteration-count: 7;
-  -webkit-animation-timing-function: linear;
+  100% {
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+  }
 }
 
 /* /transition */
@@ -358,14 +385,10 @@ button.slick-next.slick-arrow {
   border-bottom: 1px solid #ccc;
 }
 
-.news-inside-main-wrap .news-inside-main .mbox .news-inside .news-inside-contant .news-inside-body .news-inside-text-img {
-  width: 100%;
-}
-
 .news-inside-main-wrap .news-inside-main .mbox .news-inside .news-inside-contant .news-inside-body .news-inside-text-img .news-inside-img-wrap {
   float: left;
-  margin-right: 20px;
-  width: 38%;
+  padding-right: 20px;
+  background-color: #fff;
 }
 
 .news-inside-main-wrap .news-inside-main .mbox .news-inside .news-inside-contant .news-inside-body .news-inside-text-img .news-inside-img-wrap .news-inside-img {
@@ -377,23 +400,25 @@ button.slick-next.slick-arrow {
   max-width: 100%;
 }
 
-.news-inside-main-wrap .news-inside-main .mbox .news-inside .news-inside-contant .news-inside-body .news-inside-text-img p.news-inside-title {
+.news-inside-main-wrap .news-inside-main .mbox .news-inside .news-inside-contant .news-inside-body .news-inside-text-img h2 {
+  margin: 0;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #DCDCDC;
+  font-size: 20px;
+}
+
+.news-inside-main-wrap .news-inside-main .mbox .news-inside .news-inside-contant .news-inside-body .news-inside-text-img h2 span {
   font-family: 'Roboto', sans-serif;
-  width: 60%;
   font-weight: 500;
-  float: left;
   color: #6b7580;
   text-transform: uppercase;
   font-size: 20px;
   letter-spacing: 0.5px;
-  margin-bottom: 10px;
   line-height: 1.1;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #DCDCDC;
 }
 
 .news-inside-main-wrap .news-inside-main .mbox .news-inside .news-inside-contant .news-inside-body .news-inside-text-img p {
-  width: 100%;
   color: #8e8e8e;
   font-size: 15px;
   font-weight: normal;
@@ -448,35 +473,45 @@ button.slick-next.slick-arrow {
 /* /news-inside */
 /* smi */
 .smi-main-wrap .smi-main .mbox {
-  padding-top: 25px;
+  padding-top: 63px;
   padding-bottom: 150px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi {
   width: 100%;
-  margin-bottom: 25px;
+  margin-bottom: 37px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi .date-smi {
   width: 100%;
-  margin-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi .smi-img-wrap {
-  width: 46%;
+  max-width: 48%;
   float: left;
-  margin-right: 15px;
+  padding-right: 15px;
+  background-color: #fff;
 }
 
-.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap {
-  width: 52%;
-  float: right;
+.smi-main-wrap .smi-main .mbox .smi .smi-img-wrap .smi-img {
+  padding: 9px;
+  border: 1px solid #ccc;
+}
+
+.smi-main-wrap .smi-main .mbox .smi .smi-img-wrap .smi-img img {
+  max-width: 100%;
+}
+
+.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-title {
+  border-bottom: 1px solid #DCDCDC;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-title h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
-  float: left;
   color: #6b7580;
   text-transform: uppercase;
   font-size: 20px;
@@ -486,18 +521,20 @@ button.slick-next.slick-arrow {
   margin-bottom: 5px;
 }
 
-.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-title p {
+.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-title a {
   color: #d9d9d9;
   font-size: 12px;
   font-family: 'Roboto', sans-serif;
   font-weight: normal;
-  margin-bottom: 10px;
-  border-bottom: 1px solid #DCDCDC;
-  padding-bottom: 5px;
+  text-decoration: none;
+  float: none;
+  text-transform: lowercase;
+  transition: color 500ms ease;
+  -webkit-transition: color 500ms ease;
 }
 
-.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-contant {
-  min-height: 270px;
+.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-title a:hover {
+  color: #FFA500;
 }
 
 .smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-contant p {
