@@ -106,8 +106,11 @@
 <div class="video-Wrap">
     <div class="video-box">
         <div class="video">
-            <a href="#" class="fancy-box-video">
+            <a href="#" class="fancy-box-video" target="_blank">
                 <img src="images/video1.png" alt=""  class="main-video"/ >
+                <div class="video-circle"></div>
+                <div class="video-circle-anim"></div>
+                <div class="video-triangle"></div>
             </a>
         </div>
         <div class="ivent"> Конференция «Бизнес-2014» </div>
@@ -115,8 +118,11 @@
     </div>
     <div class="video-box">
         <div class="video">
-            <a href="#" class="fancy-box-video">
+            <a href="#" class="fancy-box-video" target="_blank">
                 <img src="images/video2.png" alt=""  class="main-video"/ >
+                <div class="video-circle"></div>
+                <div class="video-circle-anim"></div>
+                <div class="video-triangle"></div>
             </a>
         </div>
         <div class="ivent"> Подписание контракта</div>
@@ -124,8 +130,11 @@
     </div>
     <div class="video-box">
         <div class="video">
-            <a href="#" class="fancy-box-video">
+            <a href="#" class="fancy-box-video" target="_blank">
                 <img src="images/video3.png" alt=""  class="main-video"/ >
+                <div class="video-circle"></div>
+                <div class="video-circle-anim"></div>
+                <div class="video-triangle"></div>
             </a>
         </div>
         <div class="ivent"> По пути на конференцию  </div>
