@@ -62,12 +62,35 @@
 
 /* Video block  begin*/
 
-
 .video-Wrap{max-width: 1024px; margin: 0 auto; width: 100%; text-align: left;
     .video-box{display: inline-block;  text-align: center;  margin-bottom: 32px ;
         margin-right: 15px;
+        .video { -webkit-transition: all 0.4s linear ;
+                -moz-transition: all 0.4s linear;
+                -o-transition: all 0.4s linear;
+                transition: all 0.4s linear;
+                position: relative;
+            .fancy-box-video{
+                .main-video {border: 1px solid #e1e4e7; padding: 10px; }
+                .video-circle{  width: 60px;  height: 60px; background-color: #ec4228; position: absolute;z-index: 2; top: 40%; left: 42%; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
+                .video-triangle{ border: 15px solid transparent; border-left: 15px solid white; position: absolute; z-index: 3;top: 45%; left: 50%; }
 
+            }
+            &:hover{ box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                    .video-circle-anim{  width: 60px;  height: 60px; border: 1px solid #ec4228; position: absolute;z-index: 2; top: 40%; left: 42%; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;animation: pulse 1s linear infinite;}
+                    @keyframes pulse {
+                        from {-ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); opacity: 1;}
+                        to {-ms-transform: scale(2,2); -webkit-transform: scale(2,2);transform: scale(2,2);opacity: 0;}
+                    }
+                    @-webkit-keyframes pulse {
+                        from {  -ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1);opacity: 1;}
+                        to { -ms-transform: scale(2,2); -webkit-transform: scale(2,2);  transform: scale(2,2); opacity: 0;}
+                    }
+            }
+        }
     }
+    .ivent{font-family: 'Roboto'; color: #e1e4e7; font-size: 14px;}
+    .date-ivent{font-family: 'Roboto'; color: #e1e4e7; font-size: 10px;}
 
 }
 
