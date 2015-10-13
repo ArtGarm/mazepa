@@ -86,8 +86,10 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
-	<header class="header">
-
+	<header class="header <? echo $act; ?>">
+		<div class="header-img-device">
+			<img src="images/slider-img.jpg" alt="" />
+		</div>
 		<div class="header-slider-wrap">
 			<div class="header-slider-wrap-main">
 				<div class="header-slider-item">
@@ -136,9 +138,14 @@
 								</div>
 							</div>
 							<div class="header-top-langChange">
-								<a href="#">Укр</a>
-								<a href="#" class="active">Рус</a>
-								<a href="#">Eng</a>
+								<div class="header-top-langChange-value">
+									Рус
+								</div>
+								<div class="header-top-langChange-wrap cfix-after">
+									<a href="#">Укр</a>
+									<a href="#" class="active">Рус</a>
+									<a href="#">Eng</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -173,7 +180,15 @@
 			</div>
 		</div>
 		<div class="header-navigation">
+			<div class="header-navigation-device-icon">
+				<span></span>
+			</div>
 			<div class="mbox">
+				<div class="header-navigation-wrap-top">
+					меню
+					<div class="header-navigation-wrap-top-right">
+					</div>
+				</div>
 				<div class="header-navigation-wrap">
 					<a href="http://dev-verst.sheep.fish/mazepa/index.html" class="active"><span>БИОГРАФИЯ</span></a>
 					<a href="#"><span>Деятельность</span></a>
