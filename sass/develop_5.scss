@@ -31,8 +31,6 @@
 }
 .video_section{
      .mbox { padding-right:20px;
-        .ivent {display:none;}
-        .date-ivent{display:none;}
         .video-box{margin-right:0;width:100%;
             .video{
                 img{width:100%;}
@@ -40,7 +38,10 @@
         }
     }
 }
-
+.mbox {
+        .ivent {display:none;}
+        .date-ivent{display:none;}
+}
 /* /foto */
 }
 @media screen and (max-width: 666px){

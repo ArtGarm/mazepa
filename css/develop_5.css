@@ -32,18 +32,18 @@
   .video_section .mbox {
     padding-right: 20px;
   }
-  .video_section .mbox .ivent {
-    display: none;
-  }
-  .video_section .mbox .date-ivent {
-    display: none;
-  }
   .video_section .mbox .video-box {
     margin-right: 0;
     width: 100%;
   }
   .video_section .mbox .video-box .video img {
     width: 100%;
+  }
+  .mbox .ivent {
+    display: none;
+  }
+  .mbox .date-ivent {
+    display: none;
   }
   /* /foto */
 }
