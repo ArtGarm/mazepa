@@ -67,6 +67,7 @@
 <!-- remove Files -->
 
 	<link rel="stylesheet" href="css/style_main.css" media="all" />
+	<link rel="stylesheet" href="css/adaptation.css" media="all" />
 	<script src="js/scr.js" type="text/javascript"></script>
 
 	<!--[if lt IE 9]>
