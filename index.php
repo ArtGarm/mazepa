@@ -79,7 +79,7 @@
 					<div class="news_line_wrap">
 						<div class="section_title animate-it">
 							<div class="section_title_line animate-it">
-								<span>Общественная деятельность</span>
+								<span>Общественная</span><span>деятельность</span>
 							</div>
 						</div>
 					</div>
