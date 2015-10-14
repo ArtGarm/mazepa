@@ -3,7 +3,7 @@
     /* all styles */
     .header-navigation .mbox, .header-content-wrap .mbox{padding:0;}
     .mbox{padding:0 15px;}
-
+    .section_bg_img{background-position: center center;background-attachment: initial;}
     /* /all styles */
 
     /* header */
@@ -156,6 +156,12 @@
 
 }
 @media screen and (max-width: 479px){
+
+    /* index */
+
+    .section_bg_img{background-position: center top;background-size: 200%;}
+
+    /* /index */
 
 }
 @media screen and (max-width: 320px){

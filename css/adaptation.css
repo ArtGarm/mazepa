@@ -6,6 +6,10 @@
   .mbox {
     padding: 0 15px;
   }
+  .section_bg_img {
+    background-position: center center;
+    background-attachment: initial;
+  }
   /* /all styles */
   /* header */
   .header-content-wrap .header-form-wrap {
@@ -265,6 +269,15 @@
   /* index */
   .index_sect_4 .index_section_text {
     padding-bottom: 49px;
+  }
+  /* /index */
+}
+
+@media screen and (max-width: 479px) {
+  /* index */
+  .section_bg_img {
+    background-position: center top;
+    background-size: 200%;
   }
   /* /index */
 }
