@@ -62,8 +62,11 @@
     .footer .footer_top{
         .fti_1{width: 50%;margin-bottom: 20px;}
         .fti_2{width: 50%;margin-bottom: 20px;}
-        .fti_3{width: 100%;text-align: center;}
+        .fti_3{width: 100%;text-align: center;
+            .fti_social{text-align: center;}
+        }
     }
+
 
     /* /footer */
 }

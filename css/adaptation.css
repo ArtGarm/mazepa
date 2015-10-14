@@ -101,6 +101,9 @@
     width: 100%;
     text-align: center;
   }
+  .footer .footer_top .fti_3 .fti_social {
+    text-align: center;
+  }
   /* /footer */
 }
 
