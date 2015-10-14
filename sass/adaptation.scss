@@ -121,8 +121,9 @@
 
     .footer{
         .footer_top{
+            .footer_top_item{float: none;width: 100%;}
             .fti_1, .fti_2{display: none;}
-            .fti_3 {text-align: left;
+            .fti_3 {text-align: left;margin-bottom: 20px;
                 .fti_title{display: none;}
                 .fti_text{padding-top: 0;}
                 .fti_social{text-align: left;
@@ -138,7 +139,15 @@
         }
     }
 
+    .fti_4 .header-content-wrap .header-form-wrap .form-row{display: block;}
+
     /* /footer */
+
+    /* index */
+
+    .index_sect_4 .index_section_text{padding-bottom: 49px;}
+
+    /* /index */
 
 }
 @media screen and (max-width: 666px){

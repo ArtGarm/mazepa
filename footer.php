@@ -69,16 +69,16 @@
                     <div class="header-content-wrap">
                         <div class="header-form-wrap">
                             <div class="footer-form">
-                                <form>
+                                <form class="footer-form-main">
                                     <div class="form-input-wrap form_row">
-                                        <input type="text" name="name" required="required" placeholder="Имя" />
+                                        <input type="text" name="footer_name" required="required" placeholder="Имя" />
                                     </div>
                                     <div class="form-input-wrap form_row">
-                                        <input type="email" name="subname" required="required" placeholder="E-mail" />
+                                        <input type="email" name="footer_subname" required="required" placeholder="E-mail" />
                                     </div>
                                     <div class="form-row submit-wrap">
                                         <button type="submit">
-                                            <span>ПОДПИСАТЬСЯ</span>
+                                            <span>ПОДПИСАТЬСЯ на новости</span>
                                         </button>
                                     </div>
                                 </form>
