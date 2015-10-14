@@ -79,16 +79,13 @@
             .time{float: right;}
             .mount{float: left;}
         }
-        .block-new-two{
-            .block-new{padding-top: 15px;
-                &:after{content: "";position: absolute;top: 0;right: 0;width: 97%;background-color: #576774;height: 15px;}
-                &:before{content: "";position: absolute;top: 0;left: 0;width: 3%;background-color: #cd442d;height: 15px;}
-            }
+
+        .block-new{padding-top: 15px;
+            &:after{content: "";position: absolute;top: 0;right: 0;width: 97%;background-color: #576774;height: 15px;}
+            &:before{content: "";position: absolute;top: 0;left: 0;width: 3%;background-color: #cd442d;height: 15px;}
         }
-        .block-new-two:first-child{
-            .block-new:first-child{padding-top: 0;
-                 &:after, &:before{display: none;}
-            }
+        .block-new:first-child{padding-top: 0;
+             &:after, &:before{display: none;}
         }
         .paginator-wrap{
             .add_more_news{display: block;padding-left: 20px;padding-right: 20px;
@@ -112,6 +109,7 @@
     .date-wrap .mount-time .time span{font-size: 20px;}
     .date-wrap .day span{padding-top: 6px;font-size: 20px;}
 
+    .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news{overflow: hidden;}
  /*/news page*/
 
  /*news inside page*/

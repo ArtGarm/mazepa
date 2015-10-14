@@ -116,161 +116,155 @@
 					</div>
 				</div>
 				<div class="mbox">
-					<div class="blocks-news">
-						<div class="block-new-two animate-section cfix">
-							<div class="block-new animate-delay">
-								<div class="new-img-wrap">
-									<img src="images/new1.jpg" alt=""/>
-								</div>
-								<div class="date-wrap">
-									<div class="day">
-										<span>21</span>
-									</div>
-									<div class="mount-time">
-										<div class="mount">
-											<p>Сентября 2015</p>
-										</div>
-										<div class="time">
-											<span>15 : 47</span>
-										</div>
-									</div>
-									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
-								</div>
-								<div class="block-new-title">
-									<p>Итоги конференции The Ukrainian Recipe: Reforms, Privatisation, Recovery</p>
-								</div>
-								<div class="block-new-contant">
-									<p>21 сентября представители украинского правительства, крупнейших отечественных и зарубежных компаний, хедж-фондов и мировых финансовых институтов обсудили экономическую ситуацию, ход реформ, приватизацию и инвестиционный климат...</p>
-								</div>
+					<div class="blocks-news animate-section cfix">
+						<div class="block-new animate-delay">
+							<div class="new-img-wrap">
+								<img src="images/new1.jpg" alt=""/>
 							</div>
-							<div class="block-new animate-delay">
-								<div class="new-img-wrap">
-									<img src="images/new2.jpg" alt=""/>
+							<div class="date-wrap">
+								<div class="day">
+									<span>21</span>
 								</div>
-								<div class="date-wrap">
-									<div class="day">
-										<span>19</span>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
 									</div>
-									<div class="mount-time">
-										<div class="mount">
-											<p>Июнь 2015</p>
-										</div>
-										<div class="time">
-											<span>11 : 20</span>
-										</div>
+									<div class="time">
+										<span>15 : 47</span>
 									</div>
-									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
-								<div class="block-new-title">
-									<p>Ukrainian Investment Day – мост между западными инвесторами и Украиной</p>
-								</div>
-								<div class="block-new-contant">
-									<p>19 июня представители украинского правительства, крупнейших отечественных и зарубежных компаний обсудили экономическую ситуацию, ход реформ и инвестиционный климат в Украине во время конференции Ukrainian Investment Day, организованной ...</p>
-								</div>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>Итоги конференции The Ukrainian Recipe: Reforms, Privatisation, Recovery</p>
+							</div>
+							<div class="block-new-contant">
+								<p>21 сентября представители украинского правительства, крупнейших отечественных и зарубежных компаний, хедж-фондов и мировых финансовых институтов обсудили экономическую ситуацию, ход реформ, приватизацию и инвестиционный климат...</p>
 							</div>
 						</div>
-						<div class="block-new-two animate-section cfix">
-							<div class="block-new animate-delay">
-								<div class="new-img-wrap">
-									<img src="images/new3.jpg" alt=""/>
-								</div>
-								<div class="date-wrap">
-									<div class="day">
-										<span>01</span>
-									</div>
-									<div class="mount-time">
-										<div class="mount">
-											<p>Сентября 2015</p>
-										</div>
-										<div class="time">
-											<span>15 : 47</span>
-										</div>
-									</div>
-									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
-								</div>
-								<div class="block-new-title">
-									<p>интервью в киеве</p>
-								</div>
-								<div class="block-new-contant">
-									<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
-								</div>
+						<div class="block-new animate-delay">
+							<div class="new-img-wrap">
+								<img src="images/new2.jpg" alt=""/>
 							</div>
-							<div class="block-new animate-delay">
-								<div class="new-img-wrap">
-									<img src="images/new4.jpg" alt=""/>
+							<div class="date-wrap">
+								<div class="day">
+									<span>19</span>
 								</div>
-								<div class="date-wrap">
-									<div class="day">
-										<span>01</span>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Июнь 2015</p>
 									</div>
-									<div class="mount-time">
-										<div class="mount">
-											<p>Сентября 2015</p>
-										</div>
-										<div class="time">
-											<span>15 : 47</span>
-										</div>
+									<div class="time">
+										<span>11 : 20</span>
 									</div>
-									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
-								<div class="block-new-title">
-									<p>сегодня прошла встреча</p>
-								</div>
-								<div class="block-new-contant">
-									<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
-								</div>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>Ukrainian Investment Day – мост между западными инвесторами и Украиной</p>
+							</div>
+							<div class="block-new-contant">
+								<p>19 июня представители украинского правительства, крупнейших отечественных и зарубежных компаний обсудили экономическую ситуацию, ход реформ и инвестиционный климат в Украине во время конференции Ukrainian Investment Day, организованной ...</p>
 							</div>
 						</div>
-						<div class="block-new-two animate-section cfix">
-							<div class="block-new animate-delay">
-								<div class="new-img-wrap">
-									<img src="images/new5.jpg" alt=""/>
-								</div>
-								<div class="date-wrap">
-									<div class="day">
-										<span>01</span>
-									</div>
-									<div class="mount-time">
-										<div class="mount">
-											<p>Сентября 2015</p>
-										</div>
-										<div class="time">
-											<span>15 : 47</span>
-										</div>
-									</div>
-									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
-								</div>
-								<div class="block-new-title">
-									<p>Тест-драйв нового авто</p>
-								</div>
-								<div class="block-new-contant">
-									<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
-								</div>
+						<div class="block-new animate-delay">
+							<div class="new-img-wrap">
+								<img src="images/new3.jpg" alt=""/>
 							</div>
-							<div class="block-new animate-delay">
-								<div class="new-img-wrap">
-									<img src="images/new6.jpg" alt=""/>
+							<div class="date-wrap">
+								<div class="day">
+									<span>01</span>
 								</div>
-								<div class="date-wrap">
-									<div class="day">
-										<span>21</span>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
 									</div>
-									<div class="mount-time">
-										<div class="mount">
-											<p>Сентября 2015</p>
-										</div>
-										<div class="time">
-											<span>15 : 47</span>
-										</div>
+									<div class="time">
+										<span>15 : 47</span>
 									</div>
-									<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
 								</div>
-								<div class="block-new-title">
-									<p>Ответный визит в англию</p>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>интервью в киеве</p>
+							</div>
+							<div class="block-new-contant">
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
+							</div>
+						</div>
+						<div class="block-new animate-delay">
+							<div class="new-img-wrap">
+								<img src="images/new4.jpg" alt=""/>
+							</div>
+							<div class="date-wrap">
+								<div class="day">
+									<span>01</span>
 								</div>
-								<div class="block-new-contant">
-									<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
+									</div>
+									<div class="time">
+										<span>15 : 47</span>
+									</div>
 								</div>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>сегодня прошла встреча</p>
+							</div>
+							<div class="block-new-contant">
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
+							</div>
+						</div>
+						<div class="block-new animate-delay">
+							<div class="new-img-wrap">
+								<img src="images/new5.jpg" alt=""/>
+							</div>
+							<div class="date-wrap">
+								<div class="day">
+									<span>01</span>
+								</div>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
+									</div>
+									<div class="time">
+										<span>15 : 47</span>
+									</div>
+								</div>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>Тест-драйв нового авто</p>
+							</div>
+							<div class="block-new-contant">
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
+							</div>
+						</div>
+						<div class="block-new animate-delay">
+							<div class="new-img-wrap">
+								<img src="images/new6.jpg" alt=""/>
+							</div>
+							<div class="date-wrap">
+								<div class="day">
+									<span>21</span>
+								</div>
+								<div class="mount-time">
+									<div class="mount">
+										<p>Сентября 2015</p>
+									</div>
+									<div class="time">
+										<span>15 : 47</span>
+									</div>
+								</div>
+								<a class="readmore" href="#">Читать дальше <span>&raquo;</span></a>
+							</div>
+							<div class="block-new-title">
+								<p>Ответный визит в англию</p>
+							</div>
+							<div class="block-new-contant">
+								<p>Таким образом новая модель организационной деятельности требуют определения и уточнения существенных финансовых и  административных условий. </p>
 							</div>
 						</div>
 					</div>

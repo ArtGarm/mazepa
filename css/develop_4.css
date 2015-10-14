@@ -186,10 +186,10 @@
   .news-wrap .mount-time .mount {
     float: left;
   }
-  .news-wrap .block-new-two .block-new {
+  .news-wrap .block-new {
     padding-top: 15px;
   }
-  .news-wrap .block-new-two .block-new:after {
+  .news-wrap .block-new:after {
     content: "";
     position: absolute;
     top: 0;
@@ -198,7 +198,7 @@
     background-color: #576774;
     height: 15px;
   }
-  .news-wrap .block-new-two .block-new:before {
+  .news-wrap .block-new:before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,10 +207,10 @@
     background-color: #cd442d;
     height: 15px;
   }
-  .news-wrap .block-new-two:first-child .block-new:first-child {
+  .news-wrap .block-new:first-child {
     padding-top: 0;
   }
-  .news-wrap .block-new-two:first-child .block-new:first-child:after, .news-wrap .block-new-two:first-child .block-new:first-child:before {
+  .news-wrap .block-new:first-child:after, .news-wrap .block-new:first-child:before {
     display: none;
   }
   .news-wrap .paginator-wrap .add_more_news {
@@ -286,6 +286,9 @@
   .date-wrap .day span {
     padding-top: 6px;
     font-size: 20px;
+  }
+  .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news {
+    overflow: hidden;
   }
   /*/news page*/
   /*news inside page*/

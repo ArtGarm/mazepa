@@ -177,9 +177,6 @@ function deviceSlider(){
         if($('.header-slider-wrap-main.slick-initialized').length==0){
             sliderTop();
         }
-        if($('.hot-slider.slick-initialized').length!=0){
-            $('.hot-slider').slick();
-        }
     }
 }
 

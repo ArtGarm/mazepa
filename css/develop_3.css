@@ -305,11 +305,11 @@ button.slick-next.slick-arrow:hover:before {
 }
 
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new {
-  width: 48%;
-  float: left;
+  width: calc(48% - 5px);
+  display: inline-block;
   margin: 0px 0px;
   margin-bottom: 50px;
-  margin-right: 40px;
+  margin-right: 4%;
 }
 
 .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new:nth-child(2n) {
