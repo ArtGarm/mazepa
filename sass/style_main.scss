@@ -1,3 +1,9 @@
+/* all styles */
+
+.device-show{display: none;}
+
+/* /all styles */
+
 /* header */
 
 .header-img-device{display: none;height: 310px;overflow: hidden;
@@ -154,12 +160,18 @@
             }
         }
         .fti_social{text-align: center;}
-        .fti_social_item{display: inline-block;height: 55px;width: 55px;border-radius: 50%;text-align: center;position: relative;vertical-align: top;margin: 0 5px;
-            img{display: inline-block;padding-top: 19px;}
-            &:hover{box-shadow: 0 0 0 5px rgba(255,255,255,1);color: #fff;
-                &:after{transform: scale(0.85);opacity: 0.5;}
+        .fti_social_item{display: inline-block;vertical-align: top;margin: 0 5px;
+            .fti-social_item_wrap{height: 55px;width: 55px;border-radius: 50%;text-align: center;position: relative;display: inline-block;
+                &:hover{box-shadow: 0 0 0 5px rgba(255,255,255,1);color: #fff;
+                    &:after{transform: scale(0.85);opacity: 0.5;}
+                }
+                &:after{pointer-events: none;position: absolute;width: 100%;height: 100%;border-radius: 50%;content: '';box-sizing: content-box;top: 0;left: 0;padding: 0;box-shadow: 0 0 0 2px #fff;    transition: transform 0.2s, opacity 0.2s;}
+                .fti_social_item_img:after{display: none;}
             }
-            &:after{pointer-events: none;position: absolute;width: 100%;height: 100%;border-radius: 50%;content: '';box-sizing: content-box;top: 0;left: 0;padding: 0;box-shadow: 0 0 0 2px #fff;    transition: transform 0.2s, opacity 0.2s;}
+            img{display: inline-block;padding-top: 19px;}
+            .social-item-text{display: none;text-transform: uppercase;font-size: 22px;margin-left: 10px;vertical-align: middle;
+                &:after{display: none;}
+            }
         }
 
     }
