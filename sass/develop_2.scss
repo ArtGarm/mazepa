@@ -105,10 +105,9 @@
 
 /* Video block  end*/
 
-@media screen and (min-width:1920px){
-
-    .photo_section {  margin: 0 auto;}
-    .foto_main_wrap .mbox .foto-box  { width: calc(24% - 15px); max-width: 320px; margin-right: 5%; margin-left: 5%;}
-    .mbox .video-box{ width: calc(24% - 15px)  }
+@media screen and (min-width:1900px){
+    .foto_main_wrap .photo_section .mbox{margin: 0 auto;}
+    .foto_main_wrap .photo_section .mbox .foto-box { width: calc(24% - 15px); max-width: 320px; margin-right: 3%; margin-left: 3%;}
+    .mbox .video-box{ width: calc(24% - 15px) ; }
 
 }
