@@ -1,3 +1,9 @@
+/* all styles */
+.device-show {
+  display: none;
+}
+
+/* /all styles */
 /* header */
 .header-img-device {
   display: none;
@@ -636,32 +642,31 @@
 
 .footer .footer_top .fti_social_item {
   display: inline-block;
+  vertical-align: top;
+  margin: 0 5px;
+}
+
+.footer .footer_top .fti_social_item .fti-social_item_wrap {
   height: 55px;
   width: 55px;
   border-radius: 50%;
   text-align: center;
   position: relative;
-  vertical-align: top;
-  margin: 0 5px;
-}
-
-.footer .footer_top .fti_social_item img {
   display: inline-block;
-  padding-top: 19px;
 }
 
-.footer .footer_top .fti_social_item:hover {
+.footer .footer_top .fti_social_item .fti-social_item_wrap:hover {
   box-shadow: 0 0 0 5px white;
   color: #fff;
 }
 
-.footer .footer_top .fti_social_item:hover:after {
+.footer .footer_top .fti_social_item .fti-social_item_wrap:hover:after {
   -webkit-transform: scale(0.85);
   transform: scale(0.85);
   opacity: 0.5;
 }
 
-.footer .footer_top .fti_social_item:after {
+.footer .footer_top .fti_social_item .fti-social_item_wrap:after {
   pointer-events: none;
   position: absolute;
   width: 100%;
@@ -677,6 +682,27 @@
   transition: transform 0.2s, opacity 0.2s;
 }
 
+.footer .footer_top .fti_social_item .fti-social_item_wrap .fti_social_item_img:after {
+  display: none;
+}
+
+.footer .footer_top .fti_social_item img {
+  display: inline-block;
+  padding-top: 19px;
+}
+
+.footer .footer_top .fti_social_item .social-item-text {
+  display: none;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.footer .footer_top .fti_social_item .social-item-text:after {
+  display: none;
+}
+
 .footer .footer_bottom {
   background-color: #353f48;
   text-align: center;
@@ -687,3 +713,109 @@
 }
 
 /*/footer*/
+/*index page*/
+.index_biography {
+  padding-bottom: 24px;
+  opacity: 0;
+  transition: all ease-out 400ms;
+  padding-top: 64px;
+}
+
+.index_biography.animated {
+  opacity: 1;
+}
+
+.index_biography .index_biography_left {
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+
+.index_biography .index_biography_right {
+  float: left;
+  width: 70%;
+  padding-left: 19px;
+}
+
+.index_biography .index_biography_img {
+  padding: 7px;
+  border: 1px solid #cdcdcd;
+  display: inline-block;
+  transition: opacity 400ms ease;
+}
+
+.index_biography .index_biography_img.animate-opacity {
+  opacity: 1;
+}
+
+.index_biography .index_biography_text {
+  color: #687681;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.index_biography .index_biography_title {
+  font-size: 29px;
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
+
+.index_biography .index_biography_desc p {
+  padding-bottom: 20px;
+}
+
+.index_biography .index_biography:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.section_bg_img {
+  transition: 500ms opacity 400ms ease;
+  opacity: 0;
+}
+
+.section_bg_img.animated {
+  opacity: 1;
+}
+
+.index_section_text {
+  font-family: "Roboto";
+  font-size: 16px;
+  color: #687681;
+  padding-top: 50px;
+  padding-left: 3%;
+  padding-bottom: 58px;
+  transition: 1s opacity 400ms ease;
+  -webkit-transition: 1s opacity 400ms ease;
+  opacity: 0;
+}
+
+.index_section_text p {
+  margin-bottom: 18px;
+}
+
+.index_section_text.animated {
+  opacity: 1;
+}
+
+.index_sect_3 .index_section_text {
+  padding-bottom: 49px;
+}
+
+.index_sect_3 .index_section_text p {
+  margin-bottom: 13px;
+}
+
+.index_sect_4 .index_section_text {
+  padding-bottom: 181px;
+  /*!*/
+}
+
+section.active:first-child {
+  -webkit-animation-name: tdFadeInUp;
+  animation-name: tdFadeInUp;
+}
+
+/*/index page*/
