@@ -28,6 +28,7 @@
 }
 
 .header-content-wrap{position: absolute;left: 0;right: 0;top: 0;
+    .mbox{padding: 0!important;}
     .header-content-wrap-main{position: relative;}
     .header-content-top{margin-bottom: 88px;
         .header-top-left{float: left;width: 50%;
@@ -65,7 +66,7 @@
             }
         }
     }
-    .header-form-wrap{position: absolute;right: 0;text-align: right;
+    .header-form-wrap{position: absolute;right: 15px;text-align: right;
         .form-big-title{font-family: 'Myriad Pro',sans-serif;font-weight: 900;color:#fff;font-size: 71px;margin-bottom: -6px;}
         .form-small-title{color:#fff;font-size: 22px;font-weight: 300;margin-bottom: 27px;line-height: 26px;}
         .form-row{margin-bottom: 15px;
@@ -183,7 +184,7 @@
                 }
             }
         }
-        .fti_social{text-align: center;}
+        .fti_social{text-align: left;}
         .fti_social_item{display: inline-block;vertical-align: top;margin: 0 5px;
             .fti-social_item_wrap{height: 55px;width: 55px;border-radius: 50%;text-align: center;position: relative;display: inline-block;
                 &:hover{box-shadow: 0 0 0 5px rgba(255,255,255,1);color: #fff;
@@ -210,7 +211,7 @@
     }
     .index_biography{padding-bottom: 24px;opacity: 0;transition:all ease-out 400ms;padding-top: 64px;
         &.animated{opacity: 1;}
-        .index_biography_left{float: left;width: 30%;text-align: center;}
+        .index_biography_left{float: left;width: 30%;text-align: right;}
         .index_biography_right{float: left;width: 70%;padding-left: 19px;}
 
         .index_biography_img{padding: 7px;border:1px solid #cdcdcd;display: inline-block;-webkit-transition:opacity 400ms ease;transition:opacity 400ms ease;
@@ -248,3 +249,16 @@
     }
 
 /*/index page*/
+
+/* call-success */
+
+#call_success{padding:40px; max-width: 530px;width: 100%;
+    .call-success{
+        .call_success{
+            .call-title{text-align: center; color: #000; font-size: 40px; text-transform: uppercase;margin: 0;letter-spacing: -0.5px;margin-bottom: 30px;}
+            .call-subtitle{font-size: 24px;letter-spacing: -0.5px; margin-bottom: 20px; color: #000;text-align: center;}
+        }
+    }
+}
+
+/* /call-success */
