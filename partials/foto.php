@@ -1,6 +1,6 @@
 
 <div class="foto_main_wrap">
-    <div class="photo_section  ">
+    <div class="photo_section">
         <div class="news_line_wrap animate-section">
             <div class="section_title animate-it">
                 <div class="section_title_line animate-it">
@@ -8,9 +8,10 @@
                 </div>
             </div>
         </div>
-        <div class="mbox">
+        <div class="mbox animate-section">
 
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto11.jpg" class="fancy-box-foto">
@@ -21,8 +22,10 @@
                     <div class="ivent">Конференция «Бизнес-2014»</div>
                     <div class="date-ivent"> 08.12.2014 </div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto12.jpg" class="fancy-box-foto">
@@ -33,8 +36,10 @@
                     <div class="ivent"> Подписание контракта </div>
                     <div class="date-ivent"> 08.12.2014 </div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto13.jpg" class="fancy-box-foto">
@@ -45,8 +50,10 @@
                     <div class="ivent"> По пути на конференцию </div>
                     <div class="date-ivent"> 08.12.2014 </div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto14.jpg" class="fancy-box-foto">
@@ -57,8 +64,10 @@
                     <div class="ivent">Конференция «Бизнес-2014»</div>
                     <div class="date-ivent">08.12.2014</div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto15.jpg" class="fancy-box-foto">
@@ -69,8 +78,10 @@
                     <div class="ivent"> Подписание контракта </div>
                     <div class="date-ivent"> 08.12.2014 </div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto16.jpg" class="fancy-box-foto">
@@ -81,8 +92,10 @@
                     <div class="ivent">По пути на конференцию </div>
                     <div class="date-ivent">08.12.2014</div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto17.jpg" class="fancy-box-foto">
@@ -93,8 +106,10 @@
                     <div class="ivent"> Конференция «Бизнес-2014» </div>
                     <div class="date-ivent">08.12.2014</div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto19.jpg" class="fancy-box-foto">
@@ -105,8 +120,10 @@
                     <div class="ivent"> По пути на конференцию </div>
                     <div class="date-ivent">08.12.2014</div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto18.jpg" class="fancy-box-foto">
@@ -117,8 +134,10 @@
                     <div class="ivent"> По пути на конференцию </div>
                     <div class="date-ivent">08.12.2014</div>
                 </div>
+                </div>
             </div>
-            <div class="foto-box animate-section">
+            <div class="foto-box-main animate-it">
+                <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
                         <a href="images/foto20.jpg" class="fancy-box-foto">
@@ -128,6 +147,7 @@
                     </div>
                     <div class="ivent" > Конференция «Бизнес-2014» </div>
                     <div class="date-ivent">08.12.2014</div>
+                </div>
                 </div>
             </div>
         </div>

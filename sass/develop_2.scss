@@ -2,7 +2,8 @@
 .foto_main_wrap{ width: 100%;
     .photo_section {
         .mbox{ text-align: left; margin: 0 auto;
-            .foto-box{display: inline-block;  text-align: center;  margin-bottom: 32px ; vertical-align: top; margin-right: 1%; width: calc(33% - 15px) ;
+            .foto-box-main{display: inline-block;text-align: center;width: calc(33% - 3px);}
+            .foto-box{display: inline-block;  text-align: center;  margin-bottom: 32px ;   width: 100%;max-width: 320px;
                 .foto{ position: relative; border: 1px solid #e1e4e7;
                     -webkit-transition: all 0.4s linear ;
                     -moz-transition: all 0.4s linear;
@@ -73,12 +74,16 @@
 /* Video block  begin*/
 
 .mbox{
-    .video-box{display: inline-block;  text-align: center;  margin-bottom: 32px ; width: calc(33% - 15px) ; margin-right: 1%; vertical-align: top;
+    .video-box{display: inline-block;  text-align: center;  margin-bottom: 32px ; width: calc(33% - 3px) ;vertical-align: top;
+        .video-box-wrap{text-align: center;}
         .video { -webkit-transition: all 0.4s linear ;
                 -moz-transition: all 0.4s linear;
                 -o-transition: all 0.4s linear;
                 transition: all 0.4s linear;
                 position: relative;
+                max-width: 320px;
+                width: 100%;
+                display: inline-block;
             .fancy-box-video{
                 .main-video {border: 1px solid #e1e4e7; padding: 10px; }
                 .video-circle{  width: 60px;  height: 60px; background-color: #ec4228; position: absolute;z-index: 2; top: calc(50% - 30px); left: calc(50% - 30px); -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
@@ -87,14 +92,6 @@
             }
             &:hover{ box-shadow: 0 0 20px rgba(0,0,0,0.5);
                     .video-circle-anim{  width: 60px;  height: 60px; border: 1px solid #ec4228; position: absolute;z-index: 2; top: calc(50% - 30px); left: calc(50% - 30px); -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;animation: pulse 1s linear infinite;}
-                    @keyframes pulse {
-                        from {-ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); opacity: 1;}
-                        to {-ms-transform: scale(2,2); -webkit-transform: scale(2,2);transform: scale(2,2);opacity: 0;}
-                    }
-                    @-webkit-keyframes pulse {
-                        from {  -ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1);opacity: 1;}
-                        to { -ms-transform: scale(2,2); -webkit-transform: scale(2,2);  transform: scale(2,2); opacity: 0;}
-                    }
             }
         }
     }
@@ -103,11 +100,20 @@
 
 }
 
+@keyframes pulse {
+    from {-ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); opacity: 1;}
+    to {-ms-transform: scale(2,2); -webkit-transform: scale(2,2);transform: scale(2,2);opacity: 0;}
+}
+@-webkit-keyframes pulse {
+    from {  -ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1);opacity: 1;}
+    to { -ms-transform: scale(2,2); -webkit-transform: scale(2,2);  transform: scale(2,2); opacity: 0;}
+}
+
 /* Video block  end*/
 
 @media screen and (min-width:1900px){
     .foto_main_wrap .photo_section .mbox{margin: 0 auto;}
-    .foto_main_wrap .photo_section .mbox .foto-box { width: calc(24% - 15px); max-width: 320px; margin-right: 3%; margin-left: 3%;}
-    .mbox .video-box{ width: calc(24% - 15px) ; }
+    .foto_main_wrap .photo_section .mbox .foto-box-main{width: calc(25% - 3px);}
+    .mbox .video-box{ width: calc(25% - 3px);}
 
 }
