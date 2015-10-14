@@ -230,6 +230,7 @@
 
 /* Video block  end*/
 @media screen and (min-width: 1900px) {
+  /* foto */
   .foto_main_wrap .photo_section .mbox {
     margin: 0 auto;
   }
@@ -239,4 +240,29 @@
   .mbox .video-box {
     width: calc(25% - 3px);
   }
+  /* /foto */
+}
+
+@media screen and (max-width: 767px) {
+  /* foto */
+  .mbox .video-box .video {
+    max-width: none;
+  }
+  /* /foto */
+}
+
+@media screen and (max-width: 666px) {
+  /* foto */
+  .foto_main_wrap .photo_section .mbox .foto-box-main {
+    width: calc(50% - 3px);
+  }
+  /* /foto */
+}
+
+@media screen and (max-width: 479px) {
+  /* foto */
+  .foto_main_wrap .photo_section .mbox .foto-box-main {
+    width: 100%;
+  }
+  /* /foto */
 }
