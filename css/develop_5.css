@@ -1,4 +1,14 @@
+.section_title .section_title_line {
+  padding-right: 20px;
+}
+
+.section_title .section_title_line span {
+  padding: 0 0 0 10px;
+}
+
 @media screen and (max-width: 1023px) {
+  /* index */
+  /* /index */
   /* foto */
   .photo_section .mbox {
     padding-left: 20px;
@@ -14,16 +24,22 @@
   /* /foto */
 }
 
+@media screen and (max-width: 992px) {
+  /* foto */
+  .section_title .section_title_line.animated {
+    left: -60.3%;
+  }
+  /* /foto */
+}
+
 @media screen and (max-width: 767px) {
   /* foto */
   .foto_main_wrap {
     padding-top: 0;
   }
   .section_title {
-    height: 90px;
-  }
-  .section_title .section_title_line {
-    line-height: 90px;
+    min-height: 90px;
+    height: none;
   }
   .section_title .section_title_line:before {
     content: '';
@@ -36,6 +52,7 @@
   .section_title .section_title_line span {
     font-size: 42px;
     font-weight: 700;
+    display: block;
   }
   .section_title .section_title_line.animated {
     left: 0;
