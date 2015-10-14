@@ -100,7 +100,7 @@
         }
     }
 
-    .header-navigation{position: fixed;top: 0;left: 0;right: 0;z-index: 1;
+    .header-navigation{position: fixed;top: 0;left: 0;right: 0;z-index: 1;max-height: 100vh;overflow:scroll;
         .header-navigation-device-icon{display: block;}
         .mbox{display: none;background-color: #fff;border:1px solid #ccc;
             .header-navigation-wrap-top{display: block;}
