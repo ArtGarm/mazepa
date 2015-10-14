@@ -33,7 +33,7 @@
 			</div>
 			<div class="news-inside-pagination">
 				<div class="prev-news-inside">
-					<a class="readmore" href="#"><span>&laquo;</span> Педидущая новость</a>
+					<a class="readmore" href="#"><span>&laquo;</span> Предидущая новость</a>
 				</div>
 				<div class="next-news-inside">
 					<a class="readmore" href="#">Следующая новость <span>&raquo;</span></a>
