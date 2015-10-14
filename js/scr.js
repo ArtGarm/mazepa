@@ -181,10 +181,12 @@ function sendwichMenu(){
 
     $('.header-navigation-device-icon').click(function(){
         $('.header-navigation .mbox').slideDown(300);
+        $('body').css('overflow','hidden');
     });
 
     $('.header-navigation-wrap-top-right').click(function(){
         $('.header-navigation .mbox').slideUp(300);
+        $('body').removeAttr('style');
     });
 
     $(window).resize(function(){
