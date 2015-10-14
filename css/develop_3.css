@@ -212,6 +212,10 @@ button.slick-next.slick-arrow:hover:before {
   padding-top: 30px;
 }
 
+.news-main-wrap .news-main .hot-news-wrap .hot-news {
+  overflow: hidden;
+}
+
 .news-main-wrap .news-main .hot-news-wrap .hot-news .section_title_red .section_title_line_red span {
   padding-right: 38px;
   letter-spacing: 0.5px;

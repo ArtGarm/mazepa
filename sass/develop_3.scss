@@ -71,7 +71,7 @@ button.slick-next.slick-arrow{right: -49px; background-image: url(../images/next
 .news-main-wrap{
 	.news-main{padding-top: 30px;
 		.hot-news-wrap{
-			.hot-news{
+			.hot-news{overflow: hidden;
 				.section_title_red{
 					.section_title_line_red{
 						span{padding-right: 38px;letter-spacing: 0.5px;}
