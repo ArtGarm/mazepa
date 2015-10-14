@@ -33,14 +33,6 @@
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.foto_main_wrap .mbox .foto-box:nth-child(3n) {
-  margin-right: 0;
-}
-
-.foto_main_wrap .mbox .foto-box:first-child {
-  margin-left: 0;
-}
-
 .foto_main_wrap .mbox .foto-box .ivent {
   font-family: 'Roboto';
   color: #e1e4e7;
@@ -221,3 +213,15 @@
 }
 
 /* Video block  end*/
+@media screen and (min-width: 1920px) {
+  .mbox {
+    width: 1920px;
+    padding: 0 15px;
+  }
+  .foto_main_wrap .mbox .foto-box {
+    width: calc(24% - 15px);
+  }
+  .mbox .video-box {
+    width: calc(24% - 15px);
+  }
+}
