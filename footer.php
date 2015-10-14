@@ -66,20 +66,24 @@
                     </div>
                 </div>
                 <div class="footer_top_item fti_4 animate-delay device-show">
-                    <div class="footer-form">
-                        <form>
-                            <div class="form-input-wrap form_row">
-                                <input type="text" name="name" required="required" placeholder="Имя" />
+                    <div class="header-content-wrap">
+                        <div class="header-form-wrap">
+                            <div class="footer-form">
+                                <form>
+                                    <div class="form-input-wrap form_row">
+                                        <input type="text" name="name" required="required" placeholder="Имя" />
+                                    </div>
+                                    <div class="form-input-wrap form_row">
+                                        <input type="email" name="subname" required="required" placeholder="E-mail" />
+                                    </div>
+                                    <div class="form-row submit-wrap">
+                                        <button type="submit">
+                                            <span>ПОДПИСАТЬСЯ</span>
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="form-input-wrap form_row">
-                                <input type="email" name="subname" required="required" placeholder="E-mail" />
-                            </div>
-                            <div class="form-row submit-wrap">
-                                <button type="submit">
-                                    <span>ПОДПИСАТЬСЯ</span>
-                                </button>
-                            </div>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
