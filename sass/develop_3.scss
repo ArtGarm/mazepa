@@ -114,7 +114,7 @@ button.slick-next.slick-arrow{right: -49px; background-image: url(../images/next
 				}
 				.mbox{
 					.blocks-news{margin-bottom: 20px;
-						.block-new{width: calc(48% - 5px); display: inline-block; margin: 0px 0px;margin-bottom: 50px;margin-right: 4%;
+						.block-new{width: calc(48% - 5px); display: inline-block; margin: 0px 0px;margin-bottom: 50px;margin-right: 4%;vertical-align: top;
 							&:nth-child(2n){margin-right: 0;}
 							.new-img-wrap{border: 1px solid #ccc; padding: 9px;margin-bottom: 20px;
 								img{}
