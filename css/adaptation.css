@@ -247,6 +247,7 @@
     display: none;
     background-color: #fff;
     max-height: 100vh;
+    overflow-y: scroll;
   }
   .header-navigation .mbox .header-navigation-wrap-top {
     display: block;

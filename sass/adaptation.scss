@@ -126,7 +126,7 @@
 
     .header-navigation{position: fixed;top: 0;left: 0;right: 0;z-index: 3;
         .header-navigation-device-icon{display: block;}
-        .mbox{display: none;background-color: #fff;max-height: 100vh;
+        .mbox{display: none;background-color: #fff;max-height: 100vh;overflow-y:scroll;
             .header-navigation-wrap-top{display: block;}
             .header-navigation-wrap{display: block;
                 a, a.active{display: block;width: 100%;padding-bottom: 20px;border-bottom: 1px solid #edf0f1;color:#ec4227;background-color: #fff;
