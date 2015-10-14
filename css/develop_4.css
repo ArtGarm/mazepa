@@ -2,10 +2,10 @@
 /*синие плашки*/
 .section_title {
   width: 100%;
-  height: 62px;
   text-align: right;
   position: relative;
   overflow: hidden;
+  /*height: 62px;*/
 }
 
 .section_title:after {
@@ -152,6 +152,42 @@
 }
 
 /*/pagination*/
+@media screen and (min-width: 1366px) {
+  /*news page*/
+  .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new {
+    width: calc(38% - 5px);
+    margin: 0% 6%;
+  }
+  .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new:nth-child(2n) {
+    margin-right: 6%;
+  }
+  .hot-news .mbox {
+    padding: 0 10%;
+  }
+  /*/news page*/
+}
+
+@media screen and (min-width: 1920px) {
+  /*news page*/
+  .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new {
+    width: calc(26% - 5px);
+    margin: 0 4% 2%;
+  }
+  .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new:nth-child(2n) {
+    margin-right: 4%;
+  }
+  .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new:nth-child(3n) {
+    margin-right: 0;
+  }
+  .hot-news .mbox {
+    padding: 0px;
+  }
+  .hot-news .mbox {
+    padding: 0 19%;
+  }
+  /*/news page*/
+}
+
 @media screen and (max-width: 767px) {
   /*news page*/
   .news-main-wrap .news-main {
@@ -186,10 +222,10 @@
   .news-wrap .mount-time .mount {
     float: left;
   }
-  .news-wrap .block-new-two .block-new {
+  .news-wrap .block-new {
     padding-top: 15px;
   }
-  .news-wrap .block-new-two .block-new:after {
+  .news-wrap .block-new:after {
     content: "";
     position: absolute;
     top: 0;
@@ -198,7 +234,7 @@
     background-color: #576774;
     height: 15px;
   }
-  .news-wrap .block-new-two .block-new:before {
+  .news-wrap .block-new:before {
     content: "";
     position: absolute;
     top: 0;
@@ -207,10 +243,10 @@
     background-color: #cd442d;
     height: 15px;
   }
-  .news-wrap .block-new-two:first-child .block-new:first-child {
+  .news-wrap .block-new:first-child {
     padding-top: 0;
   }
-  .news-wrap .block-new-two:first-child .block-new:first-child:after, .news-wrap .block-new-two:first-child .block-new:first-child:before {
+  .news-wrap .block-new:first-child:after, .news-wrap .block-new:first-child:before {
     display: none;
   }
   .news-wrap .paginator-wrap .add_more_news {
@@ -286,6 +322,9 @@
   .date-wrap .day span {
     padding-top: 6px;
     font-size: 20px;
+  }
+  .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news {
+    overflow: hidden;
   }
   /*/news page*/
   /*news inside page*/

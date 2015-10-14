@@ -1,4 +1,18 @@
+.section_title {
+  min-height: 62px;
+}
+
+.section_title .section_title_line {
+  padding-right: 20px;
+}
+
+.section_title .section_title_line span {
+  padding: 0 0 0 10px;
+}
+
 @media screen and (max-width: 1023px) {
+  /* index */
+  /* /index */
   /* foto */
   .photo_section .mbox {
     padding-left: 20px;
@@ -14,16 +28,21 @@
   /* /foto */
 }
 
+@media screen and (max-width: 992px) {
+  /* foto */
+  .section_title .section_title_line.animated {
+    left: -60.3%;
+  }
+  /* /foto */
+}
+
 @media screen and (max-width: 767px) {
   /* foto */
   .foto_main_wrap {
     padding-top: 0;
   }
   .section_title {
-    height: 90px;
-  }
-  .section_title .section_title_line {
-    line-height: 90px;
+    min-height: 90px;
   }
   .section_title .section_title_line:before {
     content: '';
@@ -34,11 +53,21 @@
     left: 0;
   }
   .section_title .section_title_line span {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 700;
+    display: block;
+  }
+  .section_title .section_title_line span:nth-child(1) {
+    padding-top: 32px;
+  }
+  .section_title .section_title_line span:nth-child(2) {
+    padding-bottom: 17px;
   }
   .section_title .section_title_line.animated {
     left: 0;
+    position: static;
+    min-height: 90px;
+    line-height: 38px;
   }
   .video_section .mbox {
     padding-right: 20px;
