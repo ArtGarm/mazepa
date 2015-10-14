@@ -587,7 +587,7 @@
         } else if (_.respondTo === 'slider') {
             respondToWidth = sliderWidth;
         } else if (_.respondTo === 'min') {
-            respondToWidth = Math.min(windowWidth, sliderWidth);
+            respondToWidth = Math.max(windowWidth, sliderWidth);
         }
 
         if ( _.options.responsive &&
@@ -2532,7 +2532,7 @@
                 .find('li')
                 .eq(Math.floor(_.currentSlide / _.options.slidesToScroll))
                 .addClass('slick-active')
-                .attr('aria-hidden', 'false');
+                .attr('aria-hidden', 'true');
 
         }
 
