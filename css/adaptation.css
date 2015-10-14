@@ -218,11 +218,16 @@
   .footer:not(.index):not(.none), .footer_placeholder:not(.index):not(.none) {
     display: none;
   }
+  .footer .footer_top .footer_top_item {
+    float: none;
+    width: 100%;
+  }
   .footer .footer_top .fti_1, .footer .footer_top .fti_2 {
     display: none;
   }
   .footer .footer_top .fti_3 {
     text-align: left;
+    margin-bottom: 20px;
   }
   .footer .footer_top .fti_3 .fti_title {
     display: none;
@@ -246,5 +251,13 @@
   .footer .footer_bottom {
     text-transform: uppercase;
   }
+  .fti_4 .header-content-wrap .header-form-wrap .form-row {
+    display: block;
+  }
   /* /footer */
+  /* index */
+  .index_sect_4 .index_section_text {
+    padding-bottom: 49px;
+  }
+  /* /index */
 }

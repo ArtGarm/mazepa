@@ -36,7 +36,7 @@
 						</div>
 					</div>
 					<div class="section_bg_img animate-it">
-						<img src="images/index_sect_1_bg.jpg" alt="">
+						<!--<img src="images/index_sect_1_bg.jpg" alt="">-->
 					</div>
 					<div class="mbox">
 						<div class="index_section_text animate-it">
@@ -61,7 +61,7 @@
 						</div>
 					</div>
 					<div class="section_bg_img animate-it">
-						<img src="images/index_sect_2_bg.jpg" alt="">
+						<!--<img src="images/index_sect_2_bg.jpg" alt="">-->
 					</div>
 					<div class="mbox">
 						<div class="index_section_text animate-it">
@@ -84,7 +84,7 @@
 						</div>
 					</div>
 					<div class="section_bg_img animate-it">
-						<img src="images/index_sect_3_bg.jpg" alt="">
+						<!--<img src="images/index_sect_3_bg.jpg" alt="">-->
 					</div>
 					<div class="mbox">
 						<div class="index_section_text animate-it">
