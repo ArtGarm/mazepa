@@ -122,16 +122,20 @@
     display: none;
   }
   .header-content-wrap .header-content-top .header-top-right {
-    width: 60px;
+    width: 90px;
     position: absolute;
     right: 0;
-    top: -310px;
+    top: -660px;
   }
   .header-content-wrap .header-content-top .header-top-right .header-top-soc {
     position: relative;
     float: none;
-    top: 60px;
+    top: 90px;
     z-index: 1;
+  }
+  .header-content-wrap .header-content-top .header-top-right .header-top-soc .header-top-soc-wrap a {
+    width: 90px;
+    height: 90px;
   }
   .header-content-wrap .header-content-top .header-top-right .header-top-langChange {
     margin-right: 0;
@@ -144,6 +148,9 @@
     display: block;
     z-index: 1;
     position: relative;
+    width: 90px;
+    height: 90px;
+    padding-top: 28px;
   }
   .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-value:hover + .header-top-langChange-wrap {
     right: 100%;
@@ -159,8 +166,8 @@
   }
   .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-wrap a {
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 90px;
+    height: 90px;
     border-width: 0 1px 1px 0;
     border-style: solid;
     border-color: #4d6774;
@@ -168,7 +175,7 @@
     font-size: 20px;
     font-weight: 700;
     text-align: center;
-    padding-top: 21px;
+    padding-top: 34px;
     margin-right: 0;
   }
   .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-wrap a:after {
@@ -218,11 +225,16 @@
   .footer:not(.index):not(.none), .footer_placeholder:not(.index):not(.none) {
     display: none;
   }
+  .footer .footer_top .footer_top_item {
+    float: none;
+    width: 100%;
+  }
   .footer .footer_top .fti_1, .footer .footer_top .fti_2 {
     display: none;
   }
   .footer .footer_top .fti_3 {
     text-align: left;
+    margin-bottom: 20px;
   }
   .footer .footer_top .fti_3 .fti_title {
     display: none;
@@ -246,5 +258,13 @@
   .footer .footer_bottom {
     text-transform: uppercase;
   }
+  .fti_4 .header-content-wrap .header-form-wrap .form-row {
+    display: block;
+  }
   /* /footer */
+  /* index */
+  .index_sect_4 .index_section_text {
+    padding-bottom: 49px;
+  }
+  /* /index */
 }

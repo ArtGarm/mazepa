@@ -211,6 +211,7 @@ $(document).ready(function() {
 
 	deviceSlider();
 	validate('.header-form');
+    validate('.footer-form-main');
 
     sendwichMenu();
 });

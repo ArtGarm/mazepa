@@ -80,16 +80,18 @@
                     }
                 }
             }
-            .header-top-right{width: 60px;position: absolute;right: 0;top: -310px;
-                .header-top-soc{position: relative;float: none;top: 60px;z-index: 1;}
+            .header-top-right{width: 90px;position: absolute;right: 0;top: -660px;
+                .header-top-soc{position: relative;float: none;top: 90px;z-index: 1;
+                    .header-top-soc-wrap a{width: 90px;height: 90px;}
+                }
                 .header-top-langChange{margin-right: 0;padding-top: 0;position: absolute;right: 0;top: 0;
-                    .header-top-langChange-value{display: block;z-index: 1;position: relative;
+                    .header-top-langChange-value{display: block;z-index: 1;position: relative;width: 90px;height: 90px;padding-top: 28px;
                         &:hover{
                             &+.header-top-langChange-wrap{right:100%;}
                         }
                     }
                     .header-top-langChange-wrap{position: absolute;right: 0;top: 0;z-index: 0;transition:right 300ms ease;-webkit-transition:right 300ms ease;-ms-transition:right 300ms ease;
-                        a{display: block;width: 60px;height: 60px;border-width:0 1px 1px 0;border-style:solid;border-color:#4d6774;background-color: #cd442d;font-size: 20px;font-weight: 700;text-align: center;padding-top: 21px;margin-right: 0;
+                        a{display: block;width: 90px;height: 90px;border-width:0 1px 1px 0;border-style:solid;border-color:#4d6774;background-color: #cd442d;font-size: 20px;font-weight: 700;text-align: center;padding-top: 34px;margin-right: 0;
                             &:after{display: none;}
                             &:last-child{border-width: 0;}
                         }
@@ -121,8 +123,9 @@
 
     .footer{
         .footer_top{
+            .footer_top_item{float: none;width: 100%;}
             .fti_1, .fti_2{display: none;}
-            .fti_3 {text-align: left;
+            .fti_3 {text-align: left;margin-bottom: 20px;
                 .fti_title{display: none;}
                 .fti_text{padding-top: 0;}
                 .fti_social{text-align: left;
@@ -138,7 +141,15 @@
         }
     }
 
+    .fti_4 .header-content-wrap .header-form-wrap .form-row{display: block;}
+
     /* /footer */
+
+    /* index */
+
+    .index_sect_4 .index_section_text{padding-bottom: 49px;}
+
+    /* /index */
 
 }
 @media screen and (max-width: 666px){
