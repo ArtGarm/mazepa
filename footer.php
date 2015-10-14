@@ -1,5 +1,5 @@
-	<div class="footer_placeholder"></div>
-	<footer class="footer animate-section">
+	<div class="footer_placeholder <? echo $act;?>"></div>
+	<footer class="footer animate-section <? echo $act;?>">
         <div class="footer_top">
             <div class="mbox">
                 <div class="footer_top_item fti_1 animate-delay">

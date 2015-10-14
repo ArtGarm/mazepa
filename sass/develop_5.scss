@@ -21,6 +21,7 @@
 @media screen and (max-width: 767px){
 
 /* foto */
+.foto_main_wrap{padding-top:0;}
 .section_title {
     .section_title_line {
          &:before{content:'';width:20px;height:100%;background-color: #cd442d;position: absolute;left:0;}
@@ -50,9 +51,18 @@
 }
 @media screen and (max-width: 479px){
 /* foto */
+.foto_main_wrap .mbox .foto-box { width: calc(50% - 15px);
+        &:nth-child(3n) {margin-right: 15px;}
+        &:nth-child(2n) {margin-right: 0;}
+}
+
 /* /foto */
 }
 @media screen and (max-width: 320px){
 /* foto */
+.foto_main_wrap .mbox .foto-box { width: calc(100% - 15px);
+        &:nth-child(3n) {margin-right: 15px;}
+        &:nth-child(2n) {margin-right: 15px;}
+}
 /* /foto */
 }
