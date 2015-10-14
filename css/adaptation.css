@@ -177,9 +177,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
-    max-height: 100vh;
-    overflow: scroll;
+    z-index: 3;
   }
   .header-navigation .header-navigation-device-icon {
     display: block;
@@ -187,7 +185,8 @@
   .header-navigation .mbox {
     display: none;
     background-color: #fff;
-    border: 1px solid #ccc;
+    max-height: 100vh;
+    overflow: scroll;
   }
   .header-navigation .mbox .header-navigation-wrap-top {
     display: block;
@@ -195,17 +194,18 @@
   .header-navigation .mbox .header-navigation-wrap {
     display: block;
   }
-  .header-navigation .mbox .header-navigation-wrap a {
+  .header-navigation .mbox .header-navigation-wrap a, .header-navigation .mbox .header-navigation-wrap a.active {
     display: block;
     width: 100%;
     padding-bottom: 20px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #edf0f1;
     color: #ec4227;
+    background-color: #fff;
   }
-  .header-navigation .mbox .header-navigation-wrap a:last-child {
+  .header-navigation .mbox .header-navigation-wrap a:last-child, .header-navigation .mbox .header-navigation-wrap a.active:last-child {
     margin-bottom: 0;
   }
-  .header-navigation .mbox .header-navigation-wrap a span:after {
+  .header-navigation .mbox .header-navigation-wrap a span:after, .header-navigation .mbox .header-navigation-wrap a.active span:after {
     display: none;
   }
   /* /header */
