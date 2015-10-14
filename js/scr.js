@@ -169,10 +169,16 @@ function deviceSlider(){
         if($('.header-slider-wrap-main.slick-initialized').length!=0){
             $('.header-slider-wrap-main').slick('unslick');
         }
+        if($('.hot-slider.slick-initialized').length!=0){
+            $('.hot-slider').slick('unslick');
+        }
     }
     else{
         if($('.header-slider-wrap-main.slick-initialized').length==0){
             sliderTop();
+        }
+        if($('.hot-slider.slick-initialized').length!=0){
+            $('.hot-slider').slick();
         }
     }
 }
