@@ -23,12 +23,6 @@
 }
 @media screen and (max-width: 992px){
 
-    /* all styles */
-
-    .section_title .section_title_line.animated{left:-58.3%;}
-
-    /* /all styles */
-
     /* index */
 
     .index_biography{
@@ -100,7 +94,7 @@
         }
     }
 
-    .header-navigation{position: fixed;top: 0;left: 0;right: 0;z-index: 1;
+    .header-navigation{position: fixed;top: 0;left: 0;right: 0;z-index: 1;max-height: 100vh;overflow:scroll;
         .header-navigation-device-icon{display: block;}
         .mbox{display: none;background-color: #fff;border:1px solid #ccc;
             .header-navigation-wrap-top{display: block;}

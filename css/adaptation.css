@@ -23,11 +23,6 @@
 }
 
 @media screen and (max-width: 992px) {
-  /* all styles */
-  .section_title .section_title_line.animated {
-    left: -58.3%;
-  }
-  /* /all styles */
   /* index */
   .index_biography .index_biography_left {
     float: none;
@@ -183,6 +178,8 @@
     left: 0;
     right: 0;
     z-index: 1;
+    max-height: 100vh;
+    overflow: scroll;
   }
   .header-navigation .header-navigation-device-icon {
     display: block;
