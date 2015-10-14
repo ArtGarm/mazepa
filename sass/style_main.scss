@@ -6,8 +6,8 @@
 
 /* header */
 
-.header-img-device{display: none;height: 310px;overflow: hidden;
-    img{max-width: none;max-height: 310px;margin-left: 50%;transform:translate(-40%,0);-webkit-transform:translate(-40%,0);-moz-transform:translate(-40%,0);-ms-transform:translate(-40%,0);}
+.header-img-device{display: none;height: 660px;overflow: hidden;
+    img{max-width: none;height: 660px;margin-left: 50%;transform:translate(-40%,0);-webkit-transform:translate(-40%,0);-moz-transform:translate(-40%,0);-ms-transform:translate(-40%,0);}
 }
 
 .header-slider-wrap{
@@ -43,7 +43,7 @@
         .header-top-right{float: right;width: 50%;
             .header-top-soc{float: right;
                 .header-top-soc-wrap{float: right;
-                    a{display: block;width: 60px;height: 60px;text-align: middle;text-align: center;position: relative;overflow: hidden;
+                    a{display: block;width: 60px;height: 60px;vertical-align: middle;text-align: center;position: relative;overflow: hidden;
                         &.red{background-color:#cd442d;}
                         &.blue{background-color:#125386;}
                         &.ligth-blue{background-color: #437aa6;}
@@ -103,11 +103,11 @@
 }
 
 .header-navigation{
-    .header-navigation-device-icon{height: 52px;width: 52px;background-color: #fff;position: absolute;left: 0;top: 0;padding-top:15px;text-align: center;z-index: 1;display: none;
-        span{display:inline-block;position: relative;width: 32px;height: 3px;background-color: #000;
-            &:before, &:after{content: '';display: block;width: 32px;height: 3px;background-color: #000;position: absolute;left: 0;}
-            &:before{top: -8px;}
-            &:after{bottom:-8px;}
+    .header-navigation-device-icon{height: 90px;width:90px;background-color: #fff;position: absolute;left: 0;top: 0;padding-top:34px;text-align: center;z-index: 1;display: none;
+        span{display:inline-block;position: relative;width: 43px;height: 6px;background-color: #000;
+            &:before, &:after{content: '';display: block;width: 43px;height: 6px;background-color: #000;position: absolute;left: 0;}
+            &:before{top: -10px;}
+            &:after{bottom:-10px;}
         }
     }
     .header-navigation-wrap-top{display: block;border-bottom: 1px solid #edf0f1;text-align: left;position: relative;
