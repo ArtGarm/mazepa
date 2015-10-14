@@ -2,9 +2,11 @@
   /* foto */
   .photo_section .mbox {
     padding-left: 20px;
+    padding-right: 5px;
   }
   .video_section .mbox {
     padding-left: 20px;
+    padding-right: 5px;
   }
   .foto_main_wrap .mbox .video-box:nth-child(3n) {
     margin-right: 0;
@@ -16,6 +18,12 @@
   /* foto */
   .foto_main_wrap {
     padding-top: 0;
+  }
+  .foto_main_wrap .section_title {
+    height: 90px;
+  }
+  .foto_main_wrap .section_title .section_title_line {
+    line-height: 90px;
   }
   .section_title .section_title_line:before {
     content: '';
