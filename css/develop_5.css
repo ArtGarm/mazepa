@@ -19,10 +19,10 @@
   .foto_main_wrap {
     padding-top: 0;
   }
-  .foto_main_wrap .section_title {
+  .section_title {
     height: 90px;
   }
-  .foto_main_wrap .section_title .section_title_line {
+  .section_title .section_title_line {
     line-height: 90px;
   }
   .section_title .section_title_line:before {
