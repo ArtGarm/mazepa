@@ -78,6 +78,10 @@
   top: 0;
 }
 
+.header-content-wrap .mbox {
+  padding: 0 !important;
+}
+
 .header-content-wrap .header-content-wrap-main {
   position: relative;
 }
@@ -245,7 +249,7 @@
 
 .header-content-wrap .header-form-wrap {
   position: absolute;
-  right: 0;
+  right: 15px;
   text-align: right;
 }
 
@@ -724,7 +728,7 @@
 }
 
 .footer .footer_top .fti_social {
-  text-align: center;
+  text-align: left;
 }
 
 .footer .footer_top .fti_social_item {
@@ -815,7 +819,7 @@
 .index_biography .index_biography_left {
   float: left;
   width: 30%;
-  text-align: center;
+  text-align: right;
 }
 
 .index_biography .index_biography_right {
@@ -916,3 +920,29 @@ section.active:first-child {
 }
 
 /*/index page*/
+/* call-success */
+#call_success {
+  padding: 40px;
+  max-width: 530px;
+  width: 100%;
+}
+
+#call_success .call-success .call_success .call-title {
+  text-align: center;
+  color: #000;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+}
+
+#call_success .call-success .call_success .call-subtitle {
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+  color: #000;
+  text-align: center;
+}
+
+/* /call-success */

@@ -322,4 +322,12 @@
     background-size: 200%;
   }
   /* /index */
+  /* call_success */
+  #call_success .call-success .call_success .call-title {
+    font-size: 25px;
+  }
+  #call_success .call-success .call_success .call-subtitle {
+    font-size: 20px;
+  }
+  /* /call_success */
 }

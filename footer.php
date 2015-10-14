@@ -69,7 +69,7 @@
                     <div class="header-content-wrap">
                         <div class="header-form-wrap">
                             <div class="footer-form">
-                                <form class="footer-form-main">
+                                <form class="footer-form-main" action="">
                                     <div class="form-input-wrap form_row">
                                         <input type="text" name="footer_name" required="required" placeholder="Имя" />
                                     </div>
