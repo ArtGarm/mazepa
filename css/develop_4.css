@@ -182,6 +182,9 @@
   .hot-news .mbox {
     padding: 0px;
   }
+  .hot-news .mbox {
+    padding: 0 19%;
+  }
   /*/news page*/
 }
 
