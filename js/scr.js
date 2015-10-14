@@ -199,6 +199,12 @@ function sendwichMenu(){
     });
 };
 
+function whatImgLoad(){
+
+    // for Vitia
+
+};
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -211,6 +217,8 @@ $(document).ready(function() {
     validate('.footer-form-main');
 
     sendwichMenu();
+
+    whatImgLoad();
 });
 
 $(window).load(function(){
