@@ -34,18 +34,54 @@
                         <div class="fti_social">
                             <div class="fti_social_item">
                                 <a href="#">
-                                    <img src="images/soc1.png" alt="">
+                                    <span class="fti-social_item_wrap">
+                                        <span class="fti_social_item_img">
+                                            <img src="images/soc1.png" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="social-item-text">twitter</span>
                                 </a>
                             </div>
                             <div class="fti_social_item">
                                 <a href="#">
-                                    <img src="images/soc2.png" alt="">
+                                    <span class="fti-social_item_wrap">
+                                        <span class="fti_social_item_img">
+                                            <img src="images/soc2.png" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="social-item-text">facebook</span>
                                 </a>
                             </div>
                             <div class="fti_social_item">
                                 <a href="#">
-                                    <img src="images/soc3.png" alt="">
+                                    <span class="fti-social_item_wrap">
+                                        <span class="fti_social_item_img">
+                                            <img src="images/soc3.png" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="social-item-text">youtube</span>
                                 </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_top_item fti_4 animate-delay device-show">
+                    <div class="header-content-wrap">
+                        <div class="header-form-wrap">
+                            <div class="footer-form">
+                                <form>
+                                    <div class="form-input-wrap form_row">
+                                        <input type="text" name="name" required="required" placeholder="Имя" />
+                                    </div>
+                                    <div class="form-input-wrap form_row">
+                                        <input type="email" name="subname" required="required" placeholder="E-mail" />
+                                    </div>
+                                    <div class="form-row submit-wrap">
+                                        <button type="submit">
+                                            <span>ПОДПИСАТЬСЯ</span>
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
