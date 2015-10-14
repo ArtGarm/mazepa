@@ -275,6 +275,11 @@
 						</div>
 					</div>
 					<div class="paginator-wrap animate-section">
+						<div class="add_more_news">
+							<a href="#">
+								<span>Показать больше новостей</span>
+							</a>
+						</div>
 						<div class="paginator animate-it">
 							<p class="current-page">1</p>
 							<a href="#">2</a>
