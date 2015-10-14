@@ -1,3 +1,7 @@
+.section_title {
+  min-height: 62px;
+}
+
 .section_title .section_title_line {
   padding-right: 20px;
 }
@@ -39,7 +43,6 @@
   }
   .section_title {
     min-height: 90px;
-    height: none;
   }
   .section_title .section_title_line:before {
     content: '';
@@ -50,12 +53,21 @@
     left: 0;
   }
   .section_title .section_title_line span {
-    font-size: 42px;
+    font-size: 36px;
     font-weight: 700;
     display: block;
   }
+  .section_title .section_title_line span:nth-child(1) {
+    padding-top: 32px;
+  }
+  .section_title .section_title_line span:nth-child(2) {
+    padding-bottom: 17px;
+  }
   .section_title .section_title_line.animated {
     left: 0;
+    position: static;
+    min-height: 90px;
+    line-height: 38px;
   }
   .video_section .mbox {
     padding-right: 20px;
