@@ -19,6 +19,7 @@
 
 	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
 
+
 	<!-- bootstrap -->
 
 	<script src="js/bootstrap.js" type="text/javascript"></script>
@@ -70,6 +71,7 @@
 
 	<link rel="stylesheet" href="css/style_main.css" media="all" />
 	<link rel="stylesheet" href="css/adaptation.css" media="all" />
+	<script src="js/vitia.js" type="text/javascript"></script>
 	<script src="js/scr.js" type="text/javascript"></script>
 
 	<!--[if lt IE 9]>
@@ -154,7 +156,7 @@
 					</div>
 					<div class="header-form-wrap">
 						<div class="header-form-main">
-							<form class="header-form">
+							<form class="header-form" action="">
 								<div class="form-title">
 									<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
 									<div class="form-small-title">

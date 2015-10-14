@@ -1,6 +1,6 @@
 
 <div class="foto_main_wrap">
-    <div class="photo_section ">
+    <div class="photo_section  ">
         <div class="news_line_wrap animate-section">
             <div class="section_title animate-it">
                 <div class="section_title_line animate-it">

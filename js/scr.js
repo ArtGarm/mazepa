@@ -199,11 +199,47 @@ function sendwichMenu(){
     });
 };
 
-function whatImgLoad(){
+function validationCall(form){
 
-    // for Vitia
+  var thisForm = $(form);
+  var formSur = $('.call-form').serialize();
 
-};
+    $.ajax({
+        url : thisForm.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim()!='true') {
+                thisForm.trigger("reset");
+                popNext();
+            }
+            else {
+               $(this).trigger('reset');
+            }
+
+        }
+    });
+
+    function popNext(){
+        $.fancybox.open("#call_success",{
+            padding:0,
+            fitToView:true,
+            autoSize:true,
+            wrapCSS:"call-popup",
+            autoSize:true,
+            afterClose: function(){
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
+
+        timer = setTimeout(function(){
+            $.fancybox.close("#call_success");
+        },2000);
+
+        $('form').trigger("reset");
+    }
+}
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
@@ -213,12 +249,10 @@ $(document).ready(function() {
 	oneHeightItems();
 
 	deviceSlider();
-	validate('.header-form');
-    validate('.footer-form-main');
+	validate('.header-form',{submitFunction:validationCall});
+    validate('.footer-form-main',{submitFunction:validationCall});
 
     sendwichMenu();
-
-    whatImgLoad();
 });
 
 $(window).load(function(){
