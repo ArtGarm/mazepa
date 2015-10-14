@@ -103,6 +103,7 @@
 }
 
 .header-navigation{
+    .mbox{padding:0!important;}
     .header-navigation-device-icon{height: 90px;width:90px;background-color: #fff;position: absolute;left: 0;top: 0;padding-top:34px;text-align: center;z-index: 1;display: none;
         span{display:inline-block;position: relative;width: 43px;height: 6px;background-color: #000;
             &:before, &:after{content: '';display: block;width: 43px;height: 6px;background-color: #000;position: absolute;left: 0;}

@@ -401,6 +401,10 @@
   top: 0;
 }
 
+.header-navigation .mbox {
+  padding: 0 !important;
+}
+
 .header-navigation .header-navigation-device-icon {
   height: 90px;
   width: 90px;
