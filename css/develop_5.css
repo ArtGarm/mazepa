@@ -38,7 +38,7 @@
   }
   .section_title .section_title_line.animated {
     left: 0;
-    position: static;
+    position: relative;
     min-height: 90px;
     line-height: 38px;
   }
