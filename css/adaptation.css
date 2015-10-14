@@ -201,7 +201,7 @@
     height: 90px;
     padding-top: 28px;
   }
-  .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-value:hover + .header-top-langChange-wrap, .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-value:active + .header-top-langChange-wrap, .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-value:focus + .header-top-langChange-wrap {
+  .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-value.active + .header-top-langChange-wrap {
     right: 100%;
   }
   .header-content-wrap .header-content-top .header-top-right .header-top-langChange .header-top-langChange-wrap {
