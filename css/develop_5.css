@@ -38,7 +38,7 @@
   }
   .section_title .section_title_line.animated {
     left: 0;
-    position: static;
+    position: relative;
     min-height: 90px;
     line-height: 38px;
   }
@@ -63,4 +63,10 @@
     display: none;
   }
   /* /foto */
+}
+
+@media screen and (max-width: 479px) {
+  .section_title .section_title_line span {
+    font-size: 27px;
+  }
 }
