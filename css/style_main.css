@@ -3,6 +3,10 @@
   display: none;
 }
 
+.header, .footer, .main {
+  max-width: 1920px;
+}
+
 /* /all styles */
 /* header */
 .header-img-device {

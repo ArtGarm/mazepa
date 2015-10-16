@@ -41,3 +41,10 @@
     }
     /* /foto */
 }
+@media screen and (max-width: 479px){
+    .section_title{
+        .section_title_line{
+            span {font-size: 27px;}
+        }
+    }
+}
