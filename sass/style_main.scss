@@ -1,8 +1,13 @@
 /* all styles */
 
 .device-show{display: none;}
-.header, .footer, .main{max-width: 1920px;}
+.header, .main{max-width: 1920px;margin: 0 auto; position: relative;}
+.footer{max-width: 1920px;margin: 0 auto;
 
+}
+@media screen and (min-width: 1921px) {
+    .footer{left:50%; margin-left: -960px;}
+}
 /* /all styles */
 
 /* header */
@@ -240,7 +245,7 @@
 
     .index_sect_4 {
         .section_title_line{}
-        .index_section_text{padding-bottom: 181px;/*!*/
+        .index_section_text{padding-bottom: 49px;/*!*/
         }
     }
 

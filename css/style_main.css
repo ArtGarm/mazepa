@@ -3,8 +3,22 @@
   display: none;
 }
 
-.header, .footer, .main {
+.header, .main {
   max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1921px) {
+  .footer {
+    left: 50%;
+    margin-left: -960px;
+  }
 }
 
 /* /all styles */
@@ -914,7 +928,7 @@
 }
 
 .index_sect_4 .index_section_text {
-  padding-bottom: 181px;
+  padding-bottom: 49px;
   /*!*/
 }
 
