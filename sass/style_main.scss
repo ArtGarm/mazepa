@@ -16,13 +16,13 @@
     img{max-width: none;height: 660px;margin-left: 50%;transform:translate(-40%,0);-webkit-transform:translate(-40%,0);-moz-transform:translate(-40%,0);-ms-transform:translate(-40%,0);}
 }
 
-.header-slider-wrap{
+.header-slider-wrap{position: relative;z-index: 1;overflow: hidden;
     .header-slider-wrap-main .header-slider-item{overflow: hidden;display: none;
         &.active{display: block;}
         img{max-width: none;width: 1920px;position: relative;left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0);}
-        &.video{max-height: 569px;overflow: hidden;
+        &.video{height: 569px;overflow: hidden;position: relative;
             .video-item{}
-            video{margin: 0 auto;width: 100%;margin-left: 50%;transform: translateX(-50%);}
+            video{margin: 0 auto;width: 100%;transform: translate(-50%,-50%);position: absolute;top: 50%;left: 50%;}
         }
     }
     .slick-dots{position: absolute;margin-bottom: 24px;bottom: 0;left: 0;right: 0;text-align: center;

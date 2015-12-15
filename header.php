@@ -97,7 +97,7 @@
 		</div>
 		<div class="header-slider-wrap">
 			<div class="header-slider-wrap-main">
-				<div class="header-slider-item">
+				<div class="header-slider-item ">
 					<img src="images/slider-img-hight.jpg" alt="" />
 				</div>
 				<div class="header-slider-item video active">
