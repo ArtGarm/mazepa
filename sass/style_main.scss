@@ -127,19 +127,14 @@
         }
     }
     .header-navigation-wrap{display: table;width: 100%;
-        li{display: table-cell;text-align: center;vertical-align: middle;padding:26px 0;cursor: pointer;overflow:hidden;transition:color 200ms ease;-webkit-transition:color 200ms ease;
+        li{display: table-cell;text-align: center;vertical-align: middle;padding:26px 0;overflow:hidden;background-color:transparent;transition:color 200ms ease, background-color 200ms ease;-webkit-transition:color 200ms ease, background-color 200ms ease;
             a{display: inline-block;position: relative;font-weight:500;font-size: 16px;color:#6b7580;text-transform: uppercase;text-decoration: none;
                 &:after{content: '';position: absolute;width: 100%;height: 1px;background-color: #6b7580;left: 0;top: 100%;transition:background-color 200ms ease, width 300ms ease;-webkit-transition:background-color 200ms ease, width 300ms ease;}
-                &:before{content: '';position: absolute;left: -300px;top: -300px;right: -300px;bottom: -300px;z-index:-1;background-color: transparent;transition:background-color 300ms ease;-webkit-transition:background-color 300ms ease;}
-                &:hover{color:#fff;
-                    &:after{width: 0;background-color: #fff;}
-                    &:before{background-color: #ec4228;}
-                }
+                &:before{content: '';position: absolute;left: -300px;top: -300px;bottom: -300px;right: -300px;}
             }
-            &.active{
+            &.active, &.hovered{background-color: #ec4228;
                 a{color:#fff;
                     &:after{width: 0;background-color: #fff;}
-                    &:before{background-color: #ec4228;}
                 }
             }
         }
