@@ -116,14 +116,10 @@
 					<div class="header-content-top cfix">
 						<div class="header-top-left">
 							<div class="header-top-buttons-wrap">
-<<<<<<< HEAD
 								<a href="#call-popup-next" class="active fancy-box">
 									<span class="button-text">Написать обращение</span>
 									<span class="button-icon"></span>
 								</a>
-=======
-
->>>>>>> 2df396db5cb16a67597369f7c76a4273bc2b92f2
 								<a href="#">
 									<span class="button-text">Подписаться на новости</span>
 									<span class="button-icon"></span>
