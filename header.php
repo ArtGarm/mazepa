@@ -114,7 +114,7 @@
 					<div class="header-content-top cfix">
 						<div class="header-top-left">
 							<div class="header-top-buttons-wrap">
-								<a href="#" class="active">
+								<a href="#call-popup-next" class="active fancy-box">
 									<span class="button-text">Написать обращение</span>
 									<span class="button-icon"></span>
 								</a>
