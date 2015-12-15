@@ -277,20 +277,47 @@
   }
   .header-navigation .mbox .header-navigation-wrap {
     display: block;
+    margin-bottom: 0;
   }
-  .header-navigation .mbox .header-navigation-wrap a, .header-navigation .mbox .header-navigation-wrap a.active {
+  .header-navigation .mbox .header-navigation-wrap li {
     display: block;
-    width: 100%;
-    padding-bottom: 20px;
+    padding: 0;
+    padding: 26px 0 20px 0;
     border-bottom: 1px solid #edf0f1;
+  }
+  .header-navigation .mbox .header-navigation-wrap li.active a {
+    color: #ec4227;
+  }
+  .header-navigation .mbox .header-navigation-wrap li.active a:before {
+    background-color: transparent;
+  }
+  .header-navigation .mbox .header-navigation-wrap li.active a:after {
+    width: 100%;
+    background-color: #ec4227;
+  }
+  .header-navigation .mbox .header-navigation-wrap a {
     color: #ec4227;
     background-color: #fff;
   }
-  .header-navigation .mbox .header-navigation-wrap a:last-child, .header-navigation .mbox .header-navigation-wrap a.active:last-child {
+  .header-navigation .mbox .header-navigation-wrap a:last-child {
     margin-bottom: 0;
   }
-  .header-navigation .mbox .header-navigation-wrap a span:after, .header-navigation .mbox .header-navigation-wrap a.active span:after {
-    display: none;
+  .header-navigation .mbox .header-navigation-wrap a:after {
+    width: 0px;
+  }
+  .header-navigation .mbox .header-navigation-wrap a:before {
+    background-color: transparent;
+    z-index: 0;
+  }
+  .header-navigation .mbox .header-navigation-wrap a:hover {
+    color: #ec4227;
+  }
+  .header-navigation .mbox .header-navigation-wrap a:hover:before {
+    background-color: transparent;
+  }
+  .header-navigation .mbox .header-navigation-wrap a:hover:after {
+    width: 100%;
+    background-color: #ec4227;
   }
   /* /header */
   /* footer */
