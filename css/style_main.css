@@ -547,10 +547,10 @@
   text-align: center;
   vertical-align: middle;
   padding: 26px 0;
-  cursor: pointer;
   overflow: hidden;
-  transition: color 200ms ease;
-  -webkit-transition: color 200ms ease;
+  background-color: transparent;
+  transition: color 200ms ease, background-color 200ms ease;
+  -webkit-transition: color 200ms ease, background-color 200ms ease;
 }
 
 .header-navigation .header-navigation-wrap li a {
@@ -580,38 +580,21 @@
   position: absolute;
   left: -300px;
   top: -300px;
-  right: -300px;
   bottom: -300px;
-  z-index: -1;
-  background-color: transparent;
-  transition: background-color 300ms ease;
-  -webkit-transition: background-color 300ms ease;
+  right: -300px;
 }
 
-.header-navigation .header-navigation-wrap li a:hover {
-  color: #fff;
-}
-
-.header-navigation .header-navigation-wrap li a:hover:after {
-  width: 0;
-  background-color: #fff;
-}
-
-.header-navigation .header-navigation-wrap li a:hover:before {
+.header-navigation .header-navigation-wrap li.active, .header-navigation .header-navigation-wrap li.hovered {
   background-color: #ec4228;
 }
 
-.header-navigation .header-navigation-wrap li.active a {
+.header-navigation .header-navigation-wrap li.active a, .header-navigation .header-navigation-wrap li.hovered a {
   color: #fff;
 }
 
-.header-navigation .header-navigation-wrap li.active a:after {
+.header-navigation .header-navigation-wrap li.active a:after, .header-navigation .header-navigation-wrap li.hovered a:after {
   width: 0;
   background-color: #fff;
-}
-
-.header-navigation .header-navigation-wrap li.active a:before {
-  background-color: #ec4228;
 }
 
 /*header fix*/
