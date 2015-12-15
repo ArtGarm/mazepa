@@ -153,21 +153,21 @@ function validate(form, options){
 }
 
 function sliderTop(){
-	$('.header-slider-wrap-main').slick({
-		infinite:true,
-		arrows:false,
-		autoplay:true,
-		autoplaySpeed:2000,
-		fade:true,
-		cssEase:'linear',
-		dots:true
-	});
+	// $('.header-slider-wrap-main').slick({
+	// 	infinite:true,
+	// 	arrows:false,
+	// 	autoplay:true,
+	// 	autoplaySpeed:2000,
+	// 	fade:true,
+	// 	cssEase:'linear',
+	// 	dots:true
+	// });
 };
 
 function deviceSlider(){
     if($(window).width()<768){
         if($('.header-slider-wrap-main.slick-initialized').length!=0){
-            $('.header-slider-wrap-main').slick('unslick');
+            //$('.header-slider-wrap-main').slick('unslick');
         }
         if($('.hot-slider.slick-initialized').length!=0){
             $('.hot-slider').slick('unslick');
@@ -175,7 +175,7 @@ function deviceSlider(){
     }
     else{
         if($('.header-slider-wrap-main.slick-initialized').length==0){
-            sliderTop();
+            //sliderTop();
         }
     }
 }
