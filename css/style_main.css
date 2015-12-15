@@ -1036,6 +1036,8 @@ section.active:first-child {
 
 .footer_top a.active:hover {
   background-color: #cd442d;
+  text-decoration: none;
+  outline: none;
 }
 
 .footer_top a.active span {
