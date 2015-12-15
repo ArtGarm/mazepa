@@ -98,13 +98,15 @@
 		<div class="header-slider-wrap">
 			<div class="header-slider-wrap-main">
 				<div class="header-slider-item">
-					<img src="images/slider-img.jpg" alt="" />
+					<img src="images/slider-img-hight.jpg" alt="" />
 				</div>
-				<div class="header-slider-item">
-					<img src="images/slider-img.jpg" alt="" />
-				</div>
-				<div class="header-slider-item">
-					<img src="images/slider-img.jpg" alt="" />
+				<div class="header-slider-item video active">
+					<div class="video-item">
+						<video autoplay loop muted>
+							<source src="video/sait.webm" type="video/webm">
+							<source src="video/sait.mp4" type="video/mp4">
+						</video>
+					</div>
 				</div>
 			</div>
 		</div>

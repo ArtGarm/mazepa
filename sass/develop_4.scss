@@ -1,3 +1,15 @@
+/*fancybox arrow*/
+.fancybox-nav span{background-image: none;background-color: #fff;border:3px solid black;border-radius: 50%;transition:border-color ease-out .2s;
+    &:after{content: '';height: 15px;width: 15px;border-top:3px solid black;border-right: 3px solid black;transform: rotate(45deg);position: absolute;top: 6px;left: 5px;transition:border-color ease-out .2s;}
+    &:hover{border-color: orange;
+        &:after{border-color: orange;}
+    }
+}
+.fancybox-prev{
+        span:after{transform: rotate(-135deg);left: 9px;}
+}
+/*/fancybox arrow*/
+
 /*синие плашки*/
 .section_title{width: 100%;text-align: right;position: relative;overflow: hidden;/*height: 62px;*/
     &:after{position: absolute;content: "";width: 0;height: 1px;background-color: #425461;transition:width 600ms ease;-webkit-transition:width 600ms ease;left: 0;bottom:0;}

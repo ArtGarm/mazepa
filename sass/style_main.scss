@@ -17,8 +17,13 @@
 }
 
 .header-slider-wrap{
-    .header-slider-wrap-main .header-slider-item{overflow: hidden;
+    .header-slider-wrap-main .header-slider-item{overflow: hidden;display: none;
+        &.active{display: block;}
         img{max-width: none;width: 1920px;position: relative;left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0);}
+        &.video{max-height: 569px;overflow: hidden;
+            .video-item{}
+            video{margin: 0 auto;width: 100%;margin-left: 50%;transform: translateX(-50%);}
+        }
     }
     .slick-dots{position: absolute;margin-bottom: 24px;bottom: 0;left: 0;right: 0;text-align: center;
         li{display: inline-block;margin-right: 8px;
