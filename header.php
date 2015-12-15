@@ -114,10 +114,7 @@
 					<div class="header-content-top cfix">
 						<div class="header-top-left">
 							<div class="header-top-buttons-wrap">
-								<a href="#" class="active">
-									<span class="button-text">Написать обращение</span>
-									<span class="button-icon"></span>
-								</a>
+
 								<a href="#">
 									<span class="button-text">Подписаться на новости</span>
 									<span class="button-icon"></span>
