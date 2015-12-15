@@ -1,4 +1,42 @@
 @charset "UTF-8";
+/*fancybox arrow*/
+.fancybox-nav span {
+  background-image: none;
+  background-color: #fff;
+  border: 3px solid black;
+  border-radius: 50%;
+  transition: border-color ease-out 0.2s;
+}
+
+.fancybox-nav span:after {
+  content: '';
+  height: 15px;
+  width: 15px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  transition: border-color ease-out 0.2s;
+}
+
+.fancybox-nav span:hover {
+  border-color: orange;
+}
+
+.fancybox-nav span:hover:after {
+  border-color: orange;
+}
+
+.fancybox-prev span:after {
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  left: 9px;
+}
+
+/*/fancybox arrow*/
 /*синие плашки*/
 .section_title {
   width: 100%;
