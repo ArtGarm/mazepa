@@ -76,6 +76,9 @@
   .header-content-wrap .header-form-wrap {
     right: 15px;
   }
+  .header-slider-wrap .header-slider-wrap-main .header-slider-item.video video {
+    width: 150%;
+  }
   /* /header */
   /* footer */
   .footer .footer_top .fti_1 {
@@ -108,6 +111,9 @@
   /* header */
   .header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap a .button-icon {
     margin-left: 1%;
+  }
+  .header-slider-wrap .header-slider-wrap-main .header-slider-item.video video {
+    width: 200%;
   }
   /* /header */
   /* footer */
@@ -277,20 +283,40 @@
   }
   .header-navigation .mbox .header-navigation-wrap {
     display: block;
+    margin-bottom: 0;
   }
-  .header-navigation .mbox .header-navigation-wrap a, .header-navigation .mbox .header-navigation-wrap a.active {
+  .header-navigation .mbox .header-navigation-wrap li {
     display: block;
-    width: 100%;
-    padding-bottom: 20px;
+    padding: 0;
+    padding: 26px 0 20px 0;
     border-bottom: 1px solid #edf0f1;
+  }
+  .header-navigation .mbox .header-navigation-wrap li.active, .header-navigation .mbox .header-navigation-wrap li.hovered {
+    background-color: #fff;
+  }
+  .header-navigation .mbox .header-navigation-wrap li.active a, .header-navigation .mbox .header-navigation-wrap li.hovered a {
+    color: #ec4227;
+  }
+  .header-navigation .mbox .header-navigation-wrap li.active a:before, .header-navigation .mbox .header-navigation-wrap li.hovered a:before {
+    background-color: transparent;
+  }
+  .header-navigation .mbox .header-navigation-wrap li.active a:after, .header-navigation .mbox .header-navigation-wrap li.hovered a:after {
+    width: 100%;
+    background-color: #ec4227;
+  }
+  .header-navigation .mbox .header-navigation-wrap a {
     color: #ec4227;
     background-color: #fff;
   }
-  .header-navigation .mbox .header-navigation-wrap a:last-child, .header-navigation .mbox .header-navigation-wrap a.active:last-child {
+  .header-navigation .mbox .header-navigation-wrap a:last-child {
     margin-bottom: 0;
   }
-  .header-navigation .mbox .header-navigation-wrap a span:after, .header-navigation .mbox .header-navigation-wrap a.active span:after {
-    display: none;
+  .header-navigation .mbox .header-navigation-wrap a:after {
+    width: 0px;
+  }
+  .header-navigation .mbox .header-navigation-wrap a:before {
+    background-color: transparent;
+    z-index: 0;
   }
   /* /header */
   /* footer */

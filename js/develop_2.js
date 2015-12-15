@@ -5,8 +5,12 @@ function initFancyBox () {
     });
     $('.fancy-box-video').fancybox({
         fitToView: true,
-        autoSize:false
-
+        autoSize:false,
+        helpers : {
+            title : {
+                type : 'float'
+            }
+        }
     });
     $('.fancy-box').fancybox({
         fitToView: true,

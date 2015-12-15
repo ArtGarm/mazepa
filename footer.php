@@ -87,6 +87,10 @@
                     </div>
                 </div>
             </div>
+            <a href="#" class="active">
+                <span class="button-text">Написать обращение</span>
+                <span class="button-icon"></span>
+            </a>
         </div>
         <div class="footer_bottom">
             <div class="mbox">
