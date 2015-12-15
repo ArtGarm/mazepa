@@ -110,7 +110,7 @@
 
 .header-content-wrap .header-content-top .header-top-left {
   float: left;
-  width: 50%;
+  width: 25%;
 }
 
 .header-content-wrap .header-content-top .header-top-left .header-top-buttons-wrap {
@@ -964,3 +964,45 @@ section.active:first-child {
 }
 
 /* /call-success */
+/*15.12.2015 troll*/
+.footer_top a.active {
+  display: block;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #616b75;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 0;
+  transition: 300ms ease background-color;
+  -webkit-transition: 300ms ease background-color;
+}
+
+.footer_top a.active:active, .footer_top a.active:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.footer_top a.active:hover {
+  background-color: #cd442d;
+}
+
+.footer_top a.active span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.footer_top a.active .button-icon {
+  margin-left: 7%;
+  background-image: url(../images/button-icon.png);
+  width: 6px;
+  height: 10px;
+}
+
+.footer .footer_top {
+  padding-bottom: 0;
+}
+
+/*END 15.12.2015 troll*/
