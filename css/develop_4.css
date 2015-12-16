@@ -5,7 +5,7 @@
   background-color: #fff;
   border: 3px solid black;
   border-radius: 50%;
-  transition: border-color ease-out .2s;
+  transition: border-color ease-out 0.2s;
 }
 
 .fancybox-nav span:after {
@@ -19,7 +19,7 @@
   position: absolute;
   top: 6px;
   left: 5px;
-  transition: border-color ease-out .2s;
+  transition: border-color ease-out 0.2s;
 }
 
 .fancybox-nav span:hover {
