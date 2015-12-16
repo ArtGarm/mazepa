@@ -3,6 +3,24 @@
   display: none;
 }
 
+.header, .main {
+  max-width: 1920px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.footer {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1921px) {
+  .footer {
+    left: 50%;
+    margin-left: -960px;
+  }
+}
+
 /* /all styles */
 /* header */
 .header-img-device {
@@ -918,7 +936,7 @@
 }
 
 .index_sect_4 .index_section_text {
-  padding-bottom: 181px;
+  padding-bottom: 49px;
   /*!*/
 }
 
@@ -993,6 +1011,15 @@ section.active:first-child {
 
 .footer .footer_top {
   padding-bottom: 0;
+}
+
+@media screen and (min-width: 767px) {
+  .footer .footer_top {
+    padding-bottom: 15px;
+  }
+  .footer_top a.active {
+    margin: 15px 15px 0;
+  }
 }
 
 /*END 15.12.2015 troll*/
