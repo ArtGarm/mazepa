@@ -14,7 +14,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto11.jpg" class="fancy-box-foto">
+                        <a href="images/foto11.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto1.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -28,7 +28,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto12.jpg" class="fancy-box-foto">
+                        <a href="images/foto12.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto2.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -42,7 +42,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto13.jpg" class="fancy-box-foto">
+                        <a href="images/foto13.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto3.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -56,7 +56,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto14.jpg" class="fancy-box-foto">
+                        <a href="images/foto14.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto4.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -70,7 +70,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto15.jpg" class="fancy-box-foto">
+                        <a href="images/foto15.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto5.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -84,7 +84,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto16.jpg" class="fancy-box-foto">
+                        <a href="images/foto16.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto6.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -98,7 +98,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto17.jpg" class="fancy-box-foto">
+                        <a href="images/foto17.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto7.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -112,7 +112,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto19.jpg" class="fancy-box-foto">
+                        <a href="images/foto19.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto9.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -126,7 +126,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto18.jpg" class="fancy-box-foto">
+                        <a href="images/foto18.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto8.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -140,7 +140,7 @@
                 <div class="foto-box animate-section">
                 <div class="animate-it foto-box-wrap">
                     <div class="foto">
-                        <a href="images/foto20.jpg" class="fancy-box-foto">
+                        <a href="images/foto20.jpg" class="fancy-box-foto" rel="gallery1">
                             <img src="images/foto10.png" alt=""  class="main-foto"/ >
                             <img src="images/lupa.png" class="lupa" alt="" />
                         </a>
@@ -167,7 +167,7 @@
             <div class="video-box animate-section">
                 <div class="video-box-wrap animate-it">
                     <div class="video">
-                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" >
+                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" title="https://www.youtube.com/embed/JAV3EbJLhbc">
                             <img src="images/video1.png" alt=""  class="main-video"/ >
                             <div class="video-circle"></div>
                             <div class="video-circle-anim"></div>
@@ -181,7 +181,7 @@
             <div class="video-box animate-section">
                 <div class="video-box-wrap animate-it">
                     <div class="video">
-                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" >
+                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" title="https://www.youtube.com/embed/JAV3EbJLhbc">
                             <img src="images/video2.png" alt=""  class="main-video"/ >
                             <div class="video-circle"></div>
                             <div class="video-circle-anim"></div>
@@ -195,7 +195,7 @@
             <div class="video-box animate-section">
                 <div class="video-box-wrap animate-it">
                     <div class="video">
-                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" >
+                        <a href="https://www.youtube.com/embed/JAV3EbJLhbc?autoplay=1" class="fancy-box-video  fancybox.iframe" title="https://www.youtube.com/embed/JAV3EbJLhbc">
                             <img src="images/video3.png" alt=""  class="main-video"/ >
                             <div class="video-circle"></div>
                             <div class="video-circle-anim"></div>

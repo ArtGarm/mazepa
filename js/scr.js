@@ -276,6 +276,16 @@ function langValueClick(){
 
 };
 
+function menuHover(){
+    $('.header-navigation-wrap li').hover(
+        function(){
+            $('.header-navigation-wrap li').removeClass('hovered');
+            $(this).addClass('hovered');
+        }
+    );
+
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
 	modernize();
@@ -289,6 +299,8 @@ $(document).ready(function() {
 
     sendwichMenu();
     langValueClick();
+
+    menuHover();
 });
 
 $(window).load(function(){

@@ -97,14 +97,16 @@
 		</div>
 		<div class="header-slider-wrap">
 			<div class="header-slider-wrap-main">
-				<div class="header-slider-item">
-					<img src="images/slider-img.jpg" alt="" />
+				<div class="header-slider-item ">
+					<img src="images/slider-img-hight.jpg" alt="" />
 				</div>
-				<div class="header-slider-item">
-					<img src="images/slider-img.jpg" alt="" />
-				</div>
-				<div class="header-slider-item">
-					<img src="images/slider-img.jpg" alt="" />
+				<div class="header-slider-item video active">
+					<div class="video-item">
+						<video autoplay loop muted>
+							<source src="video/sait.webm" type="video/webm">
+							<source src="video/sait.mp4" type="video/mp4">
+						</video>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -114,7 +116,10 @@
 					<div class="header-content-top cfix">
 						<div class="header-top-left">
 							<div class="header-top-buttons-wrap">
-
+								<a href="#call-popup-next" class="active fancy-box">
+									<span class="button-text">Написать обращение</span>
+									<span class="button-icon"></span>
+								</a>
 								<a href="#">
 									<span class="button-text">Подписаться на новости</span>
 									<span class="button-icon"></span>
@@ -123,6 +128,11 @@
 						</div>
 						<div class="header-top-right cfix-after">
 							<div class="header-top-soc cfix">
+								<div class="header-top-soc-wrap">
+									<a href="#" class="blue vfix-before">
+										<img src="images/soc4.png" alt="">
+									</a>
+								</div>
 								<div class="header-top-soc-wrap">
 									<a href="#" class="red vfix-before">
 										<img src="images/soc3.png" alt="">
@@ -191,13 +201,23 @@
 					<div class="header-navigation-wrap-top-right">
 					</div>
 				</div>
-				<div class="header-navigation-wrap">
-					<a href="http://dev-verst.sheep.fish/mazepa/index.html" class="active"><span>БИОГРАФИЯ</span></a>
-					<a href="#"><span>Деятельность</span></a>
-					<a href="http://dev-verst.sheep.fish/mazepa/news.html"><span>новости</span></a>
-					<a href="http://dev-verst.sheep.fish/mazepa/smi.html"><span>сми</span></a>
-					<a href="http://dev-verst.sheep.fish/mazepa/foto.html"><span>фото/видео</span></a>
-				</div>
+				<ul class="header-navigation-wrap">
+					<li class="active">
+						<a href="http://dev-verst.sheep.fish/mazepa/index.html">БИОГРАФИЯ</a>
+					</li>
+					<li>
+						<a href="#">Деятельность</a>
+					</li>
+					<li>
+						<a href="http://dev-verst.sheep.fish/mazepa/news.html">новости</a>
+					</li>
+					<li>
+						<a href="http://dev-verst.sheep.fish/mazepa/smi.html">сми</a>
+					</li>
+					<li>
+						<a href="http://dev-verst.sheep.fish/mazepa/foto.html">фото/видео</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</header>
