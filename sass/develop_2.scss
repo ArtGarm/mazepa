@@ -69,7 +69,13 @@
 
 /* Foto block  end*/
 
-
+.header-top-buttons-wrap{display:table;width: 20%;vertical-align: right;margin-left: 78%;
+    a{display: table-cell;cursor: pointer;text-align: center;vertical-align: middle;background-color: #616b75;color:#fff;font-size: 13px;font-weight: 500;text-transform: uppercase;padding:20px 0;transition:300ms ease background-color;-webkit-transition:300ms ease background-color;
+        &:hover, &.active, &:active{background-color:#cd442d;text-decoration: none;outline:none;}
+        span{display: inline-block;vertical-align: middle;}
+        .button-icon{margin-left: 7%;background-image:url(../images/button-icon.png);width: 6px;height: 10px;}
+    }
+}
 
 /* Video block  begin*/
 
@@ -122,8 +128,12 @@
     /* /foto */
 
 }
+@media screen and (max-width: 1024px){
+    .header-top-buttons-wrap{display:table;width: 40%;margin-left: 61%;}
+}
 
 @media screen and (max-width: 767px){
+    .header-top-buttons-wrap{display:table;width: 100%;margin-left: 0;}
 
     /* foto */
 

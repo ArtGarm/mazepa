@@ -114,14 +114,6 @@
 			<div class="mbox">
 				<div class="header-content-wrap-main">
 					<div class="header-content-top cfix">
-						<div class="header-top-left">
-							<div class="header-top-buttons-wrap">
-								<a href="#">
-									<span class="button-text">Подписаться на новости</span>
-									<span class="button-icon"></span>
-								</a>
-							</div>
-						</div>
 						<div class="header-top-right cfix-after">
 							<div class="header-top-soc cfix">
 								<div class="header-top-soc-wrap">

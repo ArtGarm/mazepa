@@ -1,5 +1,12 @@
-	<div class="footer_placeholder <? echo $act;?>"></div>
+
+    <div class="footer_placeholder <? echo $act;?>"></div>
 	<footer class="footer animate-section <? echo $act;?>">
+        <div class="header-top-buttons-wrap">
+            <a href="#call-popup-next" class="fancy-box">
+                <span class="button-text">Написать обращение</span>
+                <span class="button-icon"></span>
+            </a>
+        </div>
         <div class="footer_top">
             <div class="mbox">
                 <div class="footer_top_item fti_1 animate-delay">
@@ -87,10 +94,7 @@
                     </div>
                 </div>
             </div>
-            <a href="#" class="active">
-                <span class="button-text">Написать обращение</span>
-                <span class="button-icon"></span>
-            </a>
+
         </div>
         <div class="footer_bottom">
             <div class="mbox">

@@ -66,8 +66,9 @@
   right: -14px;
   top: -14px;
   border: 3px solid black;
-  transition: -webkit-transform 1s ease, border-color 500ms linear;
+  transition: border-color 500ms linear, -webkit-transform 1s ease;
   transition: transform 1s ease, border-color 500ms linear;
+  transition: transform 1s ease, border-color 500ms linear, -webkit-transform 1s ease;
 }
 
 .fancybox-close:before {
@@ -127,6 +128,46 @@
 }
 
 /* Foto block  end*/
+.header-top-buttons-wrap {
+  display: table;
+  width: 20%;
+  vertical-align: right;
+  margin-left: 78%;
+}
+
+.header-top-buttons-wrap a {
+  display: table-cell;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #616b75;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 0;
+  transition: 300ms ease background-color;
+  -webkit-transition: 300ms ease background-color;
+}
+
+.header-top-buttons-wrap a:hover, .header-top-buttons-wrap a.active, .header-top-buttons-wrap a:active {
+  background-color: #cd442d;
+  text-decoration: none;
+  outline: none;
+}
+
+.header-top-buttons-wrap a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header-top-buttons-wrap a .button-icon {
+  margin-left: 7%;
+  background-image: url(../images/button-icon.png);
+  width: 6px;
+  height: 10px;
+}
+
 /* Video block  begin*/
 .mbox .video-box {
   display: inline-block;
@@ -243,7 +284,20 @@
   /* /foto */
 }
 
+@media screen and (max-width: 1024px) {
+  .header-top-buttons-wrap {
+    display: table;
+    width: 40%;
+    margin-left: 61%;
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .header-top-buttons-wrap {
+    display: table;
+    width: 100%;
+    margin-left: 0;
+  }
   /* foto */
   .mbox .video-box .video {
     max-width: none;
