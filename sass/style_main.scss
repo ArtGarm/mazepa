@@ -293,4 +293,8 @@
         .button-icon{margin-left: 7%;background-image:url(../images/button-icon.png);width: 6px;height: 10px;}
     }
     .footer .footer_top {padding-bottom: 0;}
+    @media screen and (min-width: 767px) {
+    .footer .footer_top {padding-bottom: 15px;}
+    .footer_top a.active{margin:15px 15px 0;}
+}
 /*END 15.12.2015 troll*/

@@ -1059,4 +1059,13 @@ section.active:first-child {
   padding-bottom: 0;
 }
 
+@media screen and (min-width: 767px) {
+  .footer .footer_top {
+    padding-bottom: 15px;
+  }
+  .footer_top a.active {
+    margin: 15px 15px 0;
+  }
+}
+
 /*END 15.12.2015 troll*/

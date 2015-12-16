@@ -18,6 +18,9 @@
     padding-left: 4%;
     box-sizing: border-box;
   }
+  .header-slider-wrap .header-slider-wrap-main .header-slider-item.video video {
+    width: 102%;
+  }
 }
 
 @media screen and (min-width: 1920px) {
