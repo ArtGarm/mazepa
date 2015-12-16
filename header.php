@@ -120,7 +120,7 @@
 									<span class="button-text">Написать обращение</span>
 									<span class="button-icon"></span>
 								</a>
-								<a href="#">
+								<a href="#" class="some-click">
 									<span class="button-text">Подписаться на новости</span>
 									<span class="button-icon"></span>
 								</a>
@@ -173,10 +173,7 @@
 								</div>
 								<div class="form-row">
 									<div class="form-input-wrap form_row">
-										<input type="text" name="name" required="required" placeholder="Имя" />
-									</div>
-									<div class="form-input-wrap form_row">
-										<input type="email" name="subname" required="required" placeholder="E-mail" />
+										<input class="creamnash"  type="email" name="subname" required="required" placeholder="E-mail" />
 									</div>
 								</div>
 								<div class="form-row submit-wrap">

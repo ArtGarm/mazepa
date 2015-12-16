@@ -28,6 +28,14 @@ function initFancyBox () {
 $(document).ready(function() {
 initFancyBox() ;
 
+$('.some-click').click(function(){
+    $('.creamnash').focus();
+    $('.creamnash').css('border-color','red');
+    $('.creamnash').addClass('error');
+    $('.form-input-wrap').addClass('error');
+});
+
+
 $('.tel-mask').mask('+7(99) 999-9999');
 validate('.contact-form',{submitFunction:validationCall});
 

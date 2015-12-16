@@ -209,9 +209,51 @@ function validationCall(form){
         data: formSur,
         method:'POST',
         success : function(data){
-            if ( data.trim()!='true') {
+            if ( data.trim()=='true') {
                 thisForm.trigger("reset");
                 popNext();
+            }
+            else {
+               $(this).trigger('reset');
+            }
+
+        }
+    });
+
+    function popNext(){
+        $.fancybox.open("#call_success",{
+            padding:0,
+            fitToView:true,
+            autoSize:true,
+            wrapCSS:"call-popup",
+            autoSize:true,
+            afterClose: function(){
+                clearTimeout(timer);
+            }
+        });
+        var timer = null;
+
+        timer = setTimeout(function(){
+            $.fancybox.close("#call_success");
+        },2000);
+
+        $('form').trigger("reset");
+    }
+}
+
+function validationCall1(form){
+
+  var thisForm = $(form);
+  var formSur = $('.call-form').serialize();
+
+    $.ajax({
+        url : thisForm.attr('action'),
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim()=='true') {
+                thisForm.trigger("reset");
+                //popNext();
             }
             else {
                $(this).trigger('reset');
@@ -294,8 +336,8 @@ $(document).ready(function() {
 	oneHeightItems();
 
 	deviceSlider();
-	validate('.header-form',{submitFunction:validationCall});
-    validate('.footer-form-main',{submitFunction:validationCall});
+	validate('.header-form',{submitFunction:validationCall1});
+    validate('.footer-form-main',{submitFunction:validationCall1});
 
     sendwichMenu();
     langValueClick();
