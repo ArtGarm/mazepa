@@ -106,6 +106,14 @@
 
 }
 
+.i-need-good-bg{background: url('../images/slider-img-hight.jpg') center center; height: 200px; background-size: 100%; background-repeat: no-repeat;}
+.header-content-wrap .header-content-wrap-main  .fixed-faked-never-braked{right: 450px; top: 0;}
+.header-content-wrap .header-form-wrap .form-title .briking-the-low {margin-bottom: 10px; }
+.header-content-wrap .header-form-wrap .briking-the-low p {display: inline-block; font-size: 17px; }
+.header-content-wrap .header-form-wrap .header-form .force-texter{text-align: left; }
+.header-content-wrap .header-form-wrap .header-form .helper-of-my-dream{display: inline-block; max-width: 50%;}
+.header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream button{ width: 250px; margin-left: 20px;}
+.header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream .form-input-wrap{ width: 250px;}
 @keyframes pulse {
     from {-ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); opacity: 1;}
     to {-ms-transform: scale(2,2); -webkit-transform: scale(2,2);transform: scale(2,2);opacity: 0;}
@@ -116,6 +124,56 @@
 }
 
 /* Video block  end*/
+
+.obertka-opa{position: relative; z-index: 1; transition: all 0.5s linear;}
+.wsplivashka{ position: absolute; z-index: 2; max-width: 300px;  text-align: center;  transition: all 0.5s linear; background-color: #e5e8ea; margin-left: calc(50% - 150px); top: 0px;
+    .x-close{position: absolute; width: 20px; height: 20px;  right: -30px;top: -30px; cursor: pointer;
+        &:before{ content: '';  transform: rotate(-45deg); width: 25px; height: 2px; background-color: #acacac;position: absolute; top: 10px; right: -2px;}
+        &:after{ content: ''; transform: rotate(45deg); width: 25px; height: 2px; background-color: #acacac; position: absolute; top: 10px; left: -2px;}
+    }
+
+    .contact-form-title h5{font-size: 24px; text-align: center;}
+    .contact-form-row {min-width: 250px;
+        .contact-form-item{ padding-top: 5px;
+            label{display: none !important;}
+            textarea, input{width: 278px; padding: 8px; outline: none; font-style: italic; font-size: 14px; border:1px solid transparent; background: #e5e8ea; border-bottom: 1px solid #475a69;margin: 0 10px; box-sizing: border-box;
+                &::-webkit-input-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+                &:-moz-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+                &::-moz-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+                &:-ms-input-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
+            }
+            input.error{ border-bottom :1px solid red;
+                &::-webkit-input-placeholder {color:red;font-style:italic;font-weight: 700;}
+                &:-moz-placeholder {color:red;font-style:italic;font-weight: 700;}
+                &::-moz-placeholder {color:red;font-style:italic;font-weight: 700;}
+                &:-ms-input-placeholder {color:red;font-style:italic;font-weight: 700;}
+            }
+            textarea.error{ border-bottom :1px solid red;
+                &::-webkit-input-placeholder {color:red;font-style:italic;font-weight: 700;}
+                &:-moz-placeholder {color:red;font-style:italic;font-weight: 700;}
+                &::-moz-placeholder {color:red;font-style:italic;font-weight: 700;}
+                &:-ms-input-placeholder {color:red;font-style:italic;font-weight: 700;}
+            }
+
+
+            button{width: 100%;height: 54px;line-height: 46px;border:none;background-color: #ed4227;font-size: 15px;color:#fff;text-transform: uppercase;padding:4px;position: relative;overflow: hidden; outline: none;
+                    span{position: relative;z-index: 1;}
+                    &:after, &:before{content: '';position: absolute;width: 100%;height: 100%;background-color: orange;transition:left 300ms ease, top 300ms ease;-webkit-transition:left 300ms ease, top 300ms ease;z-index:0;}
+                    &:before{left: -100%;top:-100%;}
+                    &:after{left: 100%;top: 100%;}
+                    &:hover{
+                        &:before, &:after{left: 0;top: 0;}
+                    }
+                }
+        }
+    }
+    textarea::-webkit-input-placeholder { background-image: url(../images/form-bg-input.png); background-repeat: no-repeat; padding-left: 20px; color: #a1aab2;}
+    .contact_name::-webkit-input-placeholder { background-image: url(../images/form-bg-man.png); background-repeat: no-repeat; padding-left: 20px;  color: #a1aab2;}
+    .email::-webkit-input-placeholder { background-image: url(../images/form-bg-letter.png); background-repeat: no-repeat; padding-left: 20px; background-position: left center;  color: #a1aab2;}
+    .contact-form-row .contact-form-item textarea {resize: none  !important;outline: none; background-color: white; border:1px solid transparent; background-position: left center; height: 145px; }
+}
+.move-nigga{top: 0;}
+
 
 @media screen and (min-width:1900px){
 
@@ -128,8 +186,18 @@
     /* /foto */
 
 }
+
+@media screen and (max-width: 1366px){
+
+    .header-content-wrap .header-form-wrap .briking-the-low p { display: inline-block;font-size: 14px;}
+
+}
 @media screen and (max-width: 1024px){
-    .header-top-buttons-wrap{display:table;width: 40%;margin-left: 61%;}
+    .header-top-buttons-wrap{display:table;width: 100%;margin-left: 0%;  position: relative; z-index: 3;}
+    .wsplivashka { top: 0px;}
+    .header-content-wrap .header-form-wrap .header-form .force-texter {    font-size: 46px;}
+    .header-content-wrap .header-form-wrap .briking-the-low p {display: inline-block;font-size: 13px;}
+    .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {right: initial;  top: 0; left: 12px;}
 }
 
 @media screen and (max-width: 767px){
@@ -163,36 +231,6 @@
 
 }
 
-#call-popup-next{ min-width: 300px; width: 100%; text-align: center; padding: 20px;
-    .contact-form-title h5{font-size: 24px; text-align: center;}
-    .contact-form-row {min-width: 250px; max-width: 80%; margin: 0 auto;
-        .contact-form-item{ padding: 10px;
-            label{display: none !important;}
-            textarea, input{width: 100%; padding: 8px; outline: none; font-style: italic; font-size: 15px; border :1px solid black; background: #f9f9f9;
-                &::-webkit-input-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
-                &:-moz-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
-                &::-moz-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
-                &:-ms-input-placeholder {color:#acacac;font-style:italic;font-weight: 400;}
-            }
-            input.error{ border :1px solid red; -webkit-box-shadow: inset 0px 0px 2px 2px rgba(255,0,0,1);-moz-box-shadow: inset 0px 0px 2px 2px rgba(255,0,0,1); box-shadow: inset 0px 0px 2px 2px rgba(255,0,0,1);}
-
-
-            button{width: 100%;height: 54px;line-height: 46px;border:none;background-color: #3f8ac5;font-size: 15px;color:#fff;text-transform: uppercase;padding:4px;position: relative;overflow: hidden;
-                    span{position: relative;z-index: 1;}
-                    &:after, &:before{content: '';position: absolute;width: 100%;height: 100%;background-color: orange;transition:left 300ms ease, top 300ms ease;-webkit-transition:left 300ms ease, top 300ms ease;z-index:0;}
-                    &:before{left: -100%;top:-100%;}
-                    &:after{left: 100%;top: 100%;}
-                    &:hover{
-                        &:before, &:after{left: 0;top: 0;}
-                    }
-                }
-        }
-    }
-    textarea::-webkit-input-placeholder {color: black;}
-    input::-webkit-input-placeholder {color: black;}
-    textarea {resize: none  !important; width: 100%; padding: 8px;outline: none;}
-}
-
 @media screen and (max-width: 767px){
     #call-popup-next { max-width: 400px; padding: 10px;}
     #call-popup-next .contact-form-title h5{     font-size: 18px;}
@@ -213,4 +251,7 @@
     .fancybox-desktop {width: auto !important;}
     #call-popup-next {min-width: 0px;}
     #call-popup-next .contact-form-row {min-width: 0px;}
+    .wsplivashka { max-width: 260px; margin-left: calc(50% - 130px);}
+    .wsplivashka .contact-form-row .contact-form-item input {width: 240px;}
+    .wsplivashka .contact-form-row .contact-form-item textarea {width: 240px;}
 }

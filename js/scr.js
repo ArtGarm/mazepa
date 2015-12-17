@@ -167,7 +167,7 @@ function sliderTop(){
 function deviceSlider(){
     if($(window).width()<768){
         if($('.header-slider-wrap-main.slick-initialized').length!=0){
-            //$('.header-slider-wrap-main').slick('unslick');
+            $('.header-slider-wrap-main').slick('unslick');
         }
         if($('.hot-slider.slick-initialized').length!=0){
             $('.hot-slider').slick('unslick');
@@ -175,7 +175,7 @@ function deviceSlider(){
     }
     else{
         if($('.header-slider-wrap-main.slick-initialized').length==0){
-            //sliderTop();
+            sliderTop();
         }
     }
 }
@@ -202,7 +202,8 @@ function sendwichMenu(){
 function validationCall(form){
 
   var thisForm = $(form);
-  var formSur = $('.call-form').serialize();
+  var formSur = $('.contact-form-in-foo').serialize();
+
 
     $.ajax({
         url : thisForm.attr('action'),
@@ -212,6 +213,12 @@ function validationCall(form){
             if ( data.trim()=='true') {
                 thisForm.trigger("reset");
                 popNext();
+                $('.wsplivashka').removeClass('move-nigga');
+                $('.obertka-opa').css('padding-top','0px');
+                $('.footer_placeholder').height($('.footer').outerHeight());
+                setTimeout(function(){
+                    $('.wsplivashka').css('display','none');
+                }, 500);
             }
             else {
                $(this).trigger('reset');
@@ -338,7 +345,7 @@ $(document).ready(function() {
 	deviceSlider();
 	validate('.header-form',{submitFunction:validationCall1});
     validate('.footer-form-main',{submitFunction:validationCall1});
-
+    validate('.contact-form-in-foo',{submitFunction:validationCall});
     sendwichMenu();
     langValueClick();
 
@@ -346,18 +353,16 @@ $(document).ready(function() {
 });
 
 $(window).load(function(){
-
-
-
+$('.footer_placeholder').height($('.footer').outerHeight());
 });
+
 
 $(window).resize(function() {
-
     deviceSlider();
-
     $('.footer_placeholder').height($('.footer').outerHeight());
-
 });
+
+
 
 
 
