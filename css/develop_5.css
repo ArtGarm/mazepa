@@ -70,3 +70,52 @@
     font-size: 27px;
   }
 }
+
+.news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .hot-new-body-wrap .hot-new-body .new-title .title-cor:active {
+  outline: none;
+}
+
+.news-main-wrap .news-main .hot-news-wrap .hot-news .mbox .hot-new .hot-new-body-wrap .hot-new-body .new-title .title-cor {
+  font-family: 'Roboto', sans-serif;
+  font-size: 34px;
+  color: #6b7580;
+  margin-top: 10px;
+  margin-bottom: 17px;
+  border-bottom: 1px solid #DADADA;
+  padding-bottom: 19px;
+  letter-spacing: -0.5px;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new .title-litle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #6b7580;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  margin-bottom: 10px;
+  line-height: 1.3;
+  text-decoration: none;
+}
+
+.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-title .title-cor:active {
+  outline: none;
+}
+
+.smi-main-wrap .smi-main .mbox .smi .smi-text-wrap .smi-text .smi-title .title-cor {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #6b7580;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 1.1;
+  margin: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
