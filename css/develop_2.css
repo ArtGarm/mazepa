@@ -66,9 +66,8 @@
   right: -14px;
   top: -14px;
   border: 3px solid black;
-  transition: border-color 500ms linear, -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease, border-color 500ms linear;
   transition: transform 1s ease, border-color 500ms linear;
-  transition: transform 1s ease, border-color 500ms linear, -webkit-transform 1s ease;
 }
 
 .fancybox-close:before {
