@@ -71,8 +71,9 @@ body {
   right: -14px;
   top: -14px;
   border: 3px solid black;
-  transition: -webkit-transform 1s ease, border-color 500ms linear;
+  transition: border-color 500ms linear, -webkit-transform 1s ease;
   transition: transform 1s ease, border-color 500ms linear;
+  transition: transform 1s ease, border-color 500ms linear, -webkit-transform 1s ease;
 }
 
 .fancybox-close:before {
@@ -259,8 +260,12 @@ body {
 }
 
 .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {
-  right: 450px;
+  right: 500px;
   top: 0;
+}
+
+.header-content-wrap .header-content-wrap-main .fixed-faked-never-braked .header-form .force-texter {
+  font-size: 58px;
 }
 
 .header-content-wrap .header-form-wrap .form-title .briking-the-low {
@@ -268,12 +273,12 @@ body {
 }
 
 .header-content-wrap .header-form-wrap .briking-the-low p {
-  display: inline-block;
-  font-size: 17px;
+  display: block;
+  font-size: 15px;
 }
 
 .header-content-wrap .header-form-wrap .header-form .force-texter {
-  text-align: left;
+  text-align: right;
 }
 
 .header-content-wrap .header-form-wrap .header-form .helper-of-my-dream {
@@ -281,9 +286,17 @@ body {
   max-width: 50%;
 }
 
+.header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream {
+  margin-top: 0px;
+  max-width: 250px;
+  height: 45px;
+}
+
 .header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream button {
+  height: 45px;
   width: 250px;
   margin-left: 20px;
+  line-height: 40px;
 }
 
 .header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream .form-input-wrap {
@@ -632,7 +645,8 @@ body {
   .loader-move, .wsplivashka {
     margin-left: calc(50% - 150px);
   }
-  .header-content-wrap .header-form-wrap .header-form .force-texter {
+  .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked .header-form .force-texter {
+    text-align: left;
     font-size: 46px;
   }
   .header-content-wrap .header-form-wrap .briking-the-low p {
@@ -641,8 +655,8 @@ body {
   }
   .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {
     right: initial;
-    top: 0;
     left: 12px;
+    top: 40px;
   }
 }
 

@@ -108,12 +108,16 @@ body{max-width: 1920px; margin: 0 auto; }
 }
 
 .i-need-good-bg{background: url('../images/slider-img-hight.jpg') center center; height: 200px; background-size: 100%; background-repeat: no-repeat;}
-.header-content-wrap .header-content-wrap-main  .fixed-faked-never-braked{right: 450px; top: 0;}
+.header-content-wrap .header-content-wrap-main  .fixed-faked-never-braked{right: 500px; top: 0;
+    .header-form .force-texter {font-size: 58px;}
+
+}
 .header-content-wrap .header-form-wrap .form-title .briking-the-low {margin-bottom: 10px; }
-.header-content-wrap .header-form-wrap .briking-the-low p {display: inline-block; font-size: 17px; }
-.header-content-wrap .header-form-wrap .header-form .force-texter{text-align: left; }
+.header-content-wrap .header-form-wrap .briking-the-low p {display:block; font-size: 15px; }
+.header-content-wrap .header-form-wrap .header-form .force-texter{text-align: right;}
 .header-content-wrap .header-form-wrap .header-form .helper-of-my-dream{display: inline-block; max-width: 50%;}
-.header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream button{ width: 250px; margin-left: 20px;}
+.header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream{ margin-top: 0px; max-width: 250px;     height: 45px;}
+.header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream button{height: 45px; width: 250px; margin-left: 20px; line-height: 40px;}
 .header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream .form-input-wrap{ width: 250px;}
 @keyframes pulse {
     from {-ms-transform: scale(1,1); -webkit-transform: scale(1,1); transform: scale(1,1); opacity: 1;}
@@ -206,9 +210,9 @@ body{max-width: 1920px; margin: 0 auto; }
 @media screen and (max-width: 1024px){
     .header-top-buttons-wrap{ position: relative; z-index: 3;  margin-left: calc(50% - 150px);}
     .loader-move, .wsplivashka { margin-left: calc(50% - 150px);}
-    .header-content-wrap .header-form-wrap .header-form .force-texter {    font-size: 46px;}
+    .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked .header-form .force-texter { text-align: left;font-size: 46px;}
     .header-content-wrap .header-form-wrap .briking-the-low p {display: inline-block;font-size: 13px;}
-    .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {right: initial;  top: 0; left: 12px;}
+    .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {right: initial; left: 12px;top: 40px;}
 }
 
 @media screen and (max-width: 767px){
