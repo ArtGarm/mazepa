@@ -1,4 +1,5 @@
 <div class="obertka-opa">
+    <div class="loader-move"> </div>
     <div class="wsplivashka">
         <div class="x-close"></div>
         <form action="ajax.php" name="" class="contact-form-in-foo">

@@ -324,6 +324,7 @@
   }
   .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new .new-img-wrap img {
     width: 100%;
+    height: auto;
   }
   .news-main-wrap .news-main .news-wrap .news .mbox .blocks-news .block-new .date-wrap {
     margin-bottom: 0;

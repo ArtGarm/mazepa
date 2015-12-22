@@ -1,4 +1,4 @@
-<header class="header <? echo $act; ?>">
+<header class="header  not-main-header<? echo $act; ?>">
         <div class="header-img-device">
             <img src="images/slider-img.jpg" alt="" />
         </div>

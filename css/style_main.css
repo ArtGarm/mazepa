@@ -181,6 +181,8 @@
 .header-content-wrap .header-content-top .header-top-right {
   float: right;
   width: 50%;
+  position: relative;
+  z-index: 5;
 }
 
 .header-content-wrap .header-content-top .header-top-right .header-top-soc {
@@ -584,15 +586,15 @@
   right: -300px;
 }
 
-.header-navigation .header-navigation-wrap li.active, .header-navigation .header-navigation-wrap li.hovered {
+.header-navigation .header-navigation-wrap li.current-menu-item, .header-navigation .header-navigation-wrap li.hovered {
   background-color: #ec4228;
 }
 
-.header-navigation .header-navigation-wrap li.active a, .header-navigation .header-navigation-wrap li.hovered a {
+.header-navigation .header-navigation-wrap li.current-menu-item a, .header-navigation .header-navigation-wrap li.hovered a {
   color: #fff;
 }
 
-.header-navigation .header-navigation-wrap li.active a:after, .header-navigation .header-navigation-wrap li.hovered a:after {
+.header-navigation .header-navigation-wrap li.current-menu-item a:after, .header-navigation .header-navigation-wrap li.hovered a:after {
   width: 0;
   background-color: #fff;
 }
@@ -768,7 +770,6 @@
 
 .footer .footer_top .fti_text a {
   text-decoration: none;
-  display: block;
   color: #fff;
   font-family: "Roboto";
   line-height: 24px;

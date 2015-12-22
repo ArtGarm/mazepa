@@ -1,4 +1,9 @@
 @charset "UTF-8";
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 /* Foto block  begin*/
 .foto_main_wrap {
   width: 100%;
@@ -130,9 +135,13 @@
 /* Foto block  end*/
 .header-top-buttons-wrap {
   display: table;
-  width: 20%;
+  width: 298px;
   vertical-align: right;
-  margin-left: 78%;
+  margin-left: calc(100% - 337px);
+  opacity: 1;
+  transition: all 0.5s linear;
+  position: relative;
+  z-index: 1;
 }
 
 .header-top-buttons-wrap a {
@@ -315,14 +324,29 @@
   transition: all 0.5s linear;
 }
 
+.loader-move {
+  position: absolute;
+  z-index: 0;
+  width: 298px;
+  text-align: center;
+  transition: all 0.5s linear;
+  background-color: rgba(0, 0, 0, 0.34);
+  margin-left: calc(100% - 337px);
+  top: 0px;
+  height: 310px;
+  background-image: url(../images/239.gif);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .wsplivashka {
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   max-width: 300px;
   text-align: center;
   transition: all 0.5s linear;
   background-color: #e5e8ea;
-  margin-left: calc(50% - 150px);
+  margin-left: calc(100% - 337px);
   top: 0px;
 }
 
@@ -383,7 +407,7 @@
   font-style: italic;
   font-size: 14px;
   border: 1px solid transparent;
-  background: #e5e8ea;
+  background-color: #e5e8ea;
   border-bottom: 1px solid #475a69;
   margin: 0 10px;
   box-sizing: border-box;
@@ -516,22 +540,16 @@
 }
 
 .wsplivashka textarea::-webkit-input-placeholder {
-  background-image: url(../images/form-bg-input.png);
-  background-repeat: no-repeat;
   padding-left: 20px;
   color: #a1aab2;
 }
 
 .wsplivashka .contact_name::-webkit-input-placeholder {
-  background-image: url(../images/form-bg-man.png);
-  background-repeat: no-repeat;
   padding-left: 20px;
   color: #a1aab2;
 }
 
 .wsplivashka .email::-webkit-input-placeholder {
-  background-image: url(../images/form-bg-letter.png);
-  background-repeat: no-repeat;
   padding-left: 20px;
   background-position: left center;
   color: #a1aab2;
@@ -542,12 +560,37 @@
   outline: none;
   background-color: white;
   border: 1px solid transparent;
-  background-position: left center;
   height: 145px;
+  line-height: 21px;
+}
+
+.wsplivashka .contact_name {
+  background-image: url(../images/form-bg-man.png);
+  background-repeat: no-repeat;
+  background-position-x: 6px;
+  background-position-y: 10px;
+  text-indent: 20px;
+}
+
+.wsplivashka .email {
+  background-image: url(../images/form-bg-letter.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-position-x: 6px;
+  background-position-y: 12px;
+  text-indent: 20px;
+}
+
+.wsplivashka textarea {
+  background-image: url(../images/form-bg-input.png);
+  background-repeat: no-repeat;
+  background-position-x: 6px;
+  background-position-y: 10px;
+  text-indent: 20px;
 }
 
 .move-nigga {
-  top: 0;
+  top: -251px;
 }
 
 @media screen and (min-width: 1900px) {
@@ -573,14 +616,12 @@
 
 @media screen and (max-width: 1024px) {
   .header-top-buttons-wrap {
-    display: table;
-    width: 100%;
-    margin-left: 0%;
     position: relative;
     z-index: 3;
+    margin-left: calc(50% - 150px);
   }
-  .wsplivashka {
-    top: 0px;
+  .loader-move, .wsplivashka {
+    margin-left: calc(50% - 150px);
   }
   .header-content-wrap .header-form-wrap .header-form .force-texter {
     font-size: 46px;
@@ -602,9 +643,23 @@
     width: 100%;
     margin-left: 0;
   }
+  .wsplivashka .x-close {
+    visibility: hidden;
+  }
   /* foto */
+  .loader-move, .wsplivashka {
+    margin-left: 0;
+    width: 100%;
+    max-width: none;
+  }
+  .wsplivashka .contact-form-row .contact-form-item textarea, .wsplivashka .contact-form-row .contact-form-item input {
+    width: 80%;
+  }
   .mbox .video-box .video {
     max-width: none;
+  }
+  .x-close {
+    display: none !important;
   }
   /* /foto */
 }
@@ -683,15 +738,5 @@
   }
   #call-popup-next .contact-form-row {
     min-width: 0px;
-  }
-  .wsplivashka {
-    max-width: 260px;
-    margin-left: calc(50% - 130px);
-  }
-  .wsplivashka .contact-form-row .contact-form-item input {
-    width: 240px;
-  }
-  .wsplivashka .contact-form-row .contact-form-item textarea {
-    width: 240px;
   }
 }
