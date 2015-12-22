@@ -460,6 +460,11 @@ body {
   font-weight: 400;
 }
 
+.wsplivashka .contact-form-row .contact-form-item textarea {
+  text-indent: 30px;
+  padding-left: 2px;
+}
+
 .wsplivashka .contact-form-row .contact-form-item input.error {
   border-bottom: 1px solid red;
 }
