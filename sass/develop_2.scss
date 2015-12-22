@@ -152,6 +152,7 @@ body{max-width: 1920px; margin: 0 auto; }
                 &::-moz-placeholder {color:#bec1c6;font-style:normal;font-weight: 400;}
                 &:-ms-input-placeholder {color:#bec1c6;font-style:normal;font-weight: 400;}
             }
+            textarea{text-indent:30px; padding-left: 2px; }
             input.error{ border-bottom :1px solid red;
                 &::-webkit-input-placeholder {color:red;font-style:normal;font-weight: 700;}
                 &:-moz-placeholder {color:red;font-style:normal;font-weight: 700;}
