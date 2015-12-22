@@ -91,130 +91,13 @@
 </head>
 <body>
 	<?partial('zHiddenBlock');?>
-	<header class="header <? echo $act; ?>">
-		<div class="header-img-device">
-			<img src="images/slider-img.jpg" alt="" />
-		</div>
-		<div class="header-slider-wrap">
-			<div class="header-slider-wrap-main">
-				<div class="header-slider-item ">
-					<img src="images/slider-img-hight.jpg" alt="" />
-				</div>
-				<div class="header-slider-item video active">
-					<div class="video-item">
-						<video autoplay loop muted>
-							<source src="video/sait.webm" type="video/webm">
-							<source src="video/sait.mp4" type="video/mp4">
-						</video>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="header-content-wrap">
-			<div class="mbox">
-				<div class="header-content-wrap-main">
-					<div class="header-content-top cfix">
-						<div class="header-top-left">
-							<div class="header-top-buttons-wrap">
 
-								<a href="#">
-									<span class="button-text">Подписаться на новости</span>
-									<span class="button-icon"></span>
-								</a>
-							</div>
-						</div>
-						<div class="header-top-right cfix-after">
-							<div class="header-top-soc cfix">
-								<div class="header-top-soc-wrap">
-									<a href="#" class="blue vfix-before">
-										<img src="images/soc4.png" alt="">
-									</a>
-								</div>
-								<div class="header-top-soc-wrap">
-									<a href="#" class="red vfix-before">
-										<img src="images/soc3.png" alt="">
-									</a>
-								</div>
-								<div class="header-top-soc-wrap">
-									<a href="#" class="blue vfix-before">
-										<img src="images/soc2.png" alt="">
-									</a>
-								</div>
-								<div class="header-top-soc-wrap">
-									<a href="#" class="ligth-blue vfix-before">
-										<img src="images/soc1.png" alt="">
-									</a>
-								</div>
-							</div>
-							<div class="header-top-langChange">
-								<div class="header-top-langChange-value">
-									Рус
-								</div>
-								<div class="header-top-langChange-wrap cfix-after">
-									<a href="#">Укр</a>
-									<a href="#" class="active">Рус</a>
-									<a href="#">Eng</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="header-form-wrap">
-						<div class="header-form-main">
-							<form class="header-form" action="">
-								<div class="form-title">
-									<div class="form-big-title">ИГОРЬ МАЗЕПА</div>
-									<div class="form-small-title">
-										<p>генеральный директор инвестиционной компании</p>
-										<p>Concorde Capital (Украина, г. Киев)</p>
-									</div>
-								</div>
-								<div class="form-row">
-									<div class="form-input-wrap form_row">
-										<input type="text" name="name" required="required" placeholder="Имя" />
-									</div>
-									<div class="form-input-wrap form_row">
-										<input type="email" name="subname" required="required" placeholder="E-mail" />
-									</div>
-								</div>
-								<div class="form-row submit-wrap">
-									<button type="submit">
-										<span>ПОДПИСАТЬСЯ</span>
-									</button>
-								</div>
-							</form>
-						</div>
-					</div>
-				</div>
 
-			</div>
-		</div>
-		<div class="header-navigation">
-			<div class="header-navigation-device-icon">
-				<span></span>
-			</div>
-			<div class="mbox">
-				<div class="header-navigation-wrap-top">
-					меню
-					<div class="header-navigation-wrap-top-right">
-					</div>
-				</div>
-				<ul class="header-navigation-wrap">
-					<li class="active">
-						<a href="http://dev-verst.sheep.fish/mazepa/index.html">БИОГРАФИЯ</a>
-					</li>
-					<li>
-						<a href="#">Деятельность</a>
-					</li>
-					<li>
-						<a href="http://dev-verst.sheep.fish/mazepa/news.html">новости</a>
-					</li>
-					<li>
-						<a href="http://dev-verst.sheep.fish/mazepa/smi.html">сми</a>
-					</li>
-					<li>
-						<a href="http://dev-verst.sheep.fish/mazepa/foto.html">фото/видео</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header>
+	<?php if($act == "index" || $act == "none"){
+				partial('mainherder');
+			 }
+			else {
+				partial('notmainherder');
+			} ?>
+
+

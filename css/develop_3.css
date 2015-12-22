@@ -127,13 +127,13 @@ button.slick-next.slick-arrow:hover:before {
   opacity: 1;
 }
 
-.paginator-wrap .paginator p.current-page {
+.paginator-wrap .paginator span.current-page {
   color: #F2604B;
   border: 2px solid #F2604B;
   display: inline-block;
 }
 
-.paginator-wrap .paginator a, .paginator-wrap .paginator p {
+.paginator-wrap .paginator span {
   font-family: 'Roboto', sans-serif;
   width: 38px;
   height: 38px;
@@ -150,7 +150,7 @@ button.slick-next.slick-arrow:hover:before {
   -webkit-transition: color 300ms ease, border-color 300ms ease;
 }
 
-.paginator-wrap .paginator a:hover, .paginator-wrap .paginator p:hover {
+.paginator-wrap .paginator span:hover {
   color: #F2604B;
   border: 2px solid #F2604B;
 }
@@ -479,7 +479,6 @@ button.slick-next.slick-arrow:hover:before {
 /* smi */
 .smi-main-wrap .smi-main .mbox {
   padding-top: 63px;
-  padding-bottom: 150px;
 }
 
 .smi-main-wrap .smi-main .mbox .smi {

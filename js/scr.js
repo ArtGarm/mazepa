@@ -167,7 +167,7 @@ function sliderTop(){
 function deviceSlider(){
     if($(window).width()<768){
         if($('.header-slider-wrap-main.slick-initialized').length!=0){
-            //$('.header-slider-wrap-main').slick('unslick');
+            $('.header-slider-wrap-main').slick('unslick');
         }
         if($('.hot-slider.slick-initialized').length!=0){
             $('.hot-slider').slick('unslick');
@@ -175,7 +175,7 @@ function deviceSlider(){
     }
     else{
         if($('.header-slider-wrap-main.slick-initialized').length==0){
-            //sliderTop();
+            sliderTop();
         }
     }
 }
@@ -200,18 +200,75 @@ function sendwichMenu(){
 };
 
 function validationCall(form){
+        $('.loader-move').css('top', '-251px');
+        $('.loader-move').css('z-index', '2');
+        $('.x-close').css('display','none');
+        $('.header-top-buttons-wrap').css('z-index', '1');
+
+var timer = null;
+  var thisForm = $(form);
+  var formSur = $('.contact-form-in-foo').serialize();
+
+    $.ajax({
+        url : ajaxurl,
+        data: formSur,
+        method:'POST',
+        success : function(data){
+            if ( data.trim()=='true') {
+                $('.contact-form-in-foo').trigger('reset');
+                $('.footer_placeholder').height($('.footer').outerHeight());
+                setTimeout(function(){
+                    $('.x-close').css('display','none');
+                }, 500);
+            }
+            else {
+                $('.contact-form-in-foo').trigger('reset');
+            }
+             popNext();
+        }
+    }).done(function() {
+
+            $('.contact-form-in-foo').trigger('reset');
+            timer = setTimeout(function(){
+                $.fancybox.close("#call_success");
+                $('.wsplivashka').removeClass('move-nigga');
+                $('.loader-move').css('top', '0px');
+                $('.header-top-buttons-wrap').css('z-index', '3');
+                $('.loader-move').css('z-index', '0');
+                $('.x-close').css('display','none');
+            },2000);
+        });;
+
+    function popNext(){
+        $.fancybox.open("#call_success",{
+            padding:0,
+            fitToView:true,
+            autoSize:true,
+            wrapCSS:"call-popup",
+            autoSize:true,
+            'helpers': {
+                        'overlay' : {'closeClick': false}
+                        },
+            afterClose: function(){
+                clearTimeout(timer);
+            }
+        });
+    }
+}
+
+function validationCall1(form){
 
   var thisForm = $(form);
   var formSur = $('.call-form').serialize();
 
     $.ajax({
-        url : thisForm.attr('action'),
+        url : ajaxurl,
         data: formSur,
         method:'POST',
         success : function(data){
-            if ( data.trim()!='true') {
+            if ( data.trim()=='true') {
                 thisForm.trigger("reset");
-                popNext();
+                //popNext();
             }
             else {
                $(this).trigger('reset');
@@ -268,19 +325,23 @@ function langValueClick(){
         }
     });
 
-    $(window).resize(function(){
+
+
+};
+$(window).resize(function(){
         if($(window).width()>767){
             $('.header-top-langChange-value').removeClass('active');
         }
     });
-
-};
 
 function menuHover(){
     $('.header-navigation-wrap li').hover(
         function(){
             $('.header-navigation-wrap li').removeClass('hovered');
             $(this).addClass('hovered');
+        },
+        function(){
+            $('.header-navigation-wrap li').removeClass('hovered');
         }
     );
 
@@ -294,9 +355,9 @@ $(document).ready(function() {
 	oneHeightItems();
 
 	deviceSlider();
-	validate('.header-form',{submitFunction:validationCall});
-    validate('.footer-form-main',{submitFunction:validationCall});
-
+	validate('.header-form',{submitFunction:validationCall1});
+    validate('.footer-form-main',{submitFunction:validationCall1});
+    validate('.contact-form-in-foo',{submitFunction:validationCall});
     sendwichMenu();
     langValueClick();
 
@@ -304,18 +365,16 @@ $(document).ready(function() {
 });
 
 $(window).load(function(){
-
-
-
+$('.footer_placeholder').height($('.footer').outerHeight());
 });
+
 
 $(window).resize(function() {
-
     deviceSlider();
-
     $('.footer_placeholder').height($('.footer').outerHeight());
-
 });
+
+
 
 
 

@@ -275,9 +275,9 @@
 							</a>
 						</div>
 						<div class="paginator animate-it">
-							<p class="current-page">1</p>
-							<a href="#">2</a>
-							<a href="#">3</a>
+							<span class="current-page">1</span>
+							<span >2</span>
+							<span >3</span>
 						</div>
 					</div>
 				</div>

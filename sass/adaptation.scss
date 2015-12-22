@@ -140,7 +140,7 @@
             .header-navigation-wrap-top{display: block;}
             .header-navigation-wrap{display: block;margin-bottom: 0;
                 li{display: block;padding: 0;padding: 26px 0 20px 0;border-bottom: 1px solid #edf0f1;
-                    &.active, &.hovered{background-color: #fff;
+                    &.current-menu-item, &.hovered{background-color: #fff;
                         a{color:#ec4227;
                             &:before{background-color: transparent;}
                             &:after{width: 100%;background-color: #ec4227;}
@@ -160,7 +160,7 @@
 
     /* footer */
 
-    .footer:not(.index):not(.none), .footer_placeholder:not(.index):not(.none){display: none;}
+    .footer:not(.index):not(.none), .footer_placeholder:not(.index):not(.none){}
 
     .footer{
         .footer_top{
