@@ -300,6 +300,19 @@
   text-align: right;
 }
 
+.header-content-wrap .header-form-wrap .header-form:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.header-content-wrap .header-form-wrap .form-title + .form-row {
+  max-width: 290px;
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+}
+
 .header-content-wrap .header-form-wrap .form-big-title {
   font-family: 'Myriad Pro',sans-serif;
   font-weight: 900;
@@ -317,7 +330,7 @@
 }
 
 .header-content-wrap .header-form-wrap .form-row {
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
 }
 
 .header-content-wrap .header-form-wrap .form-row .form-input-wrap {

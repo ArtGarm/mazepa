@@ -134,7 +134,7 @@ body {
 /* Foto block  end*/
 .header-top-buttons-wrap {
   display: table;
-  width: 298px;
+  width: 300px;
   vertical-align: right;
   margin-left: calc(100% - 337px);
   opacity: 1;
@@ -153,7 +153,7 @@ body {
   font-size: 13px;
   font-weight: 500;
   text-transform: uppercase;
-  padding: 20px 0;
+  padding: 28px 0;
   transition: 300ms ease background-color;
   -webkit-transition: 300ms ease background-color;
 }
@@ -344,7 +344,7 @@ body {
   max-width: 300px;
   text-align: center;
   transition: all 0.5s linear;
-  background-color: #e5e8ea;
+  background-color: #e6e8ea;
   margin-left: calc(100% - 337px);
   top: 0px;
 }
@@ -353,8 +353,8 @@ body {
   position: absolute;
   width: 20px;
   height: 20px;
-  right: -30px;
-  top: -30px;
+  right: -22px;
+  top: -19px;
   cursor: pointer;
 }
 
@@ -362,29 +362,30 @@ body {
   content: '';
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
-  width: 25px;
+  width: 18px;
   height: 2px;
   background-color: #acacac;
   position: absolute;
-  top: 10px;
-  right: -2px;
+  top: 9px;
+  right: 1px;
 }
 
 .wsplivashka .x-close:after {
   content: '';
   -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
-  width: 25px;
+  width: 18px;
   height: 2px;
   background-color: #acacac;
   position: absolute;
-  top: 10px;
-  left: -2px;
+  top: 9px;
+  left: 1px;
 }
 
 .wsplivashka .contact-form-title h5 {
   font-size: 24px;
   text-align: center;
+  margin: 0;
 }
 
 .wsplivashka .contact-form-row {
@@ -392,7 +393,15 @@ body {
 }
 
 .wsplivashka .contact-form-row .contact-form-item {
-  padding-top: 5px;
+  padding-top: 0px;
+}
+
+.wsplivashka .contact-form-row .contact-form-item:nth-child(2) {
+  padding-bottom: 28px;
+}
+
+.wsplivashka .contact-form-row .contact-form-item:nth-child(3) {
+  padding-bottom: 10px;
 }
 
 .wsplivashka .contact-form-row .contact-form-item label {
@@ -400,39 +409,42 @@ body {
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea, .wsplivashka .contact-form-row .contact-form-item input {
-  width: 278px;
-  padding: 8px;
+  width: 282px;
+  padding: 14px 8px 2px 32px;
   outline: none;
-  font-style: italic;
+  font-style: normal;
   font-size: 14px;
   border: 1px solid transparent;
   background-color: #e5e8ea;
-  border-bottom: 1px solid #475a69;
+  border-bottom: 1px solid #d1d5d8;
   margin: 0 10px;
   box-sizing: border-box;
+  font-family: "Roboto";
+  text-align: left !important;
+  color: #bec1c6;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea::-webkit-input-placeholder, .wsplivashka .contact-form-row .contact-form-item input::-webkit-input-placeholder {
-  color: #acacac;
-  font-style: italic;
+  color: #bec1c6;
+  font-style: normal;
   font-weight: 400;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea:-moz-placeholder, .wsplivashka .contact-form-row .contact-form-item input:-moz-placeholder {
-  color: #acacac;
-  font-style: italic;
+  color: #bec1c6;
+  font-style: normal;
   font-weight: 400;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea::-moz-placeholder, .wsplivashka .contact-form-row .contact-form-item input::-moz-placeholder {
-  color: #acacac;
-  font-style: italic;
+  color: #bec1c6;
+  font-style: normal;
   font-weight: 400;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea:-ms-input-placeholder, .wsplivashka .contact-form-row .contact-form-item input:-ms-input-placeholder {
-  color: #acacac;
-  font-style: italic;
+  color: #bec1c6;
+  font-style: normal;
   font-weight: 400;
 }
 
@@ -442,25 +454,25 @@ body {
 
 .wsplivashka .contact-form-row .contact-form-item input.error::-webkit-input-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
 .wsplivashka .contact-form-row .contact-form-item input.error:-moz-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
 .wsplivashka .contact-form-row .contact-form-item input.error::-moz-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
 .wsplivashka .contact-form-row .contact-form-item input.error:-ms-input-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
@@ -470,25 +482,25 @@ body {
 
 .wsplivashka .contact-form-row .contact-form-item textarea.error::-webkit-input-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea.error:-moz-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea.error::-moz-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea.error:-ms-input-placeholder {
   color: red;
-  font-style: italic;
+  font-style: normal;
   font-weight: 700;
 }
 
@@ -539,19 +551,16 @@ body {
 }
 
 .wsplivashka textarea::-webkit-input-placeholder {
-  padding-left: 20px;
-  color: #a1aab2;
+  color: #bec1c6;
 }
 
 .wsplivashka .contact_name::-webkit-input-placeholder {
-  padding-left: 20px;
-  color: #a1aab2;
+  color: #bec1c6;
 }
 
 .wsplivashka .email::-webkit-input-placeholder {
-  padding-left: 20px;
   background-position: left center;
-  color: #a1aab2;
+  color: #bec1c6;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea {
@@ -561,35 +570,36 @@ body {
   border: 1px solid transparent;
   height: 145px;
   line-height: 21px;
+  padding-top: 3px;
 }
 
 .wsplivashka .contact_name {
   background-image: url(../images/form-bg-man.png);
   background-repeat: no-repeat;
   background-position-x: 6px;
-  background-position-y: 10px;
-  text-indent: 20px;
+  background-position-y: 15px;
+  text-indent: 0px;
 }
 
 .wsplivashka .email {
   background-image: url(../images/form-bg-letter.png);
   background-repeat: no-repeat;
   background-position: left center;
-  background-position-x: 6px;
-  background-position-y: 12px;
-  text-indent: 20px;
+  background-position-x: 7px;
+  background-position-y: 19px;
+  text-indent: 0px;
 }
 
 .wsplivashka textarea {
   background-image: url(../images/form-bg-input.png);
   background-repeat: no-repeat;
-  background-position-x: 6px;
-  background-position-y: 10px;
-  text-indent: 20px;
+  background-position-x: 10px;
+  background-position-y: 4px;
+  text-indent: 0px;
 }
 
 .move-nigga {
-  top: -251px;
+  top: -263px;
 }
 
 @media screen and (min-width: 1900px) {

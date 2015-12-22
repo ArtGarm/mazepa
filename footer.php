@@ -24,7 +24,7 @@
                 <div class="contact-form-item">
                     <div class="contact-form-item-input form_row">
                         <div class="form_input">
-                            <textarea cols="20" rows="8" placeholder="Ваше сообщение" required="required"></textarea>
+                            <textarea cols="20" rows="8" placeholder="Напишите обращение" required="required"></textarea>
                         </div>
                     </div>
                 </div>
