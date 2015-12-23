@@ -18,9 +18,9 @@
 
 .header-slider-wrap{position: relative;z-index: 1;overflow: hidden;
     .header-slider-wrap-main .header-slider-item{overflow: hidden;display: none;
-        &.active{display: block;}
+        &.active{display: block; }
         img{max-width: none;width: 1920px;position: relative;left: 50%;transform:translate3d(-50%,0,0);-webkit-transform:translate3d(-50%,0,0);}
-        &.video{height: 569px;overflow: hidden;position: relative;
+        &.video{height: 471px;overflow: hidden;position: relative;
             .video-item{}
             video{margin: 0 auto;width: 100%;transform: translate(-50%,-50%);position: absolute;top: 50%;left: 50%;}
         }

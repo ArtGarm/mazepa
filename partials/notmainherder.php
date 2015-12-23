@@ -55,7 +55,7 @@
                                     <div class="form-big-title force-texter">ИГОРЬ МАЗЕПА</div>
                                     <div class="form-small-title briking-the-low">
                                         <p>генеральный директор инвестиционной компании</p>
-                                        <p>Concorde Capital (Украина, г. Киев)</p>
+                                        <p>Concorde Capital </p>
                                     </div>
                                 </div>
                                 <div class="form-row helper-of-my-dream">

@@ -21,6 +21,16 @@
   .header-slider-wrap .header-slider-wrap-main .header-slider-item.video video {
     width: 102%;
   }
+  .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {
+    top: 43px;
+    right: 250px;
+  }
+  .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked .header-form .force-texter {
+    font-size: 50px;
+  }
+  .header-content-wrap .header-form-wrap .briking-the-low p {
+    display: inline-block;
+  }
 }
 
 @media screen and (min-width: 1920px) {
@@ -62,6 +72,31 @@
   }
 }
 
+@media screen and (max-width: 1366px) {
+  .header-content-wrap .header-form-wrap .briking-the-low p {
+    display: inline-block;
+    font-size: 14px;
+  }
+  .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {
+    top: 48px;
+    right: 0px;
+  }
+  .header-content-wrap .header-form-wrap .briking-the-low p {
+    display: inline-block;
+  }
+  .header-content-wrap .header-content-wrap-main .header-form-wrap .header-form .helper-of-my-dream button {
+    line-height: 29px;
+    height: 35px;
+  }
+  .header-content-wrap .header-form-wrap .form-row .form-input-wrap input {
+    height: 35px;
+    line-height: 29px;
+  }
+  .header-content-wrap .header-form-wrap .form-big-title {
+    margin-bottom: -15px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   /* all styles */
   .header-navigation .mbox, .header-content-wrap .mbox {
@@ -76,6 +111,10 @@
   }
   /* /all styles */
   /* header */
+  .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {
+    top: 58px;
+    right: 15px;
+  }
   .header-content-wrap .header-form-wrap {
     right: 15px;
   }

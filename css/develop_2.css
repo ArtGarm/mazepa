@@ -1,4 +1,19 @@
 @charset "UTF-8";
+.header-content-wrap .header-form-wrap .form-big-title a:active,
+.header-content-wrap .header-form-wrap .form-big-title a:hover,
+.header-content-wrap .header-form-wrap .form-big-title a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item.active {
+  height: 471px;
+}
+
+.header-slider-wrap .header-slider-wrap-main .header-slider-item.active.i-need-good-bg {
+  height: 200px;
+}
+
 body {
   max-width: 1920px;
   margin: 0 auto;
@@ -433,7 +448,7 @@ body {
   box-sizing: border-box;
   font-family: "Roboto";
   text-align: left !important;
-  color: #bec1c6;
+  color: #333;
 }
 
 .wsplivashka .contact-form-row .contact-form-item textarea::-webkit-input-placeholder, .wsplivashka .contact-form-row .contact-form-item input::-webkit-input-placeholder {
@@ -633,13 +648,6 @@ body {
   /* /foto */
 }
 
-@media screen and (max-width: 1366px) {
-  .header-content-wrap .header-form-wrap .briking-the-low p {
-    display: inline-block;
-    font-size: 14px;
-  }
-}
-
 @media screen and (max-width: 1024px) {
   .header-top-buttons-wrap {
     position: relative;
@@ -650,7 +658,6 @@ body {
     margin-left: calc(50% - 150px);
   }
   .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked .header-form .force-texter {
-    text-align: left;
     font-size: 46px;
   }
   .header-content-wrap .header-form-wrap .briking-the-low p {
@@ -661,6 +668,9 @@ body {
     right: initial;
     left: 12px;
     top: 40px;
+  }
+  .header-content-wrap .header-form-wrap .form-title + .helper-of-my-dream {
+    float: none !important;
   }
 }
 
