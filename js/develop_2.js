@@ -35,7 +35,7 @@ if ($('.header').hasClass('not-main-header')) {
         $('.form-big-title').removeClass('briking-the-low');
         $('.header-form-wrap').removeClass('fixed-faked-never-braked');
     }
-    if ($(window).width()>768){
+    if ($(window).width()>=768){
         $('.form-row').addClass('helper-of-my-dream');
         $('.form-big-title').addClass('force-texter');
         $('.form-small-title').addClass('briking-the-low');
