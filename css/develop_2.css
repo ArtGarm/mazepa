@@ -212,12 +212,12 @@ body {
   display: inline-block;
 }
 
-.mbox .video-box .video .fancy-box-video .main-video {
+.mbox .video-box .video .main-video {
   border: 1px solid #e1e4e7;
   padding: 10px;
 }
 
-.mbox .video-box .video .fancy-box-video .video-circle {
+.mbox .video-box .video .video-circle {
   width: 60px;
   height: 60px;
   background-color: #ec4228;
@@ -228,7 +228,7 @@ body {
   border-radius: 30px;
 }
 
-.mbox .video-box .video .fancy-box-video .video-triangle {
+.mbox .video-box .video .video-triangle {
   border: 16px solid transparent;
   border-left: 16px solid white;
   position: absolute;
@@ -256,13 +256,13 @@ body {
 
 .mbox .ivent {
   font-family: 'Roboto';
-  color: #e1e4e7;
+  color: #888;
   font-size: 14px;
 }
 
 .mbox .date-ivent {
   font-family: 'Roboto';
-  color: #e1e4e7;
+  color: #888;
   font-size: 10px;
 }
 

@@ -5,7 +5,7 @@
   }
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1367px) {
   .mbox {
     max-width: 1366px;
     padding: 0 15px;
@@ -48,6 +48,9 @@
   }
   .header-content-wrap .header-form-wrap {
     right: 195px;
+  }
+  .header-content-wrap .header-content-wrap-main .fixed-faked-never-braked {
+    top: 43px;
   }
 }
 
