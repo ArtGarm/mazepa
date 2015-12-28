@@ -29,13 +29,13 @@ function initFancyBox () {
 $(document).ready(function() {
 
 if ($('.header').hasClass('not-main-header')) {
-    if ($(window).width()<768){
+    if ($(window).width()<0){
         $('.form-row').removeClass('helper-of-my-dream');
         $('.form-big-title').removeClass('force-texter');
         $('.form-big-title').removeClass('briking-the-low');
         $('.header-form-wrap').removeClass('fixed-faked-never-braked');
     }
-    if ($(window).width()>=768){
+    if ($(window).width()>=0){
         $('.form-row').addClass('helper-of-my-dream');
         $('.form-big-title').addClass('force-texter');
         $('.form-small-title').addClass('briking-the-low');
@@ -101,13 +101,13 @@ var someFixForAdolf ;
 $(window).resize(function() {
 
 if ($('.header').hasClass('not-main-header')){
-    if ($(window).width()<768){
+    if ($(window).width()<0){
         $('.form-row').removeClass('helper-of-my-dream');
         $('.form-big-title').removeClass('force-texter');
         $('.form-big-title').removeClass('briking-the-low');
         $('.header-form-wrap').removeClass('fixed-faked-never-braked');
     }
-    if ($(window).width()>768){
+    if ($(window).width()>=0){
         $('.form-row').addClass('helper-of-my-dream');
         $('.form-big-title').addClass('force-texter');
         $('.form-small-title').addClass('briking-the-low');
